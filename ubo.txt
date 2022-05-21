@@ -1,7 +1,8 @@
 ! Title: Sync My filter
 ! Description: Myフィルターを同期
-! Homepage: https://github.com/4r0m1/adbl
-! Subscription URL: https://raw.githubusercontent.com/4r0m1/adbl/main/main.txt
+! Homepage: https://github.com/4r0m1/list
+! Subscription URL: https://github.com/4r0m1/list/raw/main/ubo.txt
+! Last modified: 2022-05-20
 
 *##.adsbygoogle
 *##[id^="div-gpt-ad"]
