@@ -1,7 +1,7 @@
 # Title: DNS filter
 # Description: 自分用DNSフィルタ
-# Homepage: https://github.com/4r0m1/adbl
-# Subscription URL: https://raw.githubusercontent.com/4r0m1/adbl/main/dns.txt
+# Homepage: https://github.com/4r0m1/list
+# Subscription URL: https://github.com/4r0m1/list/raw/main/domain.txt
 # Last modified: 2022-05-20
 
 a8.net
