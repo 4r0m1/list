@@ -1,7 +1,8 @@
 ! Title: uBO用非表示フィルタ
-! Description: uBO記法の非表示ルール
-! Homepage: https://github.com/4r0m1/adbl
-! Subscription URL: https://raw.githubusercontent.com/4r0m1/adbl/main/sub.txt
+! Description: 非表示ルール
+! Homepage: https://github.com/4r0m1/list
+! Subscription URL: https://github.com/4r0m1/list/raw/main/ubo-sub.txt
+! Last modified: 2022-05-20
 
 togetter.com##li:has(.icon_pr)
 
