@@ -1,8 +1,8 @@
 # Title: DNS filter
 # Description: 自分用DNSフィルタ
 # Homepage: https://github.com/4r0m1/list
-# Subscription URL: https://github.com/4r0m1/list/raw/main/domain.txt
-# Last modified: 2022-05-20
+# Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/domain.txt
+# Last modified: 2022-05-22
 
 a8.net
 accesstrade.net
@@ -39,6 +39,7 @@ app-adforce.jp
 app-measurement.com
 appbaqend.com
 apps2sd.info
+appsflyersdk.com
 atlas-endpoint.data.n8s.jp
 atonato.de
 autolinkmaker.itunes.apple.com
@@ -108,10 +109,12 @@ sankei2ad.durasite.net
 securemvt.apple.com
 sentry.deepl.com
 sentry.io
+siftscience.com
 silveregg.net
 smbeat.jp
 spade.twitch.tv
 srtb.msn.com
+star.c10r.facebook.com
 startappservice.com
 stats.redditmedia.com
 syndication.twitter.com
@@ -119,6 +122,7 @@ tinypass.com
 trafficgate.net
 twitter.countoon.com
 umengcloud.com
+usergram.info
 userlocation.googleapis.com
 valuecommerce.ne.jp
 xxgslt.com
@@ -714,14 +718,21 @@ xedo.me
 
 # LINE
 line-apps.com
+# ch-news.line-apps.com
 # ci.line-apps.com
 # cix.line-apps.com
 # scdn.line-apps.com
-line.me
-# a.line.me
+# uts-front.line-apps.com
 line-scdn.net
 # d.line-scdn.net
 # obs.line-scdn.net
+# shop.line-scdn.net
+line.me
+# a.line.me
+# crs-event.line.me
+# crs-hometab-event.line.me
+line.naver.jp
+nelo2-col.linecorp.com
 
 # SAMSUNG
 d3apz0saa5hrj5.cloudfront.net
