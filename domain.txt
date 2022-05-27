@@ -179,7 +179,6 @@ service.game-mode.net
 assets.gunosy.com
 mt.gigazine.net
 v7w9zx952a.execute-api.ap-northeast-1.amazonaws.com
-widgets.getpocket.com
 
 0redirb.com
 10clicks.com
