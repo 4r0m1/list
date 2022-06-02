@@ -2,13 +2,14 @@
 # Description: 自分用DNSフィルタ
 # Homepage: https://github.com/4r0m1/list
 # Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/domain.txt
-# Last modified: 2022-06-02
+# Last modified: 2022-06-03
 # LIST
 a8.net
 accesstrade.net
 aclog.itmedia.co.jp
 ad.dmm.com
 adcreative.reutersmedia.net
+addtoany.com
 adjust-net.jp
 adjust-sp.jp
 adjust.io
@@ -21,6 +22,7 @@ admitad.com
 adntokyo.gunosy.com
 adobedtm.com
 ads-api.twitter.com
+ads-pixiv.net
 ads-platform.jp
 adtlgc.com
 adtrust.appspot.com
@@ -36,7 +38,6 @@ api.reproio.com
 api.triver.jp
 app-adforce.jp
 app-measurement.com
-ads-pixiv.net
 appbaqend.com
 apps2sd.info
 appsflyersdk.com
@@ -52,6 +53,9 @@ by.uservoice.com
 byteoversea.com
 cache1.value-domain.com
 clarity.ms
+coinad.com
+coinad.media
+coinad.xyz
 config.skype.com
 cookielaw.org
 countess.twitch.tv
@@ -106,12 +110,14 @@ powerad.ai
 pvtag.yahoo.co.jp
 rat.rakuten.co.jp
 rentracks.jp
+resoliltiu.email
 rtoaster.jp
 s.deepl.com
 sankei2ad.durasite.net
 securemvt.apple.com
 sentry.deepl.com
 sentry.io
+sharethis.com
 siftscience.com
 silveregg.net
 smbeat.jp
@@ -120,6 +126,7 @@ srtb.msn.com
 star.c10r.facebook.com
 startappservice.com
 stats.redditmedia.com
+streamrail.com
 syndication.twitter.com
 thench.net
 tinypass.com
@@ -142,13 +149,18 @@ line-apps.com
 # torimochi.line-apps.com
 # uts-front.line-apps.com
 line-scdn.net
+# appresource.line-scdn.net
 # d.line-scdn.net
 # obs.line-scdn.net
 # shop.line-scdn.net
+# static.line-scdn.net
+# vos.line-scdn.net
 line.me
 # a.line.me
 # crs-event.line.me
 # crs-hometab-event.line.me
+# sch.line.me
+# tr.line.me
 line.naver.jp
 nelo2-col.linecorp.com
 # LINE end
@@ -516,7 +528,6 @@ optad360.io
 ouftukoo.net
 p-bxm.com
 paddocsweek.com
-pagead2.googlesyndication.com
 parkingcrew.net
 partner.become.co.jp
 phuot.site
@@ -604,7 +615,6 @@ textad.net
 themereplacebiopsy.com
 torimochi-ad.net
 townlife-aff.com
-tpc.googlesyndication.com
 tqlkg.com
 traffic-exchange.tv
 traffichaus.com
@@ -1060,7 +1070,6 @@ code.ainsyndication.com
 codesbro.com
 codez1.me
 coherepeasant.com
-coinad.*
 coinadster.com
 cointiply.com
 coinverti.com
@@ -1998,7 +2007,6 @@ regislandery.club
 reingod.com
 republer.com
 resniks.pro
-resoliltiu.*
 revampcdn.com
 revenueflex.com
 revive.3wayint.com
@@ -2051,7 +2059,6 @@ salutationcheerlessdemote.com
 sancdn.net
 sape.ru
 saumooly.net
-sax*.sina.
 sblink.xyz
 sciencem.club
 sdhfbvd.com
@@ -3337,7 +3344,6 @@ jsonip.com
 jtrackern.joins.com
 justuno.com
 k.kolplay.com
-k.streamrail.com
 k5a.io
 kaizenplatform.net
 kampyle.com
@@ -3365,7 +3371,6 @@ l.naturum.ne.jp
 l.niiblo.jp
 l.osakazine.net
 l.sagafan.jp
-l.sharethis.com
 l.tamaliver.jp
 l.tenkomori.tv
 l.ti-da.net
@@ -3847,7 +3852,6 @@ secure.meet3monk.com
 secureanalytic.com
 seedtag.com
 seeip.org
-seg.sharethis.com
 segment.com
 segment.io
 segs.jp
@@ -3922,7 +3926,6 @@ spectrum.gettyimages.com
 speedcurve.com
 sphostserver.com
 spklw.com
-spl.zeotap.com
 splashfloating.com
 splitbee.io
 spnx.jp
@@ -4094,7 +4097,6 @@ tp88trk.com
 tr.api.itmedia.jp
 tr.gunosy.com
 tr.infopanel.jp
-tr.line.me
 tr.marsflag.com
 tr.n2.hk
 tr.snapchat.com
@@ -4464,7 +4466,6 @@ wpushsdk.com
 xedo.me
 # ANNOYANCES end
 # SOCIAL
-addtoany.com
 bufferapp.com
 button.flattr.com
 friends2follow.com
@@ -4477,7 +4478,6 @@ share.baidu.com
 share.gree.jp
 share.pluso.ru
 shareaholic.com
-sharethis.com
 shorte.st
 socialbars-web5.com
 static.evernote.com
