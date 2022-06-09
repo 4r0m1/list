@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2022-06-02
+! Last modified: 2022-06-09
 
 ! [汎用]
 *##.adsbygoogle
@@ -749,3 +749,14 @@ monolog.r-n-i.jp###graphArea
 ! 2022-05-20 msn.com
 ||assets.msn.com^
 ||akamaized.net^$script,domain=msn.com
+
+! 2022-05-29 mzh.moegirl.org.cn
+||app.moegirl.org.cn^$image
+
+! 2022-06-06 bumpofchicken.com
+||bumpofchicken.com/static/common/global-image/dummy.gif$image,1p
+
+! 2022-06-09 www.saga-s.co.jp
+www.saga-s.co.jp###sp_article_header
+www.saga-s.co.jp##.inread
+www.saga-s.co.jp##.infeed
