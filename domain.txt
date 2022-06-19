@@ -2,7 +2,7 @@
 # Description: 自分用DNSフィルタ
 # Homepage: https://github.com/4r0m1/list
 # Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/domain.txt
-# Last modified: 2022-06-03
+# Last modified: 2022-06-20
 # LIST
 a8.net
 accesstrade.net
@@ -44,6 +44,7 @@ appsflyersdk.com
 atlas-endpoint.data.n8s.jp
 atonato.de
 autolinkmaker.itunes.apple.com
+backtrace.io
 beacon.itmedia.jp
 blogmura.com
 branch.io
@@ -74,6 +75,7 @@ firebaseinstallations.googleapis.com
 firebaseremoteconfig.googleapis.com
 fundingchoicesmessages.google.com
 getpocket.com
+getsentry.com
 goldspotmedia.com
 goo-access-analytics.appspot.com
 graph.facebook.com
@@ -107,6 +109,7 @@ perfdrive.com
 pipe.aria.microsoft.com
 pixiv.org
 powerad.ai
+pushwoosh.com
 pvtag.yahoo.co.jp
 rat.rakuten.co.jp
 rentracks.jp
@@ -121,6 +124,7 @@ sharethis.com
 siftscience.com
 silveregg.net
 smbeat.jp
+snva.jp
 spade.twitch.tv
 srtb.msn.com
 star.c10r.facebook.com
@@ -2789,7 +2793,6 @@ btttag.com
 bugherd.com
 bumlam.com
 burpee.xyz
-bvr.ast.snva.jp
 bwb101.goo.ne.jp
 c-ovn.jp
 c-rings.net
@@ -2928,7 +2931,6 @@ customer.io
 cv.gunosy.com
 cvtr.makerepeater.jp
 cws.conviva.com
-cx.api.itmedia.co.jp
 cyberanalytics.nl
 czx5eyk0exbhwp43ya.biz
 d-collector.jennifersoft.com
@@ -4094,7 +4096,6 @@ toptracker.ru
 torimochi.line-apps.com
 toro-tags.com
 tp88trk.com
-tr.api.itmedia.jp
 tr.gunosy.com
 tr.infopanel.jp
 tr.marsflag.com
@@ -4450,7 +4451,6 @@ pushnotifications.click
 pushpad.xyz
 pushpanda.io
 pushpushgo.com
-pushwoosh.com
 realpush.media
 rocket-push.com
 sendpulse.com
