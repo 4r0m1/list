@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2022-06-11
+! Last modified: 2022-06-20
 
 ! [汎用]
 *##.adsbygoogle
@@ -231,7 +231,7 @@ realsound.jp##.entryBottomAd
 realsound.jp##.paragraphAd
 
 ||consensu.org^
-||www.xda-developers.com/files/*/hw_
+||xda-developers.com/files/2021/10/hw_next-image_300x100.jpg
 forum.xda-developers.com###xdadevelopers_leaderboard_atf
 forum.xda-developers.com###xdadevelopers_leaderboard_btf
 www.xda-developers.com##.honor-spon-banner
@@ -241,7 +241,7 @@ qiita.com##.it-Ads_afterBodyContainer
 qiita.com##.p-home_ad
 qiita.com##.p-items_wrapper-white
 qiita.com##.st-Modal
-qiita.com##[id^=logly-lif]
+qiita.com##[id^=logly-lift]
 
 note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||assets.st-note.com/poc-image/$image
@@ -392,6 +392,7 @@ automaton-media.com,fate-twitter-matome.com,hentaidude.xxx,hentaihaven.xxx,sorae
 automaton-media.com##.code-block.ai-viewport-3
 automaton-media.com##.td-a-rec
 bbs.animanch.com##li > .inner
+bbs.animanch.com###recents > .inner
 benricho.org##.ad-space
 blog.tinect.jp##.g
 bookmeter.com##.application__ads
@@ -502,10 +503,10 @@ fc2.com##.fc2footer_contents_box
 live.fc2.com##.noticeArea
 
 ! [Yahoo! JAPAN]
-||s.yimg.jp/images/*/promo/*$image
-||s.yimg.jp/images/approach/jslib/deeplink-2.0.5.js
-||s.yimg.jp/images/paypaygourmet/promotion/$image
-||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image
+||s.yimg.jp/images/approach/jslib/deeplink-2.0.5.js$domain=yahoo.co.jp
+||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
+||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
+||yimg.jp/images/*/promo/*$image,domain=yahoo.co.jp
 detail.chiebukuro.yahoo.co.jp###post_ans
 loco.yahoo.co.jp##.promotion
 m.mail.yahoo.co.jp###ad_container_top
@@ -588,15 +589,15 @@ moguna.com##.SiteHeader-app
 ||tabelog.com/tbsp/tpoint_appli_times_modals/*
 
 ! 2021-02-02 tokubai.co.jp
-||assets.tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate
-||assets.tokubai.co.jp/*app_banner$image,1p
-||tokubai.co.jp/*pr_shop_ids
+||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate$1p
+||tokubai.co.jp/*app_banner$image,1p
+||tokubai.co.jp/*pr_shop_ids$1p
 tokubai.co.jp##div[id^=ad_]
 tokubai.co.jp##.dfp_tag
 tokubai.co.jp##.smart_app_banner
 
 ! 2022-03-10 kurashiru.com
-||assets.kurashiru.com/production/assets/chirashiru/w2a/*
+||assets.kurashiru.com/production/assets/chirashiru/w2a/$1p
 ||assets.kurashiru.com/production/assets/web_to_app/$image,1p
 ||wapi.kurashiru.com/wapi/videos/ranking?mask=true
 www.kurashiru.com##.SpAside-section--rankings
@@ -756,3 +757,6 @@ monolog.r-n-i.jp###graphArea
 www.saga-s.co.jp###sp_article_header
 www.saga-s.co.jp##.inread
 www.saga-s.co.jp##.infeed
+
+! 2022-06-18 srad.jp
+||srad.jp/static/sprite-syndication.png$image,1p
