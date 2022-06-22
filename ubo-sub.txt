@@ -2,9 +2,7 @@
 ! Description: 非表示ルール
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo-sub.txt
-! Last modified: 2022-06-20
-
-togetter.com##li:has(.icon_pr)
+! Last modified: 2022-06-22
 
 ! ユーザー(アイコン)指定
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
@@ -51,7 +49,3 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 !togetter.com##h3:has-text(太田啓子):upward(li)
 !togetter.com##h3:has-text(フェミ):upward(li)
 !togetter.com##h3:has-text(ネトウヨ):upward(li)
-
-bunshun.jp##li:has(.pr)
-lifehacker.jp##.lh-slide:has(.lh-summary-sponsored)
-watch.impress.co.jp##.ad-inline:upward(div)
