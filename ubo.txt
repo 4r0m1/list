@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2022-06-20
+! Last modified: 2022-06-22
 
 ! [汎用]
 *##.adsbygoogle
@@ -20,6 +20,7 @@
 /analytics.html?
 /api/log?
 /beacon.$domain=~amazon.com|~amazon.co.jp
+/clear.gif?
 /fpcookie?
 /iframe/ad/*
 /images/share_
@@ -104,6 +105,7 @@ www.pixiv.net##div.premium-lead-new-t-info-home-top
 togetter.com##.ad_rectangle
 togetter.com##.app-dl
 togetter.com##.fixed_social_footer
+togetter.com##li:has(.icon_pr)
 togetter.com###ad_overlay
 togetter.com###appdl_bottom
 togetter.com###appdl_header
@@ -143,6 +145,7 @@ gizmodo.jp##.p-recommend
 gizmodo.jp##.s-body-ad
 lifehacker.jp##.lh-amazonSec
 lifehacker.jp##.lh-banner
+lifehacker.jp##.lh-slide:has(.lh-summary-sponsored)
 
 lifehacker.com##.js_ad-dynamic
 lifehacker.com##.js_commerce-inset-permalink
@@ -156,6 +159,7 @@ lifehacker.com##.js_subscribe
 ||beacon.watch.impress.co.jp^
 ||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf$1p
 watch.impress.co.jp##.ad
+watch.impress.co.jp##.ad-inline:upward(div)
 watch.impress.co.jp##.extension.recursive > .topics.recommend
 watch.impress.co.jp##.social-bookmark
 watch.impress.co.jp###sp-floating-layer
@@ -196,7 +200,6 @@ asahi.com##.module-content-footer__ad
 asahi.com##.module-side-notice
 asahi.com##.PrInfoBlock
 asahi.com##body > div.notPrint
-! 2022-05-22 book.asahi.com
 book.asahi.com##.module-list-articles-2__item--zottosuru
 book.asahi.com##.module-top-ad
 www.asahi.com##li.TJcqi
@@ -210,9 +213,10 @@ maidonanews.jp##div.module-ad
 
 ||bunshun.jp/common/images/*/banner.$image,1p
 ||bunshun.jp/common/images/bunshun/v1/recruit/$image,1p
-||bunshun.jp/oo/
+||bunshun.jp/oo/$1p
 bunshun.jp##.ad-banner
 bunshun.jp###sp_multiplex
+bunshun.jp##li:has(.pr)
 ||number.bunshun.jp/list/personal/authtype.json
 ||number.ismcdn.jp/common/numberweb/v4/images/sns/*$image
 number.bunshun.jp##.container-banner-02
@@ -503,7 +507,10 @@ fc2.com##.fc2footer_contents_box
 live.fc2.com##.noticeArea
 
 ! [Yahoo! JAPAN]
-||s.yimg.jp/images/approach/jslib/deeplink-2.0.5.js$domain=yahoo.co.jp
+||dsb.yahoo.co.jp^
+||logql.yahoo.co.jp^
+||s.yimg.jp/images/approach/jslib/deeplink-$domain=yahoo.co.jp
+||s.yimg.jp/images/ds/yas/ya-$domain=yahoo.co.jp
 ||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
 ||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
 ||yimg.jp/images/*/promo/*$image,domain=yahoo.co.jp
