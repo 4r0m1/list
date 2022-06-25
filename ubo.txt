@@ -614,7 +614,7 @@ www.kurashiru.com##.SpAside-section--rankings
 
 ! 2021-02-27 www.dlsite.com
 ||media.dlsite.com/bcs/$image
-||dlsite.jp/modpub/images2/
+||dlsite.jp/modpub/images2/$domain=~dlsite.com
 
 ! 2021-02-27 sp.nijie.info
 ||nijie.info/js/ad.js
