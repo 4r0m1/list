@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2022-06-26
+! Last modified: 2022-07-03
 
 ! [汎用]
 *##.adsbygoogle
@@ -679,7 +679,7 @@ biz-journal.jp##.entryBody > div
 ! 2021-10-25 news-postseven.com
 ||news-postseven.com/uploads/*_bnr_$image,1p
 
-! 2021-10-27 news.mynavi.jp
+! 2022-07-03 news.mynavi.jp
 news.mynavi.jp##.articleList-along
 news.mynavi.jp##.articleList-attention
 news.mynavi.jp##.c-sideBanner_articleBottom
@@ -687,6 +687,7 @@ news.mynavi.jp##.c-sidePickup
 news.mynavi.jp##.overLayBnr
 news.mynavi.jp###csw_block
 news.mynavi.jp###iframeContent
+news.mynavi.jp###piano_mailform
 
 ! 2021-12-14 m.vk.com
 ||vk.com/css/mobile/unauthorized.
@@ -767,3 +768,9 @@ www.saga-s.co.jp##.infeed
 
 ! 2022-06-18 srad.jp
 ||srad.jp/static/sprite-syndication.png$image,1p
+
+! 2022-06-30 tarzanweb.jp
+tarzanweb.jp##.takearest_block
+
+! 2022-07-01 aconvert.com
+aconvert.com##.bluebg
