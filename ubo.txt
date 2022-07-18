@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2022-07-03
+! Last modified: 2022-07-18
 
 ! [汎用]
 *##.adsbygoogle
@@ -84,6 +84,7 @@ itest.bbspink.com###js-bottom-ad-300x250
 comic.pixiv.net##.ad
 comic.pixiv.net##.ad-content
 comic.pixiv.net##.adPage
+comic.pixiv.net##.bottom-0
 comic.pixiv.net##div[class^=Work_campaignBanner]
 dic.pixiv.net##.ranobe_body_ad
 dic.pixiv.net###ad-d-sp-footer
@@ -288,17 +289,17 @@ sp.seiga.nicovideo.jp##.manga_app_header
 ! マンガ ======
 ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/$image,1p
 ||cdn-img.kuragebunch.com/public/media_link_slot/$image,1p
+shonenjumpplus.com,comic-days.com,viewer.heros-web.com##.inactivd
 shonenjumpplus.com,pocket.shonenmagazine.com,kuragebunch.com##.link-page
 kuragebunch.com##.page-ad
 pocket.shonenmagazine.com##.pwa-mini-infobar
-
-! @@||cdn.pool.st-hatena.com/valve/valve.js$script,xhr
 
 ||sai-zen-sen.jp/comics/twi4/res/images/button-
 sai-zen-sen.jp##.ad
 sai-zen-sen.jp##.iikamo-modal-dialog
 sai-zen-sen.jp##.misc
 sai-zen-sen.jp##footer
+sai-zen-sen.jp###overlay-ad
 
 ||web-ace.jp/img/sp/hatena.png
 web-ace.jp##.comic
@@ -381,7 +382,6 @@ altema.jp##.PRrank-icon2
 4travel.jp##.is_adsHeight
 4travel.jp##.is_bPromotion
 4travel.jp##.u_adplanBox
-@@||webtoolss.com/js/rss.js$1p
 add0n.com###adb
 aminoapps.com##.ad-block-container-mobile
 android.gadgethacks.com##.rightbox
@@ -468,10 +468,9 @@ uta-net.com##.ad-area-c
 uta-net.com##.ad-area-d
 utaten.com##.threeToOneRectangleBanner
 web-manga.chronicle.wiki##.ad-300_250
+weblio.jp##.ad-blank
 weblio.jp##.adBannerHd
 weblio.jp##.adBkOverlayClr
-weblio.jp##.adSmpMLBnr
-weblio.jp###adDasHdNativeId
 weheartit.com##.mobile-top-banner
 weheartit.com##.sponsored-content
 weheartit.com##.sticky-ad
@@ -489,6 +488,10 @@ www.oricon.co.jp##.block-recommend-list
 www.reddit.com##.xPromoChoiceBanner
 www.reddit.com##.XPromoPill
 yanmaga.jp##.-cv-pr
+
+@@||csf.rakuten-bank.co.jp/rb/ams/img/ad/*$image,1p
+@@||jinrou.tsukuyo-oka.jp/analyzer.js$script,1p
+@@||webtoolss.com/js/rss.js$1p
 
 ! [Amazon]
 ||images-fe.ssl-images-amazon.com/images/S/apesafeframe/*
@@ -609,9 +612,6 @@ tokubai.co.jp##.smart_app_banner
 ||wapi.kurashiru.com/wapi/videos/ranking?mask=true
 www.kurashiru.com##.SpAside-section--rankings
 
-! 2021-02-04 saos.rakuten-bank.co.jp
-@@||csf.rakuten-bank.co.jp/rb/ams/img/ad/*$image,1p
-
 ! 2021-02-27 www.dlsite.com
 ||media.dlsite.com/bcs/$image
 ||dlsite.jp/modpub/images2/$domain=~dlsite.com
@@ -621,8 +621,6 @@ www.kurashiru.com##.SpAside-section--rankings
 sp.nijie.info###header_ad
 sp.nijie.info###inter_background
 
-! 2021-04-01 jinrou.tsukuyo-oka.jp
-@@||jinrou.tsukuyo-oka.jp/analyzer.js$script,1p
 
 ! 2021-04-27 www.wattpad.com
 ||static.wattpad.com/js/tracker/*
