@@ -289,7 +289,7 @@ sp.seiga.nicovideo.jp##.manga_app_header
 ! マンガ ======
 ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/$image,1p
 ||cdn-img.kuragebunch.com/public/media_link_slot/$image,1p
-shonenjumpplus.com,comic-days.com,viewer.heros-web.com##.inactivd
+shonenjumpplus.com,comic-days.com,viewer.heros-web.com##.inactive
 shonenjumpplus.com,pocket.shonenmagazine.com,kuragebunch.com##.link-page
 kuragebunch.com##.page-ad
 pocket.shonenmagazine.com##.pwa-mini-infobar
