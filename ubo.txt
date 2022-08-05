@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2022-07-18
+! Last modified: 2022-08-05
 
 ! [汎用]
 *##.adsbygoogle
@@ -26,7 +26,6 @@
 /images/share_
 /log_event?
 /onesignal.js
-/prebid/*
 ||fundingchoicesmessages.google.com^$3p
 ||goo-access-analytics.appspot.com^
 ||gsspcln.jp^
@@ -226,6 +225,7 @@ gendai.ismedia.jp##.ad-container
 jbpress.ismedia.jp##.ad-billboard
 jbpress.ismedia.jp##.ad-overlay
 jbpress.ismedia.jp##.ad-rectangle
+hochi.news##.ad
 
 ||r25.jp/assets/*/img/app/mobile/android.jpg
 r25.jp##.KillerFloatingBanner
@@ -491,6 +491,7 @@ yanmaga.jp##.-cv-pr
 
 @@||csf.rakuten-bank.co.jp/rb/ams/img/ad/*$image,1p
 @@||jinrou.tsukuyo-oka.jp/analyzer.js$script,1p
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=sonixgvn.net
 @@||webtoolss.com/js/rss.js$1p
 
 ! [Amazon]
@@ -576,7 +577,7 @@ cookpad.com##.standard_ad_slot
 recipe.rakuten.co.jp##.brand_ad_area
 
 ! 2020-03-26 openweathermap.org
-||openweathermap.org/themes/openweathermap/assets/img/mobile_app/android-app-top-banner.png$image
+||openweathermap.org/themes/openweathermap/assets/img/mobile_app/android-app-top-banner.png$image,1p
 openweathermap.org###stick-footer-panel
 
 ! 2020-04-27 nurumayu.net
@@ -614,13 +615,13 @@ www.kurashiru.com##.SpAside-section--rankings
 
 ! 2021-02-27 www.dlsite.com
 ||media.dlsite.com/bcs/$image
+||dlsite.com/js/adultcheck.js$script,1p
 ||dlsite.jp/modpub/images2/$domain=~dlsite.com
 
 ! 2021-02-27 sp.nijie.info
 ||nijie.info/js/ad.js
 sp.nijie.info###header_ad
 sp.nijie.info###inter_background
-
 
 ! 2021-04-27 www.wattpad.com
 ||static.wattpad.com/js/tracker/*
