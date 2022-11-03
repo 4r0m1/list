@@ -221,6 +221,8 @@ bunshun.jp##li:has(.pr)
 ||number.ismcdn.jp/common/numberweb/v4/images/sns/*$image
 number.bunshun.jp##.container-banner-02
 crea.bunshun.jp###wrapper > div
+||gendai.media/common/images/v3/ad/$image
+gendai.media##.blockContainer_block > .ad-container
 gendai.ismedia.jp##.ad-container
 jbpress.ismedia.jp##.ad-billboard
 jbpress.ismedia.jp##.ad-overlay
@@ -276,6 +278,7 @@ dic.nicovideo.jp##.st-Header_Ad
 news.nicovideo.jp##.article-option
 news.nicovideo.jp##.article-share-footer
 sp.ch.nicovideo.jp##[href^="http://ex.ch.nicovideo.jp/channel/nico-nico-pedia/app"]
+sp.ch.nicovideo.jp##.appBanner
 sp.ch.nicovideo.jp###smartBanner
 sp.nicovideo.jp##.siteWide-BannerAd
 sp.nicovideo.jp##.watch-RelatedContents_WatchTagRelatedBanner
@@ -351,6 +354,7 @@ gamewith.jp##.walkthrough-ad-recommend-game
 ||kamigame-gameliv-bm0gw8idontct.com$image,domain=kamigame.jp
 kamigame.jp##.pre-registration-widget
 kamigame.jp##.information_footer
+kamigame.jp###fbb_component-root
 
 ! 2020-11-07 altema.jp
 ||altema.jp/include/altema/add_banner.js
@@ -620,6 +624,8 @@ www.kurashiru.com##.SpAside-section--rankings
 
 ! 2021-02-27 sp.nijie.info
 ||nijie.info/js/ad.js
+||nijie.info/members_picture/nijie_noimage.jpg$image,domain=1p
+||thumbs.nijie.net/dmm/$image,domain=nijie.info
 sp.nijie.info###header_ad
 sp.nijie.info###inter_background
 
@@ -773,3 +779,16 @@ tarzanweb.jp##.takearest_block
 
 ! 2022-07-01 aconvert.com
 aconvert.com##.bluebg
+
+! 2022-08-10 ekitan.com
+ekitan.com##.text-center
+
+! 2022-09-08 www.nishinippon.co.jp
+www.nishinippon.co.jp##.c-ad-header
+
+! 2022-10-15 bike.shimano.com
+bike.shimano.com##.cookiesnotification
+
+! 2022-11-01 funq.jp
+funq.jp###flux-overlay
+
