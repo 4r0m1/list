@@ -40,13 +40,14 @@
 ||xxgslt.com^
 ||youtube.com/api/stats/atr
 ||ziyu.net^$3p
+||zucks.net.zimg.jp^$3p
 
 ! SNS ======
 ||instagram.com/ajax/bz
 ||tumblr.com/assets/scripts/tumblr/dashboard/showads.js
 ||tumblr.com/assets/html/iframe/login_check.html
 ||tumblr.com/pop/js/sf-
-||tumblr.com/safe-mode$script,domain=www.tumbex.com
+||tumblr.com/safe-mode$script,domain=tumbex.com
 
 ! [itest.5ch.net]
 ||itest.5ch.net/assets/img/ronin_premium_640x100.
@@ -77,9 +78,9 @@ itest.bbspink.com###js-bottom-ad-300x250
 ||imp.pixiv.net/premium_lp?$1p
 ||pixiv.net/touch/ajax/premium/$1p
 ||pixiv.org^
-||pximg.net/touch/touch/img/cmn/ad-placeholder.png$image
-||pximg.net/touch/touch/js/bundle/451a3635971462ec43c80bf1e18e5db7.svg$image
-||pximg.net/touch/touch/js/bundle/*.jpeg$image
+||pximg.net/touch/touch/img/cmn/ad-placeholder.png$image,domain=pixiv.net
+||pximg.net/touch/touch/js/bundle/451a3635971462ec43c80bf1e18e5db7.svg$image,domain=pixiv.net
+||pximg.net/touch/touch/js/bundle/*.jpeg$image,domain=pixiv.net
 comic.pixiv.net##.ad
 comic.pixiv.net##.ad-content
 comic.pixiv.net##.adPage
@@ -402,6 +403,7 @@ automaton-media.com##.td-a-rec
 bbs.animanch.com##li > .inner
 bbs.animanch.com###recents > .inner
 benricho.org##.ad-space
+bike.shimano.com##.cookiesnotification
 blog.tinect.jp##.g
 bookmeter.com##.application__ads
 bookmeter.com##.application__fixed-footer
@@ -414,8 +416,10 @@ chromeunboxed.com##.ezoic-ad
 darkreader.org##.page-grid-ios
 deepl.com###dl_cookieBanner
 earlyteches.com##amp-ad
+ekitan.com##.text-center
 finders.me##.__promotion
 fontfree.me##.under-menu-ad
+funq.jp###flux-overlay
 gamespark.jp##.header-ad
 gato.intaa.net#@#.adwidget
 gbf.life##.padding-tb-30
@@ -435,6 +439,7 @@ m.huffingtonpost.jp##.mobileweb_top
 m.huffingtonpost.jp##.splash
 magazine.cainz.com###sideShareArea
 mainichi.jp##.l-inner-ad
+marshmallow-qa.com##li.ad
 mexa.sh##td > div
 mi-mollet.com###MM_SP_Billboard
 mi-mollet.com###MM_SP_readmore
@@ -452,6 +457,8 @@ prtimes.jp##.header-release-detail > .container-share
 s.famitsu.com##.banner-window-jack-wrapper
 s.famitsu.com##.l-banner
 s.famitsu.com##div.l-contents-block--tie-up .ad-native-campaign-leftout
+s.inside-games.jp##.item--special
+s.inside-games.jp###ad10
 s.rbbtoday.com##.aside-box-pickup
 s.rbbtoday.com###ad1
 s.rbbtoday.com##div.aside-box-ad
@@ -780,15 +787,6 @@ tarzanweb.jp##.takearest_block
 ! 2022-07-01 aconvert.com
 aconvert.com##.bluebg
 
-! 2022-08-10 ekitan.com
-ekitan.com##.text-center
-
 ! 2022-09-08 www.nishinippon.co.jp
 www.nishinippon.co.jp##.c-ad-header
-
-! 2022-10-15 bike.shimano.com
-bike.shimano.com##.cookiesnotification
-
-! 2022-11-01 funq.jp
-funq.jp###flux-overlay
 
