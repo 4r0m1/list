@@ -93,9 +93,9 @@ dic.pixiv.net###ad-d-sp-toparticle
 dic.pixiv.net###bottom_pixivcomic_touch
 dic.pixiv.net###d-sp-itemarticle0
 dic.pixiv.net###d-sp-itemarticle1
-www.pixiv.net##.ad-container
-www.pixiv.net##.ad-frame-container
-www.pixiv.net##.grid_ad
+pixiv.net##.ad-container
+pixiv.net##.ad-frame-container
+pixiv.net##.grid_ad
 www.pixiv.net##.works-hide-screen
 www.pixiv.net##div.premium-lead-new-t-info-home-top
 
@@ -106,11 +106,11 @@ www.pixiv.net##div.premium-lead-new-t-info-home-top
 togetter.com##.ad_rectangle
 togetter.com##.app-dl
 togetter.com##.fixed_social_footer
-togetter.com##li:has(.icon_pr)
 togetter.com###ad_overlay
 togetter.com###appdl_bottom
 togetter.com###appdl_header
 togetter.com###comments-summary-portal
+togetter.com##li:has(.icon_pr)
 
 ! [はてな]
 @@||b.hatena.ne.jp/entry/jsonlite/*$script,domain=lab.syncer.jp
@@ -140,7 +140,7 @@ gigazine.net##div.e_ad
 
 ! [メディアジーン]
 businessinsider.jp###in-rec0st
-gizmodo.jp##.inner-buy-box
+lifehacker.jp,gizmodo.jp##.inner-buy-box
 gizmodo.jp##.p-post-ad
 gizmodo.jp##.p-recommend
 gizmodo.jp##.s-body-ad
@@ -161,8 +161,7 @@ lifehacker.com##.js_subscribe
 ||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf$1p
 watch.impress.co.jp##.ad
 watch.impress.co.jp##.ad-inline:upward(div)
-watch.impress.co.jp##.extension.recursive > .topics.recommend
-watch.impress.co.jp##.social-bookmark
+watch.impress.co.jp###social-upper
 watch.impress.co.jp###sp-floating-layer
 
 ! [ITmedia]
@@ -174,13 +173,14 @@ watch.impress.co.jp###sp-floating-layer
 ||fc.itmedia.co.jp^
 ||itmedia.co.jp/js/spv/nl_related_logly.js
 ||itmedia.co.jp^*/insert_articles_ad.
+itmedia.co.jp##._popIn_recommend:empty
 itmedia.co.jp##.colBoxIndexAD
+itmedia.co.jp##.gad
 itmedia.co.jp##.wrap_social
+itmedia.co.jp###AFFILIAT
+itmedia.co.jp###ATF
 itmedia.co.jp###RECTANGL
-nlab.itmedia.co.jp##.gad
-nlab.itmedia.co.jp###ATF
-www.itmedia.co.jp##._popIn_recommend
-www.itmedia.co.jp###RECTNGL2
+itmedia.co.jp##div[id^="RECTNGL"]
 
 ! [MoguraVR]
 ||moguravr.com/wp-content/themes/moguravr3/*_button.$image,1p
@@ -789,4 +789,3 @@ aconvert.com##.bluebg
 
 ! 2022-09-08 www.nishinippon.co.jp
 www.nishinippon.co.jp##.c-ad-header
-
