@@ -47,6 +47,12 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1545305902861135872/H0ZKrc1x_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1494357396944474117/N0StxWzl_normal.png"])
 ! https://togetter.com/li/981068
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1581662018901348352/zy9VawEy_normal.jpg"])
+! https://togetter.com/li/539709
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/876114215018287104/164jgksd_normal.jpg"])
+! https://togetter.com/li/1676971
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/674884478964109312/cmxYc38S_normal.jpg"])
+! https://togetter.com/li/686460
 
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
