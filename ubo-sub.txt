@@ -17,21 +17,17 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1380489764382466050/HxfSa8hP_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1234453258669658113/S710NkHk_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1439694174916210691/vk5Urro1_normal.png"])
-togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1465294095598125058/np7ut6kh_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1341239818018148352/xeLJvtIg_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1270588477814390784/U0jjouJv_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/846638036066623488/sVPIGspT_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/765417325268828160/44mlb8fr_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1487626463696224257/6AJSou-d_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1213095652671901696/n2UQR2Z7_normal.jpg"])
-togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/682635540869595136/S1M1TrUq_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1364195146120630275/8fQ4WANj_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1512286970260582403/A9vBFZcH_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1322131970659266560/5KR1iRIT_normal.jpg"])
-togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1525158097072689152/rUOlkDrc_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/644105276388339712/cUMSJjvK_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/2585053098/9kbzl2v4y8kgyw4qzn6y_normal.jpeg"])
-togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1546846818470080513/9maB8JkL_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1526719056098693120/Hr5E8iyy_normal.png"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1548498378082099200/kQYEq-zT_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1223525945664921600/Tnnyf3As_normal.jpg"])
@@ -41,7 +37,6 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/570130582969929728/jXeAVKoT_normal.jpeg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1263678996979437569/tgmdXJMi_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/814490445967343616/r8ezkBWy_normal.jpg"])
-togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1579950968111656965/KgJrDprk_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1264222601330585601/EocH_3fu_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1534308052362739712/7O-1tZwO_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1545305902861135872/H0ZKrc1x_normal.jpg"])
@@ -57,6 +52,8 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 ! https://togetter.com/li/1703330
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1593929505609240577/ryro1sFp_normal.jpg"])
 ! https://togetter.com/li/1247015
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1587629421837824000/8CD1IYTY_normal.jpg"])
+! https://togetter.com/li/1963969
 
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
