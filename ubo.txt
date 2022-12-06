@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2022-08-05
+! Last modified: 2022-12-06
 
 ! [汎用]
 *##.adsbygoogle
@@ -222,6 +222,7 @@ bunshun.jp##li:has(.pr)
 ||number.ismcdn.jp/common/numberweb/v4/images/sns/*$image
 number.bunshun.jp##.container-banner-02
 crea.bunshun.jp###wrapper > div
+||gendai-m.ismcdn.jp/common/images/v3/ad/$image
 ||gendai.media/common/images/v3/ad/$image
 gendai.media##.blockContainer_block > .ad-container
 gendai.ismedia.jp##.ad-container
@@ -535,6 +536,7 @@ m.mail.yahoo.co.jp###ad_container_top
 m.mail.yahoo.co.jp###bnr_f3ex
 m.mail.yahoo.co.jp###bnr_top
 m.yahoo.co.jp###rsab
+news.yahoo.co.jp##.null
 
 ! [カクヨム]
 ||kakuyomu.jp/images/common/facebook.
@@ -643,7 +645,8 @@ www.wattpad.com##.bottom-banner
 
 ! 2021-05-03 kotobank.jp
 ||kotobank.jp/image/bn_app.jpg$image,1p
-kotobank.jp##.sp-iframe-ad
+kotobank.jp##.sp-word-ad
+kotobank.jp###ftInfo
 
 ! 2021-05-03 xtech.nikkei.com
 xtech.nikkei.com##.p-article_banner
