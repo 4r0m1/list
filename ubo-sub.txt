@@ -2,7 +2,7 @@
 ! Description: 非表示ルール
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo-sub.txt
-! Last modified: 2022-12-18
+! Last modified: 2022-12-22
 
 ! ユーザー(アイコン)指定
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
@@ -60,7 +60,8 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 ! https://togetter.com/li/1627681
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1458608971565387776/oeq9gJ2R_normal.jpg"])
 ! https://togetter.com/li/1988873
-
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1252181315484413952/C66Z7B7e_normal.jpg"])
+! https://togetter.com/li/1856348
 
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
