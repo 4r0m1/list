@@ -40,6 +40,7 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1264222601330585601/EocH_3fu_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1534308052362739712/7O-1tZwO_normal.jpg"])
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1545305902861135872/H0ZKrc1x_normal.jpg"])
+
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1494357396944474117/N0StxWzl_normal.png"])
 ! https://togetter.com/li/981068
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1581662018901348352/zy9VawEy_normal.jpg"])
@@ -66,6 +67,10 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 ! https://togetter.com/li/987273
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1446677900384608258/SmFgLRQC_normal.jpg"])
 ! https://togetter.com/li/1787306
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/847093405515563008/AFZ6AGyJ_normal.jpg"])
+! https://togetter.com/li/1071088
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1296055355374309376/Twd99W6f_normal.jpg"])
+! https://togetter.com/li/1362932
 
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
