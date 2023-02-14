@@ -71,9 +71,11 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 ! https://togetter.com/li/1071088
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1296055355374309376/Twd99W6f_normal.jpg"])
 ! https://togetter.com/li/1362932
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1329754589420142592/T_XCTitW_normal.jpg"])
+! https://togetter.com/li/1322748
 
 ! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
-! togetter.com##.simple_list > li:has(img[src="アイコンのURL"])
+! 最古の記事
 
 ! 単語指定
 !togetter.com##h3:has-text(単語):upward(li)
