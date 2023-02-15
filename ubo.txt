@@ -113,14 +113,26 @@ sp.nijie.info###inter_background
 ||images-na.ssl-images-amazon.com^$domain=togetter.com
 ||togetter.com/static/web/img/app_dl_$image,1p
 ||togetter.com/static/web/img/sp_footer_app_banner.$image,1p
+! ツイート&ペイ画像 (期間限定？)
+||togetter.com/static/web/img/tweetpay/$image,1p
+! 広告枠
 togetter.com##.ad_rectangle
+! 最下部公式アプリリンク
 togetter.com##.app_download_footer
+! ツイート&ペイ (期間限定？)
 togetter.com##.bottom_tweetpay_box
+! 下部固定SNS共有
 togetter.com##.fixed_social_footer
+! 下部固定広告枠
 togetter.com###ad_overlay
+! 上部固定公式アプリリンク
 togetter.com###appdl_header
+! 記事へのコメント
 togetter.com###comment-box-portal
+! みんなのコメント
 togetter.com###comments-summary-portal
+! [まとめをアプリでもっと快適に読む]
+togetter.com##a[data-ga="action_moreapp"]
 togetter.com##li:has(.icon_pr)
 
 ! [はてな]
@@ -210,6 +222,7 @@ asahi.com##.ad
 asahi.com##.ArticleRectangleAd
 asahi.com##.module-content-footer__ad
 asahi.com##.module-side-notice
+asahi.com##.NewPrInfoBlock
 asahi.com##.PrInfoBlock
 asahi.com##body > div.notPrint
 book.asahi.com##.module-list-articles-2__item--zottosuru
@@ -318,7 +331,8 @@ xtech.nikkei.com##.p-article_banner
 ! 動画 ======
 ! [ニコニコ]
 ||ads.nicovideo.jp^
-||sp.res.nimg.jp/img/common/blocked_premium_banner.jpg$image
+||sp.res.nimg.jp/img/common/blocked_banner.$image
+||sp.res.nimg.jp/img/common/blocked_premium_banner.$image
 dic.nicovideo.jp##.st-Header_Ad
 news.nicovideo.jp##.article-option
 news.nicovideo.jp##.article-share-footer
