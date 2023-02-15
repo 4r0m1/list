@@ -111,16 +111,15 @@ sp.nijie.info###inter_background
 
 ! [Togetter]
 ||images-na.ssl-images-amazon.com^$domain=togetter.com
-! ||togetter.com/static/1.16.02/web/img/app_dl_$image,1p
-! ||togetter.com/static/1.16.02/web/img/special/$image,1p
-||togetter.com/static/web/img/app_dl_$image
-||togetter.com/static/web/img/sp_footer_app_banner.$image
+||togetter.com/static/web/img/app_dl_$image,1p
+||togetter.com/static/web/img/sp_footer_app_banner.$image,1p
 togetter.com##.ad_rectangle
-togetter.com##.app-dl
+togetter.com##.app_download_footer
+togetter.com##.bottom_tweetpay_box
 togetter.com##.fixed_social_footer
 togetter.com###ad_overlay
-togetter.com###appdl_bottom
 togetter.com###appdl_header
+togetter.com###comment-box-portal
 togetter.com###comments-summary-portal
 togetter.com##li:has(.icon_pr)
 
