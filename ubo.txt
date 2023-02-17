@@ -119,6 +119,8 @@ sp.nijie.info###inter_background
 togetter.com##.ad_rectangle
 ! 最下部公式アプリリンク
 togetter.com##.app_download_footer
+! ランキング下部公式アプリリンク
+togetter.com##.app-dl
 ! ツイート&ペイ (期間限定？)
 togetter.com##.bottom_tweetpay_box
 ! 下部固定SNS共有
@@ -560,7 +562,7 @@ live.fc2.com##.noticeArea
 ! [Yahoo! JAPAN]
 ||dsb.yahoo.co.jp^
 ||logql.yahoo.co.jp^
-||s.yimg.jp/images/approach/jslib/deeplink-$domain=yahoo.co.jp
+! ||s.yimg.jp/images/approach/jslib/deeplink-$domain=yahoo.co.jp
 ||s.yimg.jp/images/ds/yas/ya-$domain=yahoo.co.jp
 ||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
 ||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
