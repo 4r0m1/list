@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-02-15
+! Last modified: 2023-03-01
 
 ! [汎用]
 *##.adsbygoogle
@@ -485,6 +485,7 @@ knowyourmeme.com##.ads
 kurashi-no.jp##.Ad_Rectangle_Widget
 m.apkpure.com##.ad-box
 marshmallow-qa.com##li.ad
+marshmallow-qa.com##.overlay
 mexa.sh##td > div
 mi-mollet.com###MM_SP_Billboard
 mi-mollet.com###MM_SP_readmore
@@ -496,8 +497,7 @@ nordot.app##.main__adWrapper
 nordot.app##div.page__ad
 phileweb.com###sp_article_undertitle_wrapper
 picnob.com##.wid
-picnob.com##.ah-box-n-w
-picnob.com##.ah-box-i-w
+picnob.com##.ah-box
 s.rbbtoday.com##.aside-box-pickup
 s.rbbtoday.com###ad1
 s.rbbtoday.com##div.aside-box-ad
@@ -633,7 +633,7 @@ recipe.rakuten.co.jp##.brand_ad_area
 openweathermap.org###stick-footer-panel
 
 ! 2020-04-27 nurumayu.net
-||nurumayu.net/twidouga/js/jquery.overlayad.js
+||nurumayu.net/twidouga/js/jquery.overlayad.js$1p
 nurumayu.net###js-popup
 
 ! 2020-10-23 ameblo.jp
@@ -646,10 +646,10 @@ moguna.com##.SiteHeader-app
 
 ! 2020-12-20 cocolog-nifty.com
 ||analytics.cocolog-nifty.com^
-||cocolog-nifty.com/.shared-cocolog/*
+||cocolog-nifty.com/.shared-cocolog/*$1p
 
 ! 2020-12-30 tabelog.com
-||tabelog.com/tbsp/tpoint_appli_times_modals/*
+||tabelog.com/tbsp/tpoint_appli_times_modals/*$1p
 
 ! 2021-02-02 tokubai.co.jp
 ||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate$1p
@@ -662,18 +662,19 @@ tokubai.co.jp##.smart_app_banner
 ! 2022-03-10 kurashiru.com
 ||assets.kurashiru.com/production/assets/chirashiru/w2a/$1p
 ||assets.kurashiru.com/production/assets/web_to_app/$image,1p
-||wapi.kurashiru.com/wapi/videos/ranking?mask=true
+||wapi.kurashiru.com/wapi/videos/ranking?mask=true$1p
 www.kurashiru.com##.SpAside-section--rankings
 
 ! 2021-02-27 www.dlsite.com
 ||media.dlsite.com/bcs/$image
 ||dlsite.com/js/adultcheck.js$script,1p
+||dlsite.com/modpub/images/campaign/$image,1p
 ||dlsite.jp/modpub/images2/$domain=~dlsite.com
 
-! 2021-04-27 www.wattpad.com
-||static.wattpad.com/js/tracker/*
+! 2021-04-27 wattpad.com
+||static.wattpad.com/js/tracker/*$1p
 ||track.wattpad.com^
-www.wattpad.com##.bottom-banner
+wattpad.com##.bottom-banner
 
 ! 2021-05-03 kotobank.jp
 ||kotobank.jp/image/bn_app.jpg$image,1p
@@ -697,7 +698,7 @@ w.atwiki.jp##.atwiki-tanuki-recommend
 w.atwiki.jp###atwiki-ads-overlay
 
 ! 2021-07-21 japan.cnet.com
-||japan.cnet.com/parts/frame/
+||japan.cnet.com/parts/frame/$1p
 japan.cnet.com###tieup_control_sp
 
 ! 2021-09-20 biz-journal.jp
@@ -716,7 +717,7 @@ biz-journal.jp##.entryBody > div
 
 ! [マイナビニュース]
 ||ad.woman.mynavi.jp^
-||news.mynavi.jp/assets/adomik-
+||news.mynavi.jp/assets/adomik-$1p
 news.mynavi.jp##.articleList-along
 news.mynavi.jp##.articleList-attention
 news.mynavi.jp##.c-sideBanner_articleBottom
@@ -725,9 +726,9 @@ news.mynavi.jp##.overLayBnr
 news.mynavi.jp###csw_block
 
 ! 2021-12-14 m.vk.com
-||vk.com/css/mobile/unauthorized.
-||vk.com/css/mobile/page_bottom_banners.
-||vk.com/?act=get_unauth_action_box
+||vk.com/css/mobile/unauthorized.$1p
+||vk.com/css/mobile/page_bottom_banners.$1p
+||vk.com/?act=get_unauth_action_box$1p
 m.vk.com##.PageBottomBanner
 
 ! 2021-12-20 cocoronext.com
