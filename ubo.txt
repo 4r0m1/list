@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-05
+! Last modified: 2023-03-11
 
 ! [汎用]
 *##.adsbygoogle
@@ -285,7 +285,7 @@ news.livedoor.com##.ads-google300
 blog.goo.ne.jp##.article__ad
 blog.goo.ne.jp###msg-box-app-recommend
 dictionary.goo.ne.jp##.app_promotion_button
-||xgoo.jp/images/common/banner_$image
+||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
 oshiete.goo.ne.jp##.Ad
 oshiete.goo.ne.jp##.ListPosts-item--PR-crown
 oshiete.goo.ne.jp##.readMore-btn
@@ -299,6 +299,8 @@ animatetimes.com##.c-share
 automaton-media.com,fate-twitter-matome.com,hentaidude.xxx,hentaihaven.xxx,sorae.info,thotbook.tv##.ai_widget
 automaton-media.com##.code-block.ai-viewport-3
 automaton-media.com##.td-a-rec
+buzzap.jp##.sp_inarticle
+gamespark.jp##.header-ad
 hochi.news##.ad
 jbpress.ismedia.jp##.ad-billboard
 jbpress.ismedia.jp##.ad-overlay
@@ -323,32 +325,15 @@ s.inside-games.jp##.item--special
 saga-s.co.jp##.infeed
 saga-s.co.jp##.m-ad
 tarzanweb.jp##.takearest_block
+tokyo-sports.co.jp##.top-bnr-area
 wired.jp##.ad-stickyhero
 wired.jp##.callout--has-top-border
+withnews.jp##.sticky-share
 www.nishinippon.co.jp##.c-ad-header
 www.sankei.com###sponsored
+www3.nhk.or.jp###appsbanner
 xtech.nikkei.com##.p-article_banner
 ! ====== 記事
-
-! 動画 ======
-! [ニコニコ]
-||ads.nicovideo.jp^
-||sp.res.nimg.jp/img/common/blocked_banner.$image
-||sp.res.nimg.jp/img/common/blocked_premium_banner.$image
-dic.nicovideo.jp##.st-Header_Ad
-news.nicovideo.jp##.article-option
-news.nicovideo.jp##.article-share-footer
-sp.ch.nicovideo.jp##[href^="http://ex.ch.nicovideo.jp/channel/nico-nico-pedia/app"]
-sp.ch.nicovideo.jp##.appBanner
-sp.ch.nicovideo.jp###smartBanner
-sp.nicovideo.jp##.siteWide-BannerAd
-sp.nicovideo.jp##.watch-RelatedContents_WatchTagRelatedBanner
-sp.nicovideo.jp###jsSmartAppBanner
-sp.nicovideo.jp###jsTagRelatedBannerContainer
-sp.seiga.nicovideo.jp##.ad
-sp.seiga.nicovideo.jp##.launch_app_container
-sp.seiga.nicovideo.jp##.manga_app_header
-! ====== 動画
 
 ! マンガ ======
 ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/*$image,1p
@@ -443,6 +428,7 @@ altema.jp##.PRrank-icon2
 4travel.jp##.u_adplanBox
 aconvert.com##.bluebg
 add0n.com###adb
+ameblo.jp##.LazyLoad
 aminoapps.com##.ad-block-container-mobile
 android.gadgethacks.com##.rightbox
 anime.eiga.com##.adBox
@@ -451,6 +437,7 @@ app.raindrop.io##.upgrade-1DKr
 appbank.net##h2
 appllio.com##.ad-appllio-Title
 aucfan.com##.nativeAdRakuten1
+awesomeopensource.com##.adsense_uas
 bbs.animanch.com##li > .inner
 bbs.animanch.com###recents > .inner
 benricho.org##.ad-space
@@ -460,7 +447,6 @@ bookmeter.com##.application__ads
 bookmeter.com##.application__fixed-footer
 bookwalker.jp##.coupon-area
 bukkenfan.jp##.footer-fixed-ad-h90
-buzzap.jp##.sp_inarticle
 careerhack.en-japan.com###articleShare
 chromebooker.net##.amp-unresolved
 chromeunboxed.com##.ezoic-ad
@@ -471,7 +457,6 @@ ekitan.com##.text-center
 finders.me##.__promotion
 fontfree.me##.under-menu-ad
 funq.jp###flux-overlay
-gamespark.jp##.header-ad
 gato.intaa.net#@#.adwidget
 gbf.life##.padding-tb-30
 getnavi.jp###gnw_sp_article_header_wrapper
@@ -502,11 +487,11 @@ picnob.com##.ah-box
 s.rbbtoday.com##.aside-box-pickup
 s.rbbtoday.com###ad1
 s.rbbtoday.com##div.aside-box-ad
+smartasw.com##.has-border
 smhn.info##.top_ad
 smhn.info##.widget
 sp.okwave.jp##.adfunnel_special_box
 storiesig.app##.fr-a-block
-tokyo-sports.co.jp##.top-bnr-area
 trilltrill.jp##.articleDetail-GAM
 trilltrill.jp##.js-w2a-banner
 twitcasting.tv##.alert
@@ -530,9 +515,7 @@ whotwi.com###user_sidebar
 wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
-withnews.jp##.sticky-share
 workman.jp###cookieBox
-www3.nhk.or.jp###appsbanner
 www.daily.co.jp##.adv
 www.oricon.co.jp##.block-recommend-list
 www.reddit.com##.xPromoChoiceBanner
@@ -544,11 +527,32 @@ yanmaga.jp##.-cv-pr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=sonixgvn.net
 @@||webtoolss.com/js/rss.js$1p
 
+! [ニコニコ]
+||ads.nicovideo.jp^
+||sp.res.nimg.jp/img/common/blocked_banner.$image
+||sp.res.nimg.jp/img/common/blocked_premium_banner.$image
+||sp.res.nimg.jp/img/svg/icon_pmark.svg$image
+dic.nicovideo.jp##.st-Header_Ad
+news.nicovideo.jp##.article-option
+news.nicovideo.jp##.article-share-footer
+sp.ch.nicovideo.jp##.appBanner
+sp.ch.nicovideo.jp##[href^="http://ex.ch.nicovideo.jp/channel/nico-nico-pedia/app"]
+sp.ch.nicovideo.jp###smartBanner
+sp.nicovideo.jp##.siteWide-BannerAd
+sp.nicovideo.jp##.watch-RelatedContents_WatchTagRelatedBanner
+sp.nicovideo.jp###jsSmartAppBanner
+sp.nicovideo.jp###jsTagRelatedBannerContainer
+sp.nicovideo.jp##div > [href^="https://account.nicovideo.jp/premium/register"]
+sp.seiga.nicovideo.jp##.ad
+sp.seiga.nicovideo.jp##.launch_app_container
+sp.seiga.nicovideo.jp##.manga_app_header
+
 ! [Amazon]
 ||images-fe.ssl-images-amazon.com/images/S/apesafeframe/*
 www.amazon.co.jp##.AdHolder
 www.amazon.co.jp##.amzn-safe-frame-container
 www.amazon.co.jp##.aw-campaigns
+www.amazon.co.jp##.sparkle-open
 www.amazon.co.jp##.template\=CARDS
 
 ! [FC2]
@@ -597,6 +601,14 @@ kakuyomu.jp###signUpBalloon
 ||biccamera.com/bc/c/images/header/*$image,1p
 biccamera.com##[href^="/bc/c/sale/special/"]
 
+! [クックパッド]
+||cpcdn.com/assets/extensions/*_banner$image,domain=cookpad.com
+||cpcdn.com/assets/footer/app_sample_$image,domain=cookpad.com
+||cpcdn.com/next-cookpad/_next/static/images/*_banner$image,domain=cookpad.com
+||cpcdn.com/next-cookpad/_next/static/images/app_sample_$image,domain=cookpad.com
+cookpad.com##.css-plnuqa
+cookpad.com##.standard_ad_slot
+
 ! [価格ドットコム]
 s.kakaku.com##.p-ad_wrap
 s.kakaku.com##.p-bnr
@@ -605,14 +617,6 @@ s.kakaku.com##.topSpotArea
 s.kakaku.com###fixedbnrArea
 s.kakaku.com###headerAd
 s.kakaku.com##li.withIboxDb
-
-! [クックパッド]
-||cpcdn.com/assets/extensions/*_banner$image,domain=cookpad.com
-||cpcdn.com/assets/footer/app_sample_$image,domain=cookpad.com
-||cpcdn.com/next-cookpad/_next/static/images/*_banner$image,domain=cookpad.com
-||cpcdn.com/next-cookpad/_next/static/images/app_sample_$image,domain=cookpad.com
-cookpad.com##.css-plnuqa
-cookpad.com##.standard_ad_slot
 
 ! [楽天]
 ||pasha.rakuten.co.jp^
@@ -629,6 +633,17 @@ cookpad.com##.standard_ad_slot
 item.rakuten.co.jp##.exT_sdtext
 recipe.rakuten.co.jp##.brand_ad_area
 
+! [アットウィキ]
+||atwiki.jp/common/dist/js/amazon_flux.
+||atwiki.jp/common/dist/js/atwiki_autoads.
+||atwiki.jp/common/dist/js/moveads.
+||atwiki.jp/common/dist/js/social_button.
+||w.atwiki.jp/common/_js/preconnect.
+w.atwiki.jp##.atwiki-ads-margin
+w.atwiki.jp##.atwiki-sp-only
+w.atwiki.jp##.atwiki-tanuki-recommend
+w.atwiki.jp###atwiki-ads-overlay
+
 ! 2020-03-26 openweathermap.org
 ||openweathermap.org/themes/openweathermap/assets/img/mobile_app/android-app-top-banner.png$image,1p
 openweathermap.org###stick-footer-panel
@@ -636,10 +651,6 @@ openweathermap.org###stick-footer-panel
 ! 2020-04-27 nurumayu.net
 ||nurumayu.net/twidouga/js/jquery.overlayad.js$1p
 nurumayu.net###js-popup
-
-! 2020-10-23 ameblo.jp
-||stat100.ameba.jp/spskin/skin/stamp_11192/img/body_bk.png$image
-ameblo.jp##.LazyLoad
 
 ! 2020-12-19 moguna.com
 ||cdn.idcfcloud.net/assets/images/appdownload/*$image,domain=moguna.com
@@ -670,7 +681,7 @@ www.kurashiru.com##.SpAside-section--rankings
 ||media.dlsite.com/bcs/*$image
 ||dlsite.com/js/adultcheck.js$script,1p
 ||dlsite.com/modpub/images/campaign/*$image,1p
-||dlsite.jp/modpub/images2/*$domain=~dlsite.com
+! ||dlsite.jp/modpub/images2/*$domain=~dlsite.com
 
 ! 2021-04-27 wattpad.com
 ||static.wattpad.com/js/tracker/*$1p
@@ -687,17 +698,6 @@ kotobank.jp###ftInfo
 ||cloudfront.net/files/user/images/design/logo_twitter.$domain=times.abema.tv
 times.abema.tv##div.component-wrapper > iframe
 times.abema.tv##.c-article-share
-
-! [アットウィキ]
-||atwiki.jp/common/dist/js/amazon_flux.
-||atwiki.jp/common/dist/js/atwiki_autoads.
-||atwiki.jp/common/dist/js/moveads.
-||atwiki.jp/common/dist/js/social_button.
-||w.atwiki.jp/common/_js/preconnect.
-w.atwiki.jp##.atwiki-ads-margin
-w.atwiki.jp##.atwiki-sp-only
-w.atwiki.jp##.atwiki-tanuki-recommend
-w.atwiki.jp###atwiki-ads-overlay
 
 ! 2021-07-21 japan.cnet.com
 ||japan.cnet.com/parts/frame/*$1p
@@ -763,7 +763,7 @@ ddnavi.com##.article-ad
 ddnavi.com##.buttonlink2
 
 ! 2022-04-09 www.hotpepper.jp
-||hotpepper.jp/DEV/DEV_OPEN/CSP/log/
+||hotpepper.jp/DEV/DEV_OPEN/CSP/log/*
 ||hotpepper.jp/doc/mesitsu_rilo/sp/riloparts.html$subdocument,1p
 www.hotpepper.jp##.entry-header-html
 www.hotpepper.jp##.sns-follow-btn-box
@@ -790,9 +790,6 @@ monolog.r-n-i.jp###graphArea
 
 ! 2022-05-29 mzh.moegirl.org.cn
 ||app.moegirl.org.cn^$image
-
-! 2022-06-06 bumpofchicken.com
-||bumpofchicken.com/static/common/global-image/dummy.gif$image,1p
 
 ! 2022-06-18 srad.jp
 ||srad.jp/static/sprite-syndication.png$image,1p
