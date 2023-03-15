@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-11
+! Last modified: 2023-03-16
 
 ! [汎用]
 *##.adsbygoogle
@@ -398,6 +398,7 @@ gamewith.jp##.walkthrough-ad-recommend-game
 ! [神ゲー攻略]
 ||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/*$image,1p
 ||kamigame-gameliv-bm0gw8idontct.com$image,domain=kamigame.jp
+kamigame.jp##.ad
 kamigame.jp##.pre-registration-widget
 kamigame.jp##.information_footer
 kamigame.jp###fbb_component-root
@@ -443,6 +444,7 @@ bbs.animanch.com###recents > .inner
 benricho.org##.ad-space
 bike.shimano.com##.cookiesnotification
 blog.tinect.jp##.g
+blog.tinect.jp###navi
 bookmeter.com##.application__ads
 bookmeter.com##.application__fixed-footer
 bookwalker.jp##.coupon-area
@@ -680,8 +682,10 @@ www.kurashiru.com##.SpAside-section--rankings
 ! 2021-02-27 www.dlsite.com
 ||media.dlsite.com/bcs/*$image
 ||dlsite.com/js/adultcheck.js$script,1p
+||dlsite.com/modpub/images/banner/*$image,1p
 ||dlsite.com/modpub/images/campaign/*$image,1p
 ! ||dlsite.jp/modpub/images2/*$domain=~dlsite.com
+www.dlsite.com###header_banner
 
 ! 2021-04-27 wattpad.com
 ||static.wattpad.com/js/tracker/*$1p
