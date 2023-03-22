@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-16
+! Last modified: 2023-03-23
 
 ! [汎用]
 *##.adsbygoogle
@@ -30,6 +30,7 @@
 /oo/cl*.js?rd=$1p
 /optimizely-$script,domain=~talktalk.co.uk
 /onesignal.js
+/plugins/wp-social-bookmarking-light/*
 ||fundingchoicesmessages.google.com^$3p
 ||goo-access-analytics.appspot.com^
 ||gsspcln.jp^
@@ -154,9 +155,6 @@ www.hatena.ne.jp###smartphone-apps
 ! ====== SNS
 
 ! 記事 ======
-||a1.api.bbc.co.uk^
-www.bbc.com##.nw-c-leaderboard-ad
-
 ! [GIGAZINE]
 ||pw.gigazine.net^
 gigazine.net##.sbn
@@ -297,8 +295,9 @@ www.goo.ne.jp##.socialbutton
 4gamer.net##.top_ad
 animatetimes.com##.c-share
 automaton-media.com,fate-twitter-matome.com,hentaidude.xxx,hentaihaven.xxx,sorae.info,thotbook.tv##.ai_widget
-automaton-media.com##.code-block.ai-viewport-3
+automaton-media.com##.code-block
 automaton-media.com##.td-a-rec
+bbc.com##.nw-c-leaderboard-ad
 buzzap.jp##.sp_inarticle
 gamespark.jp##.header-ad
 hochi.news##.ad
@@ -336,8 +335,10 @@ xtech.nikkei.com##.p-article_banner
 ! ====== 記事
 
 ! マンガ ======
-||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/*$image,1p
-||cdn-img.kuragebunch.com/public/media_link_slot/*$image,1p
+/public/media_link_slot/*$image,1p
+! ||cdn-img.comic-zenon.com/public/link-slot-series/*$image,1p
+! ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/*$image,1p
+! ||cdn-img.kuragebunch.com/public/media_link_slot/*$image,1p
 comic-days.com,viewer.heros-web.com,pocket.shonenmagazine.com,shonenjumpplus.com,tonarinoyj.jp##.inactive
 kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
 kuragebunch.com##.page-ad
@@ -379,8 +380,10 @@ tonarinoyj.jp##.page-ad
 ! [GameWith]
 ||gamewith.jp/ad/
 ||gamewith.jp/app/pr/
+||gamewith.jp/article_tools/g123/*$image,1p
 ||gamewith.jp/gamedb/games/icons/*$image,1p
-||gamewith.jp/js/dist/jp/gamewith/walkthrough/creativead.js
+||gamewith.jp/js/dist/jp/gamewith/walkthrough/creativead.js$script,1p
+||gamewith.jp/js/dist/jp/gamewith/walkthrough/floatingmenu.js$script,1p
 ||gamewith.jp/service/hd/images/b2577199c5a51e531b3e74fb26089c7f.png$image,1p
 ||gamewith.jp/walkthrough/discord/banner.png$image,1p
 ||gamewith.jp/walkthrough/recruit/*$image,1p
@@ -647,7 +650,8 @@ w.atwiki.jp##.atwiki-tanuki-recommend
 w.atwiki.jp###atwiki-ads-overlay
 
 ! 2020-03-26 openweathermap.org
-||openweathermap.org/themes/openweathermap/assets/img/mobile_app/android-app-top-banner.png$image,1p
+||openweathermap.org/themes/openweathermap/assets/img/mobile_app/*$image,1p
+openweathermap.org##.banner_stripe
 openweathermap.org###stick-footer-panel
 
 ! 2020-04-27 nurumayu.net
@@ -685,6 +689,7 @@ www.kurashiru.com##.SpAside-section--rankings
 ||dlsite.com/modpub/images/banner/*$image,1p
 ||dlsite.com/modpub/images/campaign/*$image,1p
 ! ||dlsite.jp/modpub/images2/*$domain=~dlsite.com
+ch.dlsite.com##.float-actions
 www.dlsite.com###header_banner
 
 ! 2021-04-27 wattpad.com
@@ -797,3 +802,7 @@ monolog.r-n-i.jp###graphArea
 
 ! 2022-06-18 srad.jp
 ||srad.jp/static/sprite-syndication.png$image,1p
+
+! 2023-03-18 weathernews.jp
+||weathernews.jp/s/topics/img/b_white01.png$image,1p
+weathernews.jp###app_dl
