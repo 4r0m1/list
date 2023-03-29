@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-23
+! Last modified: 2023-03-30
 
 ! [汎用]
 *##.adsbygoogle
@@ -213,6 +213,7 @@ moguravr.com##.ads-only-mobile
 ! [電ファミニコゲーマー]
 ||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/line_btn.png$image,1p
 news.denfaminicogamer.jp##.amazon-wdgt-wrap
+news.denfaminicogamer.jp###dfng-banner
 news.denfaminicogamer.jp###sp_article_billboard
 news.denfaminicogamer.jp###sp_article_undertitle
 
@@ -335,10 +336,11 @@ xtech.nikkei.com##.p-article_banner
 ! ====== 記事
 
 ! マンガ ======
+/public/link-slot-series/*$image,1p
 /public/media_link_slot/*$image,1p
 ! ||cdn-img.comic-zenon.com/public/link-slot-series/*$image,1p
-! ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/*$image,1p
 ! ||cdn-img.kuragebunch.com/public/media_link_slot/*$image,1p
+! ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/*$image,1p
 comic-days.com,viewer.heros-web.com,pocket.shonenmagazine.com,shonenjumpplus.com,tonarinoyj.jp##.inactive
 kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
 kuragebunch.com##.page-ad
@@ -437,6 +439,7 @@ aminoapps.com##.ad-block-container-mobile
 android.gadgethacks.com##.rightbox
 anime.eiga.com##.adBox
 anime.eiga.com###rect_ad
+apkpure.com##.ad-box
 app.raindrop.io##.upgrade-1DKr
 appbank.net##h2
 appllio.com##.ad-appllio-Title
@@ -474,7 +477,6 @@ j-town.net##.pr-list:upward(.section_content)
 kajetblog.com##.p-adBox
 knowyourmeme.com##.ads
 kurashi-no.jp##.Ad_Rectangle_Widget
-m.apkpure.com##.ad-box
 marshmallow-qa.com##li.ad
 marshmallow-qa.com##.overlay
 mexa.sh##td > div
@@ -534,6 +536,8 @@ yanmaga.jp##.-cv-pr
 
 ! [ニコニコ]
 ||ads.nicovideo.jp^
+||originalnews.nico/wp-content/uploads/2018/11/nikonikomangabana-$image,1p
+||originalnews.nico/wp-content/uploads/*_banner_$image,1p
 ||sp.res.nimg.jp/img/common/blocked_banner.$image
 ||sp.res.nimg.jp/img/common/blocked_premium_banner.$image
 ||sp.res.nimg.jp/img/svg/icon_pmark.svg$image
