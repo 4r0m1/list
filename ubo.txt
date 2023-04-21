@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-04-06
+! Last modified: 2023-04-22
 
 ! [汎用]
 *##.adsbygoogle
@@ -239,6 +239,7 @@ maidonanews.jp,yorozoonews.jp##.module-list-articles__item--ad
 maidonanews.jp##.module-ad-center
 maidonanews.jp##div.module-ad
 
+||bunshun.ismcdn.jp/common/images/bunshun/v1/article/socials/$image
 ||bunshun.jp/common/images/*/banner.$image,1p
 ||bunshun.jp/common/images/bunshun/v1/recruit/$image,1p
 ||number.bunshun.jp/list/personal/authtype.json
@@ -302,6 +303,8 @@ automaton-media.com##.code-block
 automaton-media.com##.td-a-rec
 bbc.com##.nw-c-leaderboard-ad
 buzzap.jp##.sp_inarticle
+ciatr.jp##.ad-frame
+ciatr.jp##.ArticleComponentButton
 gamespark.jp##.header-ad
 hochi.news##.ad
 jbpress.ismedia.jp##.ad-billboard
@@ -318,6 +321,9 @@ nikkansports.com###MiddleAD
 nikkansports.com###TopAD
 nikkeibp.co.jp##.is_fix
 okinawatimes.co.jp##.ad_h250
+president.jp##.ad-rectangle
+president.jp##.information
+president.jp##.recommend
 prtimes.jp##.header-release-detail > .container-share
 s.famitsu.com##.banner-window-jack-wrapper
 s.famitsu.com##.l-banner
