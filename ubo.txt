@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-04-22
+! Last modified: 2023-04-29
 
 ! [汎用]
 *##.adsbygoogle
@@ -21,6 +21,8 @@
 /api/log?
 /beacon.$domain=~amazon.com|~amazon.co.jp
 /clear.gif?
+/cookie-notice.
+/cookie-notice/*$~stylesheet
 /fpcookie?
 /iframe/ad/*
 /images/share_
@@ -253,6 +255,11 @@ number.bunshun.jp##.container-banner-02
 ||gendai-m.ismcdn.jp/common/images/v3/ad/$image
 ||gendai.media/common/images/v3/ad/$image
 
+||president.ismcdn.jp/common/president/images/icon_$image,domain=president.jp
+president.jp##.ad-rectangle
+president.jp##.information
+president.jp##.recommend
+
 ||r25.jp/assets/*/img/app/mobile/android.jpg$image,1p
 r25.jp##.KillerFloatingBanner
 
@@ -276,6 +283,8 @@ qiita.com##[id^=logly-lift]
 
 note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||assets.st-note.com/poc-image/$image
+||logcollector.note.com^
+||note.com/api/v*/trackings/
 
 ||blog.livedoor.com/blog_portal/lite/img/v3/common/blogreader_banner.jpg
 ||blog.livedoor.jp/css/lite2/footer/common.css
@@ -321,9 +330,6 @@ nikkansports.com###MiddleAD
 nikkansports.com###TopAD
 nikkeibp.co.jp##.is_fix
 okinawatimes.co.jp##.ad_h250
-president.jp##.ad-rectangle
-president.jp##.information
-president.jp##.recommend
 prtimes.jp##.header-release-detail > .container-share
 s.famitsu.com##.banner-window-jack-wrapper
 s.famitsu.com##.l-banner
@@ -437,6 +443,12 @@ altema.jp##.PRrank-icon2
 ! ====== ゲーム
 
 
+! [$removeparam=]
+! 2023-04-28 president.jp
+$removeparam=cx_referrertype
+$removeparam=yhref
+! 2023-04-28 j-cast.com
+$removeparam=in
 
 
 4travel.jp##.u_adplanBox
