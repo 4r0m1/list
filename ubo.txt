@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-04-29
+! Last modified: 2023-05-05
 
 ! [汎用]
 *##.adsbygoogle
@@ -26,6 +26,8 @@
 /fpcookie?
 /iframe/ad/*
 /images/share_
+/js/v6_survey.js
+/lib/get_socialcount.
 /log_event?
 /oo/*/l.js|$1p
 /oo/*/lsync.js$1p
@@ -33,10 +35,13 @@
 /optimizely-$script,domain=~talktalk.co.uk
 /onesignal.js
 /plugins/wp-social-bookmarking-light/*
+||a8.net^$3p
 ||fundingchoicesmessages.google.com^$3p
 ||goo-access-analytics.appspot.com^
 ||gsspcln.jp^
+||impact-ad.jp^
 ||mc.yandex.ru^
+||microad.jp^
 ||onelink.me^
 ||platform.twitter.com/js/button.$3p
 ||sentry.io^$3p
@@ -151,7 +156,8 @@ b.hatena.ne.jp##.entry-ad-sp-banner
 b.hatena.ne.jp##.entry-ad-sp-rectangle
 b.hatena.ne.jp##.entrylist-ad-sp-fluid
 b.hatena.ne.jp##.entrylist-ad-sp-rectangle
-hatenablog.jp,hatenablog.com,hatenadiary.jp,hatenadiary.com,hatenadiary.org,hateblo.jp##.ad
+hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.ad
+hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ad-in-entry
 q.hatena.ne.jp##.google_afc_blocklink_smartphone
 q.hatena.ne.jp##.touch-rectangle-wrapper
 q.hatena.ne.jp###touch-permalink-keyword-rectangle
@@ -253,7 +259,9 @@ crea.bunshun.jp###wrapper > div
 number.bunshun.jp##.container-banner-02
 
 ||gendai-m.ismcdn.jp/common/images/v3/ad/$image
-||gendai.media/common/images/v3/ad/$image
+||gendai.media/common/bluebacks/$image,1p
+||gendai.media/common/images/v3/ad/$image,1p
+gendai.media##.event_banner
 
 ||president.ismcdn.jp/common/president/images/icon_$image,domain=president.jp
 president.jp##.ad-rectangle
@@ -289,6 +297,7 @@ note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||blog.livedoor.com/blog_portal/lite/img/v3/common/blogreader_banner.jpg
 ||blog.livedoor.jp/css/lite2/footer/common.css
 ||blog.livedoor.jp/img/*/bg_body.jpg$image
+||parts.blog.livedoor.jp/img/lite2/item/social_buttons/
 blog.livedoor.jp##.blog-footer
 blog.livedoor.jp###gdpr-banner
 news.livedoor.com##.ads-google300
@@ -444,12 +453,14 @@ altema.jp##.PRrank-icon2
 
 
 ! [$removeparam=]
-! 2023-04-28 president.jp
-$removeparam=cx_referrertype
-$removeparam=yhref
-! 2023-04-28 j-cast.com
-$removeparam=in
-
+||ch.dlsite.com^$removeparam=|dls
+||ch.dlsite.com^$removeparam=|from
+||ch.dlsite.com^$removeparam=|k_matome_maniax_sp
+||j-cast.com^$removeparam=|in
+||jisin.jp^$removeparam=|rf
+||president.jp^$removeparam=|cx_referrertype
+||president.jp^$removeparam=|yhref
+||smart-flash.jp^$removeparam=|rf
 
 4travel.jp##.u_adplanBox
 aconvert.com##.bluebg
@@ -485,7 +496,6 @@ ekitan.com##.text-center
 finders.me##.__promotion
 fontfree.me##.under-menu-ad
 funq.jp###flux-overlay
-gato.intaa.net#@#.adwidget
 gbf.life##.padding-tb-30
 getnavi.jp###gnw_sp_article_header_wrapper
 getnavi.jp###gnw_sp_article_undertitle_wrapper
@@ -551,6 +561,7 @@ yanmaga.jp##.-cv-pr
 
 @@||csf.rakuten-bank.co.jp/rb/ams/img/ad/$image,1p
 @@||jinrou.tsukuyo-oka.jp/analyzer.js$script,1p
+@@||matomo.jp/wp-content/*$1p
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=sonixgvn.net
 @@||webtoolss.com/js/rss.js$1p
 
@@ -596,11 +607,16 @@ live.fc2.com##.noticeArea
 ! [Yahoo! JAPAN]
 ||dsb.yahoo.co.jp^
 ||logql.yahoo.co.jp^
+||mfn.yahoo.co.jp/v1/experiment
 ! ||s.yimg.jp/images/approach/jslib/deeplink-$domain=yahoo.co.jp
+||s.yimg.jp/images/ds/cl/ds-custom-logger-
 ||s.yimg.jp/images/ds/yas/ya-$domain=yahoo.co.jp
 ||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
 ||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
-||yimg.jp/images/*/promo/$image,domain=yahoo.co.jp
+||s.yimg.jp/images/mail/promo/
+||s.yimg.jp/images/yjtop-app/promo/banner
+||yads.c.yimg.jp^
+||yjtag.jp^
 detail.chiebukuro.yahoo.co.jp###post_ans
 loco.yahoo.co.jp##.promotion
 m.mail.yahoo.co.jp###ad_container_top
@@ -648,9 +664,13 @@ s.kakaku.com###headerAd
 s.kakaku.com##li.withIboxDb
 
 ! [楽天]
+||afl.rakuten.co.jp^$3p
+||count.upc.rakuten.co.jp^
+||ias.rakuten.co.jp^$domain=~event.rakuten.co.jp|~ias.rakuten.co.jp|~search.rakuten.co.jp
 ||pasha.rakuten.co.jp^
 ||pzd.rakuten.co.jp^
 ||r10s.jp/com/js/d/irp/event-page/1.1.0/smart-coupon.min.js
+||rakuten-static.com/com/rat/
 ||rakuten-static.com/recipe/nuxt/img/
 ||rakuten.co.jp/assets/contents/banner/$image
 ||rakuten.co.jp/gw.js
@@ -659,6 +679,8 @@ s.kakaku.com##li.withIboxDb
 ||recipe.rakuten.co.jp/webinfo/common/shareButtonDisplayFlag.json
 ||recipe.rakuten.co.jp/webinfo/sp/ads/
 ||recipe.rakuten.co.jp/webpub/recipe/detail/sameRecipeCampaign?
+||rt.rakuten.co.jp^
+||tag.rmp.rakuten.com^
 item.rakuten.co.jp##.exT_sdtext
 recipe.rakuten.co.jp##.brand_ad_area
 
@@ -804,6 +826,7 @@ www.hotpepper.jp##.sns-follow-btn-box
 ! 2022-04-10 topics.smt.docomo.ne.jp
 ||addlv.smt.docomo.ne.jp^
 ||img.topics.smt.news.goo.ne.jp^$script
+||rec1.smt.docomo.ne.jp^
 topics.smt.docomo.ne.jp##.ad_middle05
 topics.smt.docomo.ne.jp##.banner
 topics.smt.docomo.ne.jp###ad_middle
@@ -838,3 +861,6 @@ weathernews.jp###app_dl
 ||cdn1.s.mognavi.jp/image/$image,1p
 s.mognavi.jp##div.adArea
 s.mognavi.jp###system-bottom-action
+
+! 2023-04-29 intaa.net
+||intaa.net^$inline-script
