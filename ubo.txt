@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-05-05
+! Last modified: 2023-05-13
 
 ! [汎用]
 *##.adsbygoogle
@@ -149,6 +149,7 @@ togetter.com##li:has(.icon_pr)
 
 ! [はてな]
 @@||b.hatena.ne.jp/entry/jsonlite/$script,domain=lab.syncer.jp
+||b.hatena.ne.jp^$3p
 ||b.st-hatena.com/js/v4/bookmark.js
 ||cdn.blog.st-hatena.com/images/theme/backgrounds/$image
 anond.hatelabo.jp##.ad-banner
@@ -191,11 +192,10 @@ lifehacker.com##.js_subscribe
 
 ! [Impress Watch]
 ||beacon.watch.impress.co.jp^
-||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf$1p
+||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf|$1p
 watch.impress.co.jp##.ad
 watch.impress.co.jp##.ad-inline:upward(div)
-watch.impress.co.jp###social-upper
-watch.impress.co.jp###sp-floating-layer
+watch.impress.co.jp##.social-bookmark
 
 ! [ITmedia]
 /cx_ab.js
@@ -864,3 +864,12 @@ s.mognavi.jp###system-bottom-action
 
 ! 2023-04-29 intaa.net
 ||intaa.net^$inline-script
+
+! 2023-05-04 s.cosme.net
+||cloudfront.net/images/spn/common/icons/facebook_logo_wht.png$image,domain=cosme.net
+||cloudfront.net/images/spn/common/icons/ico_sns.png$image,domain=cosme.net
+||cosme.net/brand/gadget/pr-area/*$1p
+s.cosme.net##.global-feed-timeline
+s.cosme.net##.pdt-purchase
+s.cosme.net##.pdt-review-sort-premium
+s.cosme.net##.purchase-wrap
