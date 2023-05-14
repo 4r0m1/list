@@ -2,7 +2,7 @@
 # Description: 自分用DNSフィルタ
 # Homepage: https://github.com/4r0m1/list
 # Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/domain.txt
-# Last modified: 2022-06-20
+# Last modified: 2023-05-14
 # LIST
 a8.net
 accesstrade.net
@@ -41,6 +41,7 @@ app-measurement.com
 appbaqend.com
 apps2sd.info
 appsflyersdk.com
+assets.gunosy.com
 atlas-endpoint.data.n8s.jp
 atonato.de
 autolinkmaker.itunes.apple.com
@@ -90,16 +91,21 @@ ip.prvtx.net
 j-a-net.jp
 linksynergy.com
 log000.goo.ne.jp
+logcollector.note.com
 loggly.com
+logql.yahoo.co.jp
 mediaforge.com
 metric.gstatic.com
 metricool.com
+microad.jp
+microad.net
 mix-ad.info
 mixi.jp
 moba8.net
 mobadme.jp
 mobileapptracking.com
 msgs.jp
+mt.gigazine.net
 nakanohito.jp
 omnitagjs.com
 onesignal.com
@@ -192,10 +198,6 @@ samsungrs.com
 secb2b.com
 service.game-mode.net
 # SAMSUNG end
-# TEST
-assets.gunosy.com
-mt.gigazine.net
-# TEST end
 # JP
 0redirb.com
 10clicks.com
@@ -493,8 +495,6 @@ mediad2.jp
 mediams.mb.softbank.jp
 medipartner.jp
 mmaaxx.com
-microad.jp
-microad.net
 mincure-ad.com
 minnano-shopping.com
 minutemediaservices.com
@@ -3456,7 +3456,6 @@ logg.kiwi.com
 logging.api.intuit.com
 loglady.skypicker.com
 loglys.com
-logql.yahoo.co.jp
 logs.datadoghq.com
 logs.datadoghq.eu
 logs.logdna.com
