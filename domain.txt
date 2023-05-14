@@ -62,12 +62,14 @@ config.skype.com
 cookielaw.org
 countess.twitch.tv
 digitiminimi.com
+dlv.itmedia.jp
 docomo-analytics.com
 doubleclick.ne.jp
 dsb.yahoo.co.jp
 e-msedge.net
 ebis.ne.jp
 edge.skype.com
+errortracking.deepl.com
 evidon.com
 facebook.net
 fancrew.jp
@@ -383,7 +385,6 @@ demand.supply
 dep.tc
 devo.jp
 dkyp75kj7ldlr.cloudfront.net
-dlv.itmedia.jp
 dmm-rank.com
 dmm.ad-s.org
 dn.msmstatic.com
