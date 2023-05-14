@@ -84,6 +84,7 @@ goo-access-analytics.appspot.com
 graph.facebook.com
 hasmobi.net
 hockeyapp.net
+hoge.ninja
 impact-ad.jp
 improving.duckduckgo.com
 in.appcenter.ms
