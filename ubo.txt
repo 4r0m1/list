@@ -53,6 +53,15 @@
 ||ziyu.net^$3p
 ||zimg.jp^
 
+! Mobile notifications
+/app-banner/*$xmlhttprequest
+/jquery.androidbanner.js
+/js-mobile-*/header_$script
+/js/jquery.smartbanner.js|
+/js/jquery.smartbanner.min.js|
+/mobile-welcome-overlay/*$script
+/smart-app-banner.js
+
 ! SNS ======
 ||instagram.com/ajax/bz
 ||tumblr.com/assets/scripts/tumblr/dashboard/showads.js
@@ -297,6 +306,8 @@ note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||blog.livedoor.com/blog_portal/lite/img/v3/common/blogreader_banner.jpg
 ||blog.livedoor.jp/css/lite2/footer/common.css
 ||blog.livedoor.jp/img/*/bg_body.jpg$image
+||news.livedoor.com/api/*$xhr,1p
+||news.livedoor.com/img/lite/common/ico_$image,1p
 ||parts.blog.livedoor.jp/img/lite2/item/social_buttons/
 blog.livedoor.jp##.blog-footer
 blog.livedoor.jp###gdpr-banner
@@ -316,6 +327,8 @@ www.goo.ne.jp##.socialbutton
 4gamer.net##.SP_JACK
 4gamer.net##.top_ad
 animatetimes.com##.c-share
+appbank.net##.body-ad
+appbank.net##.fixed-height
 automaton-media.com,fate-twitter-matome.com,hentaidude.xxx,hentaihaven.xxx,sorae.info,thotbook.tv##.ai_widget
 automaton-media.com##.code-block
 automaton-media.com##.td-a-rec
@@ -340,6 +353,7 @@ nikkansports.com###TopAD
 nikkeibp.co.jp##.is_fix
 okinawatimes.co.jp##.ad_h250
 prtimes.jp##.header-release-detail > .container-share
+roomie.jp##.araklet
 s.famitsu.com##.banner-window-jack-wrapper
 s.famitsu.com##.l-banner
 s.famitsu.com##div.l-contents-block--tie-up .ad-native-campaign-leftout
@@ -399,6 +413,7 @@ sukima.me##.gmoam_outer_wrapper
 sukima.me##.my-2.pa-0
 tonarinoyj.jp##.link-page-half
 tonarinoyj.jp##.page-ad
+yanmaga.jp##.-cv-pr
 ! ====== マンガ
 
 ! ゲーム ======
@@ -557,7 +572,8 @@ www.daily.co.jp##.adv
 www.oricon.co.jp##.block-recommend-list
 www.reddit.com##.xPromoChoiceBanner
 www.reddit.com##.XPromoPill
-yanmaga.jp##.-cv-pr
+yomitai.jp##.social-button-series
+yomitai.jp###sinkansyokai
 
 @@||csf.rakuten-bank.co.jp/rb/ams/img/ad/$image,1p
 @@||jinrou.tsukuyo-oka.jp/analyzer.js$script,1p
