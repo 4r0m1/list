@@ -442,9 +442,8 @@ gamewith.jp##.walkthrough-ad-recommend-game
 ||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image,1p
 ||kamigame-gameliv-bm0gw8idontct.com$image,domain=kamigame.jp
 kamigame.jp##.ad
-kamigame.jp##.pre-registration-widget
 kamigame.jp##.information_footer
-kamigame.jp###fbb_component-root
+kamigame.jp###ad_top
 
 ! [アルテマ]
 ||altema.jp/include/altema/add_banner.js
