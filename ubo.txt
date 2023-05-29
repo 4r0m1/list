@@ -420,13 +420,13 @@ yanmaga.jp##.-cv-pr
 ! [GameWith]
 ||gamewith.jp/ad/
 ||gamewith.jp/app/pr/
-||gamewith.jp/article_tools/g123/$image,1p
-||gamewith.jp/gamedb/games/icons/$image,1p
-||gamewith.jp/js/dist/jp/gamewith/walkthrough/creativead.js$script,1p
-||gamewith.jp/js/dist/jp/gamewith/walkthrough/floatingmenu.js$script,1p
-||gamewith.jp/service/hd/images/b2577199c5a51e531b3e74fb26089c7f.png$image,1p
-||gamewith.jp/walkthrough/discord/banner.png$image,1p
-||gamewith.jp/walkthrough/recruit/$image,1p
+||gamewith.jp/article_tools/g123/$image
+||gamewith.jp/gamedb/games/icons/$image
+||gamewith.jp/js/dist/jp/gamewith/walkthrough/creativead.js$script
+||gamewith.jp/js/dist/jp/gamewith/walkthrough/floatingmenu.js$script
+||gamewith.jp/service/hd/images/b2577199c5a51e531b3e74fb26089c7f.png$image
+||gamewith.jp/walkthrough/discord/banner.png$image
+||gamewith.jp/walkthrough/recruit/$image
 ||gamewith.jp^*/walkthrough/adjack.js
 gamewith.jp##._native_ad_item
 gamewith.jp##.ad-header-creative-wrapper
