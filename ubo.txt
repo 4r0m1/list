@@ -439,7 +439,7 @@ gamewith.jp##.walkthrough-ad-ranking-game
 gamewith.jp##.walkthrough-ad-recommend-game
 
 ! [神ゲー攻略]
-||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image
+||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image,first-party
 ||kamigame-gameliv-bm0gw8idontct.com^
 kamigame.jp##.ad
 kamigame.jp##.information_footer
