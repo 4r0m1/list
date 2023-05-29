@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-05-13
+! Last modified: 2023-05-30
 
 ! [汎用]
 *##.adsbygoogle
@@ -439,8 +439,8 @@ gamewith.jp##.walkthrough-ad-ranking-game
 gamewith.jp##.walkthrough-ad-recommend-game
 
 ! [神ゲー攻略]
-||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image,1p
-||kamigame-gameliv-bm0gw8idontct.com$image,domain=kamigame.jp
+||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image
+||kamigame-gameliv-bm0gw8idontct.com^
 kamigame.jp##.ad
 kamigame.jp##.information_footer
 kamigame.jp###ad_top
