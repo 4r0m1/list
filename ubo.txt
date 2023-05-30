@@ -35,8 +35,8 @@
 /optimizely-$script,domain=~talktalk.co.uk
 /onesignal.js
 /plugins/wp-social-bookmarking-light/*
-||a8.net^$3p
-||fundingchoicesmessages.google.com^$3p
+||a8.net^
+||fundingchoicesmessages.google.com^
 ||goo-access-analytics.appspot.com^
 ||gsspcln.jp^
 ||impact-ad.jp^
@@ -44,14 +44,15 @@
 ||microad.jp^
 ||onelink.me^
 ||platform.twitter.com/js/button.$3p
-||sentry.io^$3p
+||sentry.io^
 ||speee-ad.akamaized.net^
-||thench.net^$3p
+||thench.net^
 ||twitter.com/i/jot
 ||xxgslt.com^
 ||youtube.com/api/stats/atr?
-||ziyu.net^$3p
+||ziyu.net^
 ||zimg.jp^
+||zucks.net^
 
 ! Mobile notifications
 /app-banner/*$xmlhttprequest
@@ -123,17 +124,17 @@ www.pixiv.net##div.premium-lead-new-t-info-home-top
 
 ! [ニジエ]
 ||nijie.info/js/ad.js
-||nijie.info/members_picture/nijie_noimage.jpg$image,domain=1p
+||nijie.info/members_picture/nijie_noimage.jpg$image,domain=nigie.info
 ||thumbs.nijie.net/dmm/$image,domain=nijie.info
 sp.nijie.info###header_ad
 sp.nijie.info###inter_background
 
 ! [Togetter]
 ||images-na.ssl-images-amazon.com^$domain=togetter.com
-||togetter.com/static/web/img/app_dl_$image,1p
-||togetter.com/static/web/img/sp_footer_app_banner.$image,1p
+||togetter.com/static/web/img/app_dl_$image
+||togetter.com/static/web/img/sp_footer_app_banner.$image
 ! ツイート&ペイ画像 (期間限定？)
-||togetter.com/static/web/img/tweetpay/$image,1p
+||togetter.com/static/web/img/tweetpay/$image
 ! 広告枠
 togetter.com##.ad_rectangle
 ! 最下部公式アプリリンク
@@ -201,9 +202,8 @@ lifehacker.com##.js_subscribe
 
 ! [Impress Watch]
 ||beacon.watch.impress.co.jp^
-||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf|$1p
+||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf|
 watch.impress.co.jp##.ad
-watch.impress.co.jp##.ad-inline:upward(div)
 watch.impress.co.jp##.social-bookmark
 
 ! [ITmedia]
@@ -230,7 +230,7 @@ moguravr.com##.mg-bottom-nav-bar
 moguravr.com##.ads-only-mobile
 
 ! [電ファミニコゲーマー]
-||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/line_btn.png$image,1p
+||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/line_btn.png$image
 news.denfaminicogamer.jp##.amazon-wdgt-wrap
 news.denfaminicogamer.jp###dfng-banner
 news.denfaminicogamer.jp###sp_article_billboard
@@ -258,7 +258,7 @@ maidonanews.jp##div.module-ad
 
 ||bunshun.ismcdn.jp/common/images/bunshun/v1/article/socials/$image
 ||bunshun.jp/common/images/*/banner.$image,1p
-||bunshun.jp/common/images/bunshun/v1/recruit/$image,1p
+||bunshun.jp/common/images/bunshun/v1/recruit/$image
 ||number.bunshun.jp/list/personal/authtype.json
 ||number.ismcdn.jp/common/numberweb/v4/images/sns/$image
 bunshun.jp##.ad-banner
@@ -268,8 +268,8 @@ crea.bunshun.jp###wrapper > div
 number.bunshun.jp##.container-banner-02
 
 ||gendai-m.ismcdn.jp/common/images/v3/ad/$image
-||gendai.media/common/bluebacks/$image,1p
-||gendai.media/common/images/v3/ad/$image,1p
+||gendai.media/common/bluebacks/$image
+||gendai.media/common/images/v3/ad/$image
 gendai.media##.event_banner
 
 ||president.ismcdn.jp/common/president/images/icon_$image,domain=president.jp
@@ -298,6 +298,7 @@ qiita.com##.p-items_wrapper-white
 qiita.com##.st-Modal
 qiita.com##[id^=logly-lift]
 
+! [note]
 note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||assets.st-note.com/poc-image/$image
 ||logcollector.note.com^
@@ -373,8 +374,8 @@ xtech.nikkei.com##.p-article_banner
 ! ====== 記事
 
 ! マンガ ======
-/public/link-slot-series/$image,1p
-/public/media_link_slot/$image,1p
+/public/link-slot-series/*$image,1p
+/public/media_link_slot/*$image,1p
 ! ||cdn-img.comic-zenon.com/public/link-slot-series/$image,1p
 ! ||cdn-img.kuragebunch.com/public/media_link_slot/$image,1p
 ! ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/$image,1p
@@ -383,14 +384,14 @@ kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
 kuragebunch.com##.page-ad
 pocket.shonenmagazine.com##.pwa-mini-infobar
 
-||sai-zen-sen.jp/comics/twi4/res/images/button-
+||sai-zen-sen.jp/comics/twi4/res/images/button-$image
 sai-zen-sen.jp##.ad
 sai-zen-sen.jp##.iikamo-modal-dialog
 sai-zen-sen.jp##.misc
 sai-zen-sen.jp##footer
 sai-zen-sen.jp###overlay-ad
 
-||web-ace.jp/img/sp/hatena.png
+||web-ace.jp/img/sp/hatena.png$image
 web-ace.jp##.comic
 web-ace.jp##.footer-sns
 web-ace.jp##.ouen
@@ -517,7 +518,6 @@ gitlab.com##.broadcast-message
 goodspress.jp##.pt_pr
 grapee.jp##aside
 icon-icons.com##.apu
-j-town.net##.pr-list:upward(.section_content)
 kajetblog.com##.p-adBox
 knowyourmeme.com##.ads
 kurashi-no.jp##.Ad_Rectangle_Widget
@@ -614,7 +614,7 @@ www.amazon.co.jp##.template\=CARDS
 ||fc2.com/image/clap/
 ||live.fc2.com/img/mobile/bnr/$image
 ||media.fc2.com^
-||static.fc2.com/image/blog_portal/sp/top_paid_banner_sp.png$image,1p
+||static.fc2.com/image/blog_portal/sp/top_paid_banner_sp.png$image
 ||static.fc2.com/video/img$image,1p
 fc2.com##.fc2footer_contents_box
 live.fc2.com##.noticeArea
@@ -711,12 +711,12 @@ w.atwiki.jp##.atwiki-tanuki-recommend
 w.atwiki.jp###atwiki-ads-overlay
 
 ! 2020-03-26 openweathermap.org
-||openweathermap.org/themes/openweathermap/assets/img/mobile_app/$image,1p
+||openweathermap.org/themes/openweathermap/assets/img/mobile_app/$image
 openweathermap.org##.banner_stripe
 openweathermap.org###stick-footer-panel
 
 ! 2020-04-27 nurumayu.net
-||nurumayu.net/twidouga/js/jquery.overlayad.js$1p
+||nurumayu.net/twidouga/js/jquery.overlayad.js
 nurumayu.net###js-popup
 
 ! 2020-12-19 moguna.com
@@ -739,14 +739,14 @@ tokubai.co.jp##.dfp_tag
 tokubai.co.jp##.smart_app_banner
 
 ! 2022-03-10 kurashiru.com
-||assets.kurashiru.com/production/assets/chirashiru/w2a/$1p
-||assets.kurashiru.com/production/assets/web_to_app/$image,1p
-||wapi.kurashiru.com/wapi/videos/ranking?mask=true$1p
+||assets.kurashiru.com/production/assets/chirashiru/w2a/
+||assets.kurashiru.com/production/assets/web_to_app/$image
+||wapi.kurashiru.com/wapi/videos/ranking?mask=true
 www.kurashiru.com##.SpAside-section--rankings
 
 ! 2021-02-27 www.dlsite.com
 ||media.dlsite.com/bcs/$image
-||dlsite.com/js/adultcheck.js$script,1p
+||dlsite.com/js/adultcheck.js$script
 ||dlsite.com/modpub/images/banner/$image,1p
 ||dlsite.com/modpub/images/campaign/$image,1p
 ! ||dlsite.jp/modpub/images2/$domain=~dlsite.com
@@ -759,7 +759,7 @@ www.dlsite.com###header_banner
 wattpad.com##.bottom-banner
 
 ! 2021-05-03 kotobank.jp
-||kotobank.jp/image/bn_app.jpg$image,1p
+||kotobank.jp/image/bn_app.jpg$image
 kotobank.jp##.sp-word-ad
 kotobank.jp###ftInfo
 
@@ -774,7 +774,7 @@ times.abema.tv##.c-article-share
 japan.cnet.com###tieup_control_sp
 
 ! 2021-09-20 biz-journal.jp
-||biz-journal.jp/wp-content/themes/biz-journal/img/bj_bnr_$image,1p
+||biz-journal.jp/wp-content/themes/biz-journal/img/bj_bnr_$image
 biz-journal.jp##.adsenseArea
 biz-journal.jp##.entryBody > div
 
@@ -813,19 +813,18 @@ cocoronext.com##p:has-text(スポンサーリンク)
 ||kinarino.k-img.com/assets/webpage/app$image,domain=kinarino.jp
 kinarino.jp###js-view-in-app
 kinarino.jp##.c-item__container--nw-ad
-kinarino.jp##.c-icon--pr:upward(.c-item__container)
 kinarino.jp###recommend-list
 
 ! 2022-02-28 estar.jp
-||estar.jp/assets/images/banner/estar_ex.png$image,1p
+||estar.jp/assets/images/banner/estar_ex.png$image
 
 ! 2022-03-03 taishukan.co.jp
 ||taishukan.co.jp/files_media/img/kokugo/common/*_bg_$image,1p
-||taishukan.co.jp/files_media/img/common/icon_$image,1p
+||taishukan.co.jp/files_media/img/common/icon_$image
 
 ! 2022-03-04 oishi-kenko.com
-||assets.oishi-kenko.com/kenko/assets/v2/commons/sp_$image,1p
-||assets.oishi-kenko.com/kenko/images/membership/$image,1p
+||oishi-kenko.com/kenko/assets/v2/commons/sp_$image
+||oishi-kenko.com/kenko/images/membership/$image
 
 ! 2022-03-07 ddnavi.com
 ||ddnavi.com/wp-content/uploads/2021/06/comicserial$image,1p
@@ -834,7 +833,7 @@ ddnavi.com##.buttonlink2
 
 ! 2022-04-09 www.hotpepper.jp
 ||hotpepper.jp/DEV/DEV_OPEN/CSP/log/
-||hotpepper.jp/doc/mesitsu_rilo/sp/riloparts.html$subdocument,1p
+||hotpepper.jp/doc/mesitsu_rilo/sp/riloparts.html
 www.hotpepper.jp##.entry-header-html
 www.hotpepper.jp##.sns-follow-btn-box
 
@@ -847,12 +846,12 @@ topics.smt.docomo.ne.jp##.banner
 topics.smt.docomo.ne.jp###ad_middle
 
 ! 2022-04-18 monolog.r-n-i.jp
-||monolog.r-n-i.jp/upload/monolog-banner.png$image,1p
+||monolog.r-n-i.jp/upload/monolog-banner.png$image
 monolog.r-n-i.jp###graphArea
 
 ! 2022-05-04 4chan.org
-||s.4cdn.org/image/fp/fade.png$image,1p
-||s.4cdn.org/image/fade-blue.png$image,1p
+||s.4cdn.org/image/fp/fade.png$image
+||s.4cdn.org/image/fade-blue.png$image
 4chan.org###abc-cnt
 
 ! 2022-05-20 msn.com
@@ -863,17 +862,17 @@ monolog.r-n-i.jp###graphArea
 ||app.moegirl.org.cn^$image
 
 ! 2022-06-18 srad.jp
-||srad.jp/static/sprite-syndication.png$image,1p
+||srad.jp/static/sprite-syndication.png$image
 
 ! 2023-03-18 weathernews.jp
-||weathernews.jp/s/topics/img/b_white01.png$image,1p
+||weathernews.jp/s/topics/img/b_white01.png$image
 weathernews.jp###app_dl
 
 ! 2023-03-30 fantia.jp
-||fantia.jp/uploads/display_campaign/banner_image/$image,1p
+||fantia.jp/uploads/display_campaign/banner_image/$image
 
 ! 2023-03-31 s.mognavi.jp
-||cdn1.s.mognavi.jp/image/$image,1p
+||cdn1.s.mognavi.jp^$image
 s.mognavi.jp##div.adArea
 s.mognavi.jp###system-bottom-action
 
