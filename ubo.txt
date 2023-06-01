@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-05-30
+! Last modified: 2023-06-01
 
 ! [汎用]
 *##.adsbygoogle
@@ -204,6 +204,7 @@ lifehacker.com##.js_subscribe
 ||beacon.watch.impress.co.jp^
 ||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf|
 watch.impress.co.jp##.ad
+watch.impress.co.jp##.contents-section-layer-1 > div:has(.ad-inline)
 watch.impress.co.jp##.social-bookmark
 
 ! [ITmedia]
@@ -304,9 +305,11 @@ note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||logcollector.note.com^
 ||note.com/api/v*/trackings/
 
+! [ライブドア]
 ||blog.livedoor.com/blog_portal/lite/img/v3/common/blogreader_banner.jpg
 ||blog.livedoor.jp/css/lite2/footer/common.css
 ||blog.livedoor.jp/img/*/bg_body.jpg$image
+||common.blogimg.jp/stf/common/banner/$image,domain=livedoor.com
 ||news.livedoor.com/api/*$xhr,1p
 ||news.livedoor.com/img/lite/common/ico_$image,1p
 ||parts.blog.livedoor.jp/img/lite2/item/social_buttons/
@@ -314,10 +317,33 @@ blog.livedoor.jp##.blog-footer
 blog.livedoor.jp###gdpr-banner
 news.livedoor.com##.ads-google300
 
+! [マイナビニュース]
+||ad.woman.mynavi.jp^
+||news.mynavi.jp/assets/adomik-$1p
+news.mynavi.jp##.articleList-along
+news.mynavi.jp##.articleList-attention
+news.mynavi.jp##.c-sideBanner_articleBottom
+news.mynavi.jp##.c-sidePickup
+news.mynavi.jp##.overLayBnr
+news.mynavi.jp###csw_block
+
+! [キナリノ]
+||k-img.com/assets/webpage/weather_forecasts/$image,domain=kinarino.jp
+||k-img.com/system/limited_banners/$image,domain=kinarino.jp
+||k-img.com/assets/webpage/app$image,domain=kinarino.jp
+kinarino.jp##.c-item__container--nw-ad
+kinarino.jp##.c-item__piece--target-app
+kinarino.jp##.c-item:has(.c-icon--pr)
+kinarino.jp##.l-header__banner
+kinarino.jp###js-appeal-top-banner
+kinarino.jp###js-view-in-app
+kinarino.jp###recommend-list
+
+! [goo]
+||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
 blog.goo.ne.jp##.article__ad
 blog.goo.ne.jp###msg-box-app-recommend
 dictionary.goo.ne.jp##.app_promotion_button
-||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
 oshiete.goo.ne.jp##.Ad
 oshiete.goo.ne.jp##.ListPosts-item--PR-crown
 oshiete.goo.ne.jp##.readMore-btn
@@ -339,6 +365,7 @@ ciatr.jp##.ad-frame
 ciatr.jp##.ArticleComponentButton
 gamespark.jp##.header-ad
 hochi.news##.ad
+j-town.net##.section_content:has(.pr-list)
 jbpress.ismedia.jp##.ad-billboard
 jbpress.ismedia.jp##.ad-overlay
 jbpress.ismedia.jp##.ad-rectangle
@@ -374,11 +401,10 @@ xtech.nikkei.com##.p-article_banner
 ! ====== 記事
 
 ! マンガ ======
-/public/link-slot-series/*$image,1p
-/public/media_link_slot/*$image,1p
-! ||cdn-img.comic-zenon.com/public/link-slot-series/$image,1p
-! ||cdn-img.kuragebunch.com/public/media_link_slot/$image,1p
-! ||cdn-img.pocket.shonenmagazine.com/public/media_link_slot/$image,1p
+! /public/link-slot-series/*$image,1p
+! /public/media_link_slot/*$image,1p
+||cdn-img.*/public/link-slot-series/$image,1p
+||cdn-img.*/public/media_link_slot/$image,1p
 comic-days.com,viewer.heros-web.com,pocket.shonenmagazine.com,shonenjumpplus.com,tonarinoyj.jp##.inactive
 kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
 kuragebunch.com##.page-ad
@@ -423,8 +449,8 @@ yanmaga.jp##.-cv-pr
 ||gamewith.jp/app/pr/
 ||gamewith.jp/article_tools/g123/$image
 ||gamewith.jp/gamedb/games/icons/$image
-||gamewith.jp/js/dist/jp/gamewith/walkthrough/creativead.js$script
-||gamewith.jp/js/dist/jp/gamewith/walkthrough/floatingmenu.js$script
+||gamewith.jp/js/dist/jp/gamewith/walkthrough/creativead.js
+||gamewith.jp/js/dist/jp/gamewith/walkthrough/floatingmenu.js
 ||gamewith.jp/service/hd/images/b2577199c5a51e531b3e74fb26089c7f.png$image
 ||gamewith.jp/walkthrough/discord/banner.png$image
 ||gamewith.jp/walkthrough/recruit/$image
@@ -465,6 +491,58 @@ altema.jp##.PRrank-icon2
 @@||rcm.shinobi.jp/js/imp.js$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/css/webiconfont.css$domain=blog.asakusa64.tokyo
 ! ====== ゲーム
+
+! 通販 =====
+! [Amazon]
+||images-fe.ssl-images-amazon.com/images/S/apesafeframe/
+www.amazon.co.jp##.AdHolder
+www.amazon.co.jp##.amzn-safe-frame-container
+www.amazon.co.jp##.aw-campaigns
+www.amazon.co.jp##.sparkle-open
+www.amazon.co.jp##.template\=CARDS
+
+! [ビックカメラ]
+||biccamera.com/bc/disp/CSfBcGoodsPolicy_Sp_J.jsp
+||biccamera.com/bc/c/images/bn/278x170/$image
+||biccamera.com/bc/c/images/bn/280x280/$image
+||biccamera.com/bc/c/images/bn/280x93/$image
+||biccamera.com/bc/resources4/sp/common/img/ico_twitter.png|$image
+||biccamera.com/bc/resources4/sp/common/img/ico_facebook.png|$image
+||biccamera.com/bc/resources4/sp/common/img/ico_instagram.png|$image
+||biccamera.com/bc/images/parts/img_noimage.jpg|$image
+||biccamera.com/bc/c/images/header/$image
+biccamera.com##[href^="/bc/c/sale/special/"]
+
+! [価格ドットコム]
+s.kakaku.com##.p-ad_wrap
+s.kakaku.com##.p-bnr
+s.kakaku.com##.subCtsArea
+s.kakaku.com##.topSpotArea
+s.kakaku.com###fixedbnrArea
+s.kakaku.com###headerAd
+s.kakaku.com##li.withIboxDb
+
+! [楽天]
+||afl.rakuten.co.jp^$3p
+||count.upc.rakuten.co.jp^
+||ias.rakuten.co.jp^$domain=~event.rakuten.co.jp|~ias.rakuten.co.jp|~search.rakuten.co.jp
+||pasha.rakuten.co.jp^
+||pzd.rakuten.co.jp^
+||r10s.jp/com/js/d/irp/event-page/1.1.0/smart-coupon.min.js
+||rakuten-static.com/com/rat/
+||rakuten-static.com/recipe/nuxt/img/
+||rakuten.co.jp/assets/contents/banner/$image
+||rakuten.co.jp/gw.js
+||rat.rakuten.co.jp^
+||recipe.rakuten.co.jp/inc/recipe_all.html
+||recipe.rakuten.co.jp/webinfo/common/shareButtonDisplayFlag.json
+||recipe.rakuten.co.jp/webinfo/sp/ads/
+||recipe.rakuten.co.jp/webpub/recipe/detail/sameRecipeCampaign?
+||rt.rakuten.co.jp^
+||tag.rmp.rakuten.com^
+item.rakuten.co.jp##.exT_sdtext
+recipe.rakuten.co.jp##.brand_ad_area
+! ===== 通販
 
 
 ! [$removeparam=]
@@ -511,7 +589,6 @@ ekitan.com##.text-center
 finders.me##.__promotion
 fontfree.me##.under-menu-ad
 funq.jp###flux-overlay
-gbf.life##.padding-tb-30
 getnavi.jp###gnw_sp_article_header_wrapper
 getnavi.jp###gnw_sp_article_undertitle_wrapper
 gitlab.com##.broadcast-message
@@ -602,14 +679,6 @@ sp.seiga.nicovideo.jp##.ad
 sp.seiga.nicovideo.jp##.launch_app_container
 sp.seiga.nicovideo.jp##.manga_app_header
 
-! [Amazon]
-||images-fe.ssl-images-amazon.com/images/S/apesafeframe/
-www.amazon.co.jp##.AdHolder
-www.amazon.co.jp##.amzn-safe-frame-container
-www.amazon.co.jp##.aw-campaigns
-www.amazon.co.jp##.sparkle-open
-www.amazon.co.jp##.template\=CARDS
-
 ! [FC2]
 ||fc2.com/image/clap/
 ||live.fc2.com/img/mobile/bnr/$image
@@ -649,18 +718,6 @@ kakuyomu.jp##.widget-ad-touchRectangle
 kakuyomu.jp###episodeFooter-inner
 kakuyomu.jp###signUpBalloon
 
-! [ビックカメラ]
-||biccamera.com/bc/disp/CSfBcGoodsPolicy_Sp_J.jsp
-||biccamera.com/bc/c/images/bn/278x170/$image,1p
-||biccamera.com/bc/c/images/bn/280x280/$image,1p
-||biccamera.com/bc/c/images/bn/280x93/$image,1p
-||biccamera.com/bc/resources4/sp/common/img/ico_twitter.png|$image,1p
-||biccamera.com/bc/resources4/sp/common/img/ico_facebook.png|$image,1p
-||biccamera.com/bc/resources4/sp/common/img/ico_instagram.png|$image,1p
-||biccamera.com/bc/images/parts/img_noimage.jpg|$image,1p
-||biccamera.com/bc/c/images/header/$image,1p
-biccamera.com##[href^="/bc/c/sale/special/"]
-
 ! [クックパッド]
 ||cpcdn.com/assets/extensions/*_banner$image,domain=cookpad.com
 ||cpcdn.com/assets/footer/app_sample_$image,domain=cookpad.com
@@ -668,36 +725,6 @@ biccamera.com##[href^="/bc/c/sale/special/"]
 ||cpcdn.com/next-cookpad/_next/static/images/app_sample_$image,domain=cookpad.com
 cookpad.com##.css-plnuqa
 cookpad.com##.standard_ad_slot
-
-! [価格ドットコム]
-s.kakaku.com##.p-ad_wrap
-s.kakaku.com##.p-bnr
-s.kakaku.com##.subCtsArea
-s.kakaku.com##.topSpotArea
-s.kakaku.com###fixedbnrArea
-s.kakaku.com###headerAd
-s.kakaku.com##li.withIboxDb
-
-! [楽天]
-||afl.rakuten.co.jp^$3p
-||count.upc.rakuten.co.jp^
-||ias.rakuten.co.jp^$domain=~event.rakuten.co.jp|~ias.rakuten.co.jp|~search.rakuten.co.jp
-||pasha.rakuten.co.jp^
-||pzd.rakuten.co.jp^
-||r10s.jp/com/js/d/irp/event-page/1.1.0/smart-coupon.min.js
-||rakuten-static.com/com/rat/
-||rakuten-static.com/recipe/nuxt/img/
-||rakuten.co.jp/assets/contents/banner/$image
-||rakuten.co.jp/gw.js
-||rat.rakuten.co.jp^
-||recipe.rakuten.co.jp/inc/recipe_all.html
-||recipe.rakuten.co.jp/webinfo/common/shareButtonDisplayFlag.json
-||recipe.rakuten.co.jp/webinfo/sp/ads/
-||recipe.rakuten.co.jp/webpub/recipe/detail/sameRecipeCampaign?
-||rt.rakuten.co.jp^
-||tag.rmp.rakuten.com^
-item.rakuten.co.jp##.exT_sdtext
-recipe.rakuten.co.jp##.brand_ad_area
 
 ! [アットウィキ]
 ||atwiki.jp/common/dist/js/amazon_flux.
@@ -744,7 +771,7 @@ tokubai.co.jp##.smart_app_banner
 ||wapi.kurashiru.com/wapi/videos/ranking?mask=true
 www.kurashiru.com##.SpAside-section--rankings
 
-! 2021-02-27 www.dlsite.com
+! 2021-02-27 dlsite.com
 ||media.dlsite.com/bcs/$image
 ||dlsite.com/js/adultcheck.js$script
 ||dlsite.com/modpub/images/banner/$image,1p
@@ -787,16 +814,6 @@ biz-journal.jp##.entryBody > div
 ! 2021-10-25 news-postseven.com
 ||news-postseven.com/uploads/*_bnr_$image,1p
 
-! [マイナビニュース]
-||ad.woman.mynavi.jp^
-||news.mynavi.jp/assets/adomik-$1p
-news.mynavi.jp##.articleList-along
-news.mynavi.jp##.articleList-attention
-news.mynavi.jp##.c-sideBanner_articleBottom
-news.mynavi.jp##.c-sidePickup
-news.mynavi.jp##.overLayBnr
-news.mynavi.jp###csw_block
-
 ! 2021-12-14 m.vk.com
 ||vk.com/css/mobile/unauthorized.$1p
 ||vk.com/css/mobile/page_bottom_banners.$1p
@@ -806,14 +823,6 @@ m.vk.com##.PageBottomBanner
 ! 2021-12-20 cocoronext.com
 ||cocoronext.com/wp-content/uploads/2016/09/60772b0a2a7963dd1d9d92d8f54fc99a.png|$image
 cocoronext.com##p:has-text(スポンサーリンク)
-
-! 2022-01-29 kinarino.jp
-||kinarino.k-img.com/assets/webpage/weather_forecasts/$image,domain=kinarino.jp
-||kinarino.k-img.com/system/limited_banners/$image,domain=kinarino.jp
-||kinarino.k-img.com/assets/webpage/app$image,domain=kinarino.jp
-kinarino.jp###js-view-in-app
-kinarino.jp##.c-item__container--nw-ad
-kinarino.jp###recommend-list
 
 ! 2022-02-28 estar.jp
 ||estar.jp/assets/images/banner/estar_ex.png$image
@@ -882,7 +891,7 @@ s.mognavi.jp###system-bottom-action
 ! 2023-05-04 s.cosme.net
 ||cloudfront.net/images/spn/common/icons/facebook_logo_wht.png$image,domain=cosme.net
 ||cloudfront.net/images/spn/common/icons/ico_sns.png$image,domain=cosme.net
-||cosme.net/brand/gadget/pr-area/*$1p
+||cosme.net/brand/gadget/pr-area/
 s.cosme.net##.global-feed-timeline
 s.cosme.net##.pdt-purchase
 s.cosme.net##.pdt-review-sort-premium
