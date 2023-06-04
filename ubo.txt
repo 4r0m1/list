@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-06-01
+! Last modified: 2023-06-05
 
 ! [汎用]
 *##.adsbygoogle
@@ -12,7 +12,7 @@
 /ad/index.
 /advanced-ads-$domain=~wordpress.org
 /advanced-ads/*$domain=~wordpress.org
-/advertise/*$domain=~az.hp.transer.com|~az.hpcn.transer-cn.com|~legl.co|~mistore.jp
+/advertise/*
 /amazonjs/*
 /amp-ad-
 /amp-analytics-
@@ -32,7 +32,7 @@
 /oo/*/l.js|$1p
 /oo/*/lsync.js$1p
 /oo/cl*.js?rd=$1p
-/optimizely-$script,domain=~talktalk.co.uk
+/optimizely-$script
 /onesignal.js
 /plugins/wp-social-bookmarking-light/*
 ||a8.net^
@@ -258,7 +258,7 @@ maidonanews.jp##.module-ad-center
 maidonanews.jp##div.module-ad
 
 ||bunshun.ismcdn.jp/common/images/bunshun/v1/article/socials/$image
-||bunshun.jp/common/images/*/banner.$image,1p
+||bunshun.jp/common/images/*/banner.$image
 ||bunshun.jp/common/images/bunshun/v1/recruit/$image
 ||number.bunshun.jp/list/personal/authtype.json
 ||number.ismcdn.jp/common/numberweb/v4/images/sns/$image
@@ -278,10 +278,10 @@ president.jp##.ad-rectangle
 president.jp##.information
 president.jp##.recommend
 
-||r25.jp/assets/*/img/app/mobile/android.jpg$image,1p
+||r25.jp/assets/*/img/app/mobile/android.jpg$image
 r25.jp##.KillerFloatingBanner
 
-||realsound.jp/wp-content/themes/realsound/sp/img/$image,1p
+||realsound.jp/wp-content/themes/realsound/sp/img/$image
 realsound.jp##.adsenseArea
 realsound.jp##.entryBottomAd
 realsound.jp##.paragraphAd
@@ -423,7 +423,7 @@ web-ace.jp##.footer-sns
 web-ace.jp##.ouen
 
 ||d.line-scdn.net^
-||static.comic-walker.com/sp/uploadimage/re$image,1p
+||static.comic-walker.com/sp/uploadimage/re$image
 comic-walker.com###cookie-pop-bn
 comic-walker.com###relationBanner
 
@@ -752,14 +752,14 @@ moguna.com##.SiteHeader-app
 
 ! 2020-12-20 cocolog-nifty.com
 ||analytics.cocolog-nifty.com^
-||cocolog-nifty.com/.shared-cocolog/$1p
+||cocolog-nifty.com/.shared-cocolog/
 
 ! 2020-12-30 tabelog.com
-||tabelog.com/tbsp/tpoint_appli_times_modals/$1p
+||tabelog.com/tbsp/tpoint_appli_times_modals/
 
 ! 2021-02-02 tokubai.co.jp
-||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate$1p
-||tokubai.co.jp/*app_banner$image,1p
+||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate
+||tokubai.co.jp/*app_banner$image
 ||tokubai.co.jp/*pr_shop_ids$1p
 tokubai.co.jp##div[id^=ad_]
 tokubai.co.jp##.dfp_tag
@@ -781,7 +781,7 @@ ch.dlsite.com##.float-actions
 www.dlsite.com###header_banner
 
 ! 2021-04-27 wattpad.com
-||static.wattpad.com/js/tracker/$1p
+||static.wattpad.com/js/tracker/
 ||track.wattpad.com^
 wattpad.com##.bottom-banner
 
@@ -836,7 +836,7 @@ cocoronext.com##p:has-text(スポンサーリンク)
 ||oishi-kenko.com/kenko/images/membership/$image
 
 ! 2022-03-07 ddnavi.com
-||ddnavi.com/wp-content/uploads/2021/06/comicserial$image,1p
+||ddnavi.com/wp-content/uploads/2021/06/comicserial$image
 ddnavi.com##.article-ad
 ddnavi.com##.buttonlink2
 
@@ -872,6 +872,9 @@ monolog.r-n-i.jp###graphArea
 
 ! 2022-06-18 srad.jp
 ||srad.jp/static/sprite-syndication.png$image
+
+! 2023-01-16 https://cocology.info
+cocology.info##.ads-wide
 
 ! 2023-03-18 weathernews.jp
 ||weathernews.jp/s/topics/img/b_white01.png$image
