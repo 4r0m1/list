@@ -2,11 +2,12 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-06-05
+! Last modified: 2023-06-11
 
 ! [汎用]
 *##.adsbygoogle
 *##[id^="div-gpt-ad"]
+*###gdpr-banner
 *###WIX_ADS
 /?sentry_key=
 /ad/index.
@@ -29,11 +30,11 @@
 /js/v6_survey.js
 /lib/get_socialcount.
 /log_event?
+/onesignal.js
 /oo/*/l.js|$1p
 /oo/*/lsync.js$1p
 /oo/cl*.js?rd=$1p
 /optimizely-$script
-/onesignal.js
 /plugins/wp-social-bookmarking-light/*
 ||a8.net^
 ||fundingchoicesmessages.google.com^
@@ -50,8 +51,8 @@
 ||twitter.com/i/jot
 ||xxgslt.com^
 ||youtube.com/api/stats/atr?
-||ziyu.net^
 ||zimg.jp^
+||ziyu.net^
 ||zucks.net^
 
 ! Mobile notifications
@@ -128,6 +129,11 @@ www.pixiv.net##div.premium-lead-new-t-info-home-top
 ||thumbs.nijie.net/dmm/$image,domain=nijie.info
 sp.nijie.info###header_ad
 sp.nijie.info###inter_background
+
+! [Pinterest]
+||pinterest.jp/resource/ContextLogResource/
+||pinterest.jp/resource/StatsLogResource/
+||pinterest.jp/resource/UserRegisterTrackActionResource/
 
 ! [Togetter]
 ||images-na.ssl-images-amazon.com^$domain=togetter.com
@@ -267,6 +273,7 @@ bunshun.jp###sp_multiplex
 bunshun.jp##li:has(.pr)
 crea.bunshun.jp###wrapper > div
 number.bunshun.jp##.container-banner-02
+number.bunshun.jp##.social-buttons
 
 ||gendai-m.ismcdn.jp/common/images/v3/ad/$image
 ||gendai.media/common/bluebacks/$image
@@ -354,8 +361,6 @@ www.goo.ne.jp##.socialbutton
 4gamer.net##.SP_JACK
 4gamer.net##.top_ad
 animatetimes.com##.c-share
-appbank.net##.body-ad
-appbank.net##.fixed-height
 automaton-media.com,fate-twitter-matome.com,hentaidude.xxx,hentaihaven.xxx,sorae.info,thotbook.tv##.ai_widget
 automaton-media.com##.code-block
 automaton-media.com##.td-a-rec
@@ -373,15 +378,12 @@ jbpress.ismedia.jp##.m-ad
 kai-you.net##.m-social-button-sp
 m.huffingtonpost.jp##.mobileweb_top
 m.huffingtonpost.jp##.splash
-magazine.cainz.com###sideShareArea
-magazine.cainz.com###visitBan
 mainichi.jp##.l-inner-ad
 nikkansports.com###MiddleAD
 nikkansports.com###TopAD
 nikkeibp.co.jp##.is_fix
 okinawatimes.co.jp##.ad_h250
 prtimes.jp##.header-release-detail > .container-share
-roomie.jp##.araklet
 s.famitsu.com##.banner-window-jack-wrapper
 s.famitsu.com##.l-banner
 s.famitsu.com##div.l-contents-block--tie-up .ad-native-campaign-leftout
@@ -389,7 +391,9 @@ s.inside-games.jp##.header-ad
 s.inside-games.jp##.item--special
 saga-s.co.jp##.infeed
 saga-s.co.jp##.m-ad
-tarzanweb.jp##.takearest_block
+salon.mainichi-kotoba.jp###js-footer-bar
+shueisha.online##.-post-header
+shueisha.online##.category-default > div > .-ad-Large
 tokyo-sports.co.jp##.top-bnr-area
 wired.jp##.ad-stickyhero
 wired.jp##.callout--has-top-border
@@ -440,6 +444,7 @@ sukima.me##.gmoam_outer_wrapper
 sukima.me##.my-2.pa-0
 tonarinoyj.jp##.link-page-half
 tonarinoyj.jp##.page-ad
+twicomi.com##.interrupt
 yanmaga.jp##.-cv-pr
 ! ====== マンガ
 
@@ -480,13 +485,13 @@ altema.jp##.PRrank-icon2
 
 ||amazonaws.com^$subdocument,domain=gameranbu.jp
 
-! 2021-04-29 game.granbluefantasy.jp
+! [グラブル]
 ||cdn-connect.mobage.jp/jssdk/mobage-menubar.2.6.1.min.js
 ||cdn-connect.mobage.jp/jssdk/mobage-jssdk-client.3.7.9.min.js
 
 ! 2020-10-21 blog.asakusa64.tokyo
-||blog.asakusa64.tokyo/wp-content/uploads/$image,1p
-||blog.asakusa64.tokyo/image/guraburu/$image,1p
+||blog.asakusa64.tokyo/wp-content/uploads/$image
+||blog.asakusa64.tokyo/image/guraburu/$image
 @@||rcm.shinobi.jp/r/$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/js/imp.js$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/css/webiconfont.css$domain=blog.asakusa64.tokyo
@@ -546,14 +551,15 @@ recipe.rakuten.co.jp##.brand_ad_area
 
 
 ! [$removeparam=]
-||ch.dlsite.com^$removeparam=|dls
-||ch.dlsite.com^$removeparam=|from
-||ch.dlsite.com^$removeparam=|k_matome_maniax_sp
-||j-cast.com^$removeparam=|in
-||jisin.jp^$removeparam=|rf
-||president.jp^$removeparam=|cx_referrertype
-||president.jp^$removeparam=|yhref
-||smart-flash.jp^$removeparam=|rf
+||ch.dlsite.com^$doc,removeparam=|dls
+||ch.dlsite.com^$doc,removeparam=|from
+||ch.dlsite.com^$doc,removeparam=|k_matome_maniax_sp
+||j-cast.com^$doc,removeparam=|in
+||jisin.jp^$doc,removeparam=|rf
+||president.jp^$doc,removeparam=|cx_referrertype
+||president.jp^$doc,removeparam=|yhref
+||smart-flash.jp^$doc,removeparam=|rf
+
 
 4travel.jp##.u_adplanBox
 aconvert.com##.bluebg
@@ -565,6 +571,8 @@ anime.eiga.com##.adBox
 anime.eiga.com###rect_ad
 apkpure.com##.ad-box
 app.raindrop.io##.upgrade-1DKr
+appbank.net##.body-ad
+appbank.net##.fixed-height
 appbank.net##h2
 appllio.com##.ad-appllio-Title
 aucfan.com##.nativeAdRakuten1
@@ -598,12 +606,16 @@ icon-icons.com##.apu
 kajetblog.com##.p-adBox
 knowyourmeme.com##.ads
 kurashi-no.jp##.Ad_Rectangle_Widget
+magazine.cainz.com###sideShareArea
+magazine.cainz.com###visitBan
 marshmallow-qa.com##li.ad
 marshmallow-qa.com##.overlay
 mexa.sh##td > div
 mi-mollet.com###MM_SP_Billboard
 mi-mollet.com###MM_SP_readmore
 minitool.com##.promotions-banner-wrap
+mitok.info##.ads_item
+mitok.info##section .custom-html-widget
 musicenc.com##.ins1
 natalie.mu##.NA_ad
 nazology.net##.ads
@@ -612,6 +624,7 @@ nordot.app##div.page__ad
 phileweb.com###sp_article_undertitle_wrapper
 picnob.com##.wid
 picnob.com##.ah-box
+roomie.jp##.araklet
 s.rbbtoday.com##.aside-box-pickup
 s.rbbtoday.com###ad1
 s.rbbtoday.com##div.aside-box-ad
@@ -620,6 +633,7 @@ smhn.info##.top_ad
 smhn.info##.widget
 sp.okwave.jp##.adfunnel_special_box
 storiesig.app##.fr-a-block
+tarzanweb.jp##.takearest_block
 trilltrill.jp##.articleDetail-GAM
 trilltrill.jp##.js-w2a-banner
 twitcasting.tv##.alert
@@ -638,8 +652,6 @@ weblio.jp##.adBkOverlayClr
 weheartit.com##.mobile-top-banner
 weheartit.com##.sponsored-content
 weheartit.com##.sticky-ad
-whotwi.com##.sp_ad_rectangle_responsive
-whotwi.com###user_sidebar
 wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
@@ -695,9 +707,10 @@ live.fc2.com##.noticeArea
 ! ||s.yimg.jp/images/approach/jslib/deeplink-$domain=yahoo.co.jp
 ||s.yimg.jp/images/ds/cl/ds-custom-logger-
 ||s.yimg.jp/images/ds/yas/ya-$domain=yahoo.co.jp
+@@||s.yimg.jp/images/ds/yas/ya-1.4.2.min.js$script,domain=m.mail.yahoo.co.jp
 ||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
 ||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
-||s.yimg.jp/images/mail/promo/
+||s.yimg.jp/images/mail/promo/$image
 ||s.yimg.jp/images/yjtop-app/promo/banner
 ||yads.c.yimg.jp^
 ||yjtag.jp^
@@ -775,7 +788,7 @@ www.kurashiru.com##.SpAside-section--rankings
 ||media.dlsite.com/bcs/$image
 ||dlsite.com/js/adultcheck.js$script
 ||dlsite.com/modpub/images/banner/$image,1p
-||dlsite.com/modpub/images/campaign/$image,1p
+||dlsite.com/modpub/images/campaign/$image
 ! ||dlsite.jp/modpub/images2/$domain=~dlsite.com
 ch.dlsite.com##.float-actions
 www.dlsite.com###header_banner
@@ -813,6 +826,7 @@ biz-journal.jp##.entryBody > div
 
 ! 2021-10-25 news-postseven.com
 ||news-postseven.com/uploads/*_bnr_$image,1p
+news-postseven.com##.w-SnsCount
 
 ! 2021-12-14 m.vk.com
 ||vk.com/css/mobile/unauthorized.$1p
@@ -826,10 +840,6 @@ cocoronext.com##p:has-text(スポンサーリンク)
 
 ! 2022-02-28 estar.jp
 ||estar.jp/assets/images/banner/estar_ex.png$image
-
-! 2022-03-03 taishukan.co.jp
-||taishukan.co.jp/files_media/img/kokugo/common/*_bg_$image,1p
-||taishukan.co.jp/files_media/img/common/icon_$image
 
 ! 2022-03-04 oishi-kenko.com
 ||oishi-kenko.com/kenko/assets/v2/commons/sp_$image
@@ -864,8 +874,8 @@ monolog.r-n-i.jp###graphArea
 4chan.org###abc-cnt
 
 ! 2022-05-20 msn.com
-||assets.msn.com^
 ||akamaized.net^$script,domain=msn.com
+||browser.events.data.msn.com^
 
 ! 2022-05-29 mzh.moegirl.org.cn
 ||app.moegirl.org.cn^$image
@@ -875,6 +885,10 @@ monolog.r-n-i.jp###graphArea
 
 ! 2023-01-16 https://cocology.info
 cocology.info##.ads-wide
+
+! 2023-02-23 nagoyatv.com
+||nagoyatv.com/themes/nagoyatv_sp/news/images/bn_$image
+nagoyatv.com##.sns-btn
 
 ! 2023-03-18 weathernews.jp
 ||weathernews.jp/s/topics/img/b_white01.png$image
