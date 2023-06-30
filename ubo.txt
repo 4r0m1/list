@@ -40,12 +40,14 @@
 ||fundingchoicesmessages.google.com^
 ||goo-access-analytics.appspot.com^
 ||gsspcln.jp^
+||gumgum.com^
 ||impact-ad.jp^
 ||mc.yandex.ru^
 ||microad.jp^
 ||onelink.me^
 ||platform.twitter.com/js/button.$3p
 ||sentry.io^
+||socdm.com^
 ||speee-ad.akamaized.net^
 ||thench.net^
 ||twitter.com/i/jot
@@ -139,16 +141,12 @@ sp.nijie.info###inter_background
 ||images-na.ssl-images-amazon.com^$domain=togetter.com
 ||togetter.com/static/web/img/app_dl_$image
 ||togetter.com/static/web/img/sp_footer_app_banner.$image
-! ツイート&ペイ画像 (期間限定？)
-||togetter.com/static/web/img/tweetpay/$image
 ! 広告枠
 togetter.com##.ad_rectangle
 ! 最下部公式アプリリンク
 togetter.com##.app_download_footer
 ! ランキング下部公式アプリリンク
 togetter.com##.app-dl
-! ツイート&ペイ (期間限定？)
-togetter.com##.bottom_tweetpay_box
 ! 下部固定SNS共有
 togetter.com##.fixed_social_footer
 ! 下部固定広告枠
@@ -237,12 +235,18 @@ moguravr.com##.mg-bottom-nav-bar
 moguravr.com##.ads-only-mobile
 
 ! [電ファミニコゲーマー]
+||img-denfaminicogamer.com/wp-content/uploads/*_overlay.jpg$image,domain=denfaminicogamer.jp
 ||img-denfaminicogamer.com/wp-content/uploads/*_SP_$image,domain=denfaminicogamer.jp
+||img-denfaminicogamer.com/wp-content/uploads/*_sptop.jpg$image,domain=denfaminicogamer.jp
+||media-amazon.com^$domain=denfaminicogamer.jp
+||news.denfaminicogamer.jp/wp-content/plugins/dfng-amazon-widgets/
+||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/bnr_$image
+||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/discord_bn_top.png$image
+||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/hatena_btn.png$image
 ||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/line_btn.png$image
-news.denfaminicogamer.jp##.amazon-wdgt-wrap
+news.denfaminicogamer.jp##.amazon-ranking
+news.denfaminicogamer.jp##.rectangle-bn
 news.denfaminicogamer.jp###dfng-banner
-news.denfaminicogamer.jp###sp_article_billboard
-news.denfaminicogamer.jp###sp_article_undertitle
 
 ! [asahi.com]
 asahi.com,yorozoonews.jp##.module-ad
