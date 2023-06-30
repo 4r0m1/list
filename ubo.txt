@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-06-11
+! Last modified: 2023-06-30
 
 ! [汎用]
 *##.adsbygoogle
@@ -97,8 +97,8 @@ itest.bbspink.com###js-bottom-ad-300x250
 
 ! [Pixiv]
 ||ads-pixiv.net^
-||imp.pixiv.net/premium_lp?$1p
-||pixiv.net/touch/ajax/premium/$1p
+||imp.pixiv.net/premium_lp?
+||pixiv.net/touch/ajax/premium/
 ||pixiv.org^
 ||pximg.net/touch/touch/img/cmn/ad-placeholder.png$image,domain=pixiv.net
 ! ||pximg.net/touch/touch/js/bundle/451a3635971462ec43c80bf1e18e5db7.svg$image,domain=pixiv.net
