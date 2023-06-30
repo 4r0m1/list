@@ -237,6 +237,7 @@ moguravr.com##.mg-bottom-nav-bar
 moguravr.com##.ads-only-mobile
 
 ! [電ファミニコゲーマー]
+||img-denfaminicogamer.com/wp-content/uploads/*_SP_$image,domain=denfaminicogamer.jp
 ||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/line_btn.png$image
 news.denfaminicogamer.jp##.amazon-wdgt-wrap
 news.denfaminicogamer.jp###dfng-banner
@@ -254,6 +255,7 @@ asahi.com##.PrInfoBlock
 asahi.com##body > div.notPrint
 book.asahi.com##.module-list-articles-2__item--zottosuru
 book.asahi.com##.module-top-ad
+dot.asahi.com##.p-article-aera__link--product
 www.asahi.com##li.TJcqi
 
 ! [まいどなニュース]
@@ -410,7 +412,7 @@ xtech.nikkei.com##.p-article_banner
 ||cdn-img.*/public/link-slot-series/$image,1p
 ||cdn-img.*/public/media_link_slot/$image,1p
 comic-days.com,viewer.heros-web.com,pocket.shonenmagazine.com,shonenjumpplus.com,tonarinoyj.jp##.inactive
-kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
+comic-action.com,kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
 kuragebunch.com##.page-ad
 pocket.shonenmagazine.com##.pwa-mini-infobar
 
