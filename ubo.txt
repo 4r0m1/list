@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-06-30
+! Last modified: 2023-07-03
 
 ! [汎用]
 *##.adsbygoogle
@@ -477,7 +477,7 @@ gamewith.jp##.walkthrough-ad-ranking-game
 gamewith.jp##.walkthrough-ad-recommend-game
 
 ! [神ゲー攻略]
-||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image,domain=kamigame.jp
+||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image
 ||kamigame-gameliv-bm0gw8idontct.com^
 kamigame.jp##.ad
 kamigame.jp##.information_footer
@@ -596,6 +596,7 @@ bukkenfan.jp##.footer-fixed-ad-h90
 careerhack.en-japan.com###articleShare
 chromebooker.net##.amp-unresolved
 chromeunboxed.com##.ezoic-ad
+cocology.info##.ads-wide
 darkreader.org##.page-grid-ios
 deepl.com###dl_cookieBanner
 earlyteches.com##amp-ad
@@ -640,6 +641,8 @@ smhn.info##.widget
 sp.okwave.jp##.adfunnel_special_box
 storiesig.app##.fr-a-block
 tarzanweb.jp##.takearest_block
+tenki.jp##.tenki-ad-lite-mid
+tenki.jp##.tenki-ad-lite-pd
 trilltrill.jp##.articleDetail-GAM
 trilltrill.jp##.js-w2a-banner
 twitcasting.tv##.alert
@@ -889,9 +892,6 @@ monolog.r-n-i.jp###graphArea
 ! 2022-06-18 srad.jp
 ||srad.jp/static/sprite-syndication.png$image
 
-! 2023-01-16 https://cocology.info
-cocology.info##.ads-wide
-
 ! 2023-02-23 nagoyatv.com
 ||nagoyatv.com/themes/nagoyatv_sp/news/images/bn_$image
 nagoyatv.com##.sns-btn
@@ -911,7 +911,7 @@ s.mognavi.jp###system-bottom-action
 ! 2023-04-29 intaa.net
 ||intaa.net^$inline-script
 
-! 2023-05-04 s.cosme.net
+! 2023-05-04 cosme.net
 ||cloudfront.net/images/spn/common/icons/facebook_logo_wht.png$image,domain=cosme.net
 ||cloudfront.net/images/spn/common/icons/ico_sns.png$image,domain=cosme.net
 ||cosme.net/brand/gadget/pr-area/
