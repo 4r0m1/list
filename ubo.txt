@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-07-03
+! Last modified: 2023-07-04
 
 ! [汎用]
 *##.adsbygoogle
@@ -14,7 +14,6 @@
 /advanced-ads-$domain=~wordpress.org
 /advanced-ads/*$domain=~wordpress.org
 /advertise/*
-/amazonjs/*
 /amp-ad-
 /amp-analytics-
 /amp-auto-ads-
@@ -35,7 +34,9 @@
 /oo/*/lsync.js$1p
 /oo/cl*.js?rd=$1p
 /optimizely-$script
+/plugins/gianism/*
 /plugins/wp-social-bookmarking-light/*
+/wp-content/plugins/amazonjs/*
 ||a8.net^
 ||fundingchoicesmessages.google.com^
 ||goo-access-analytics.appspot.com^
@@ -49,6 +50,7 @@
 ||sentry.io^
 ||socdm.com^
 ||speee-ad.akamaized.net^
+||st-hatena.com^*/entry-button/
 ||thench.net^
 ||twitter.com/i/jot
 ||xxgslt.com^
@@ -68,6 +70,7 @@
 
 ! SNS ======
 ||instagram.com/ajax/bz
+||px.srvcs.tumblr.com^
 ||tumblr.com/assets/scripts/tumblr/dashboard/showads.js
 ||tumblr.com/assets/html/iframe/login_check.html
 ||tumblr.com/pop/js/sf-
@@ -179,7 +182,7 @@ q.hatena.ne.jp###touch-permalink-keyword-rectangle
 www.hatena.ne.jp###smartphone-apps
 ! ====== SNS
 
-! 記事 ======
+! 時事 ======
 ! [GIGAZINE]
 ||pw.gigazine.net^
 gigazine.net##.sbn
@@ -291,6 +294,9 @@ president.jp##.ad-rectangle
 president.jp##.information
 president.jp##.recommend
 
+||news-postseven.com/uploads/*_bnr_$image,1p
+news-postseven.com##.w-SnsCount
+
 ||r25.jp/assets/*/img/app/mobile/android.jpg$image
 r25.jp##.KillerFloatingBanner
 
@@ -298,6 +304,7 @@ r25.jp##.KillerFloatingBanner
 realsound.jp##.adsenseArea
 realsound.jp##.entryBottomAd
 realsound.jp##.paragraphAd
+realsound.jp###gStickyAd
 
 ||consensu.org^
 forum.xda-developers.com###xdadevelopers_leaderboard_atf
@@ -323,8 +330,9 @@ note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||blog.livedoor.jp/css/lite2/footer/common.css
 ||blog.livedoor.jp/img/*/bg_body.jpg$image
 ||common.blogimg.jp/stf/common/banner/$image,domain=livedoor.com
-||news.livedoor.com/api/*$xhr,1p
-||news.livedoor.com/img/lite/common/ico_$image,1p
+||countrycheck.livedoor.com^
+||news.livedoor.com/api/$xhr,1p
+||news.livedoor.com/img/lite/common/ico_$image
 ||parts.blog.livedoor.jp/img/lite2/item/social_buttons/
 blog.livedoor.jp##.blog-footer
 blog.livedoor.jp###gdpr-banner
@@ -362,6 +370,18 @@ oshiete.goo.ne.jp##.ListPosts-item--PR-crown
 oshiete.goo.ne.jp##.readMore-btn
 www.goo.ne.jp##.socialbutton
 
+! [CNET Japan]
+||japan.cnet.com/media/c/2012/images/responsive/icon_
+||japan.cnet.com/parts/frame/
+japan.cnet.com##.inner-pr
+japan.cnet.com###tieup_control_sp
+
+! [ビジネスジャーナル]
+||biz-journal.jp/wp-content/themes/biz-journal/sp/img/sp_*_btn.
+biz-journal.jp##.adsenseArea
+biz-journal.jp##.entryBody > div
+
+||smart-flash.jp/wp-content/themes/original/embed/sp_recommend_withthumb.html
 4gamer.net##.large_banner
 4gamer.net##.pr_box
 4gamer.net##.SP_JACK
@@ -400,15 +420,15 @@ saga-s.co.jp##.m-ad
 salon.mainichi-kotoba.jp###js-footer-bar
 shueisha.online##.-post-header
 shueisha.online##.category-default > div > .-ad-Large
+times.abema.tv##.article-tvbtn-under-ad
+times.abema.tv##.js-nowonair-fixed
 tokyo-sports.co.jp##.top-bnr-area
-wired.jp##.ad-stickyhero
-wired.jp##.callout--has-top-border
 withnews.jp##.sticky-share
 www.nishinippon.co.jp##.c-ad-header
 www.sankei.com###sponsored
 www3.nhk.or.jp###appsbanner
 xtech.nikkei.com##.p-article_banner
-! ====== 記事
+! ====== 時事
 
 ! マンガ ======
 ! /public/link-slot-series/*$image,1p
@@ -427,7 +447,7 @@ sai-zen-sen.jp##.misc
 sai-zen-sen.jp##footer
 sai-zen-sen.jp###overlay-ad
 
-||web-ace.jp/img/sp/hatena.png$image
+||web-ace.jp/img/sp/hatena.png
 web-ace.jp##.comic
 web-ace.jp##.footer-sns
 web-ace.jp##.ouen
@@ -490,12 +510,13 @@ altema.jp##.head_koukoku_wrapper
 altema.jp##.PRrank-icon2
 
 ||amazonaws.com^$subdocument,domain=gameranbu.jp
+||chara.ge/wp-content/uploads/2022/04/raid_shadow_legends002.$image,1p
 
 ! [グラブル]
 ||cdn-connect.mobage.jp/jssdk/mobage-menubar.2.6.1.min.js
 ||cdn-connect.mobage.jp/jssdk/mobage-jssdk-client.3.7.9.min.js
 
-! 2020-10-21 blog.asakusa64.tokyo
+! [攻略ブログまとめマグナム]
 ||blog.asakusa64.tokyo/wp-content/uploads/$image
 ||blog.asakusa64.tokyo/image/guraburu/$image
 @@||rcm.shinobi.jp/r/$domain=blog.asakusa64.tokyo
@@ -567,6 +588,10 @@ recipe.rakuten.co.jp##.brand_ad_area
 ||smart-flash.jp^$doc,removeparam=|rf
 
 
+||counter.wikiwiki.jp^
+||tabelog.com/tbsp/tpoint_appli_times_modals/
+||zawazawa.jp/a/pv/
+
 4travel.jp##.u_adplanBox
 aconvert.com##.bluebg
 add0n.com###adb
@@ -587,8 +612,6 @@ bbs.animanch.com##li > .inner
 bbs.animanch.com###recents > .inner
 benricho.org##.ad-space
 bike.shimano.com##.cookiesnotification
-blog.tinect.jp##.g
-blog.tinect.jp###navi
 bookmeter.com##.application__ads
 bookmeter.com##.application__fixed-footer
 bookwalker.jp##.coupon-area
@@ -664,6 +687,8 @@ weheartit.com##.sticky-ad
 wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
+wired.jp##.ad-stickyhero
+wired.jp##.callout--has-top-border
 workman.jp###cookieBox
 www.daily.co.jp##.adv
 www.oricon.co.jp##.block-recommend-list
@@ -759,7 +784,16 @@ w.atwiki.jp##.atwiki-sp-only
 w.atwiki.jp##.atwiki-tanuki-recommend
 w.atwiki.jp###atwiki-ads-overlay
 
-! 2020-03-26 openweathermap.org
+! [Books&Apps]
+||blog.tinect.jp/wp-content/themes/books-apps-pc/images/btn-
+||blog.tinect.jp/wp-content/themes/books-apps-pc/images/right-mailmagazine-reg.png
+||blog.tinect.jp/wp-content/themes/books-apps-pc/js/social-count.js
+||blog.tinect.jp/wp-content/themes/books-apps-sp/images/btn-
+||blog.tinect.jp/wp-content/themes/books-apps-sp/images/icon-
+blog.tinect.jp##.g
+blog.tinect.jp###navi
+
+! [OpenWeatherMap]
 ||openweathermap.org/themes/openweathermap/assets/img/mobile_app/$image
 openweathermap.org##.banner_stripe
 openweathermap.org###stick-footer-panel
@@ -775,9 +809,6 @@ moguna.com##.SiteHeader-app
 ! 2020-12-20 cocolog-nifty.com
 ||analytics.cocolog-nifty.com^
 ||cocolog-nifty.com/.shared-cocolog/
-
-! 2020-12-30 tabelog.com
-||tabelog.com/tbsp/tpoint_appli_times_modals/
 
 ! 2021-02-02 tokubai.co.jp
 ||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate
@@ -812,30 +843,11 @@ wattpad.com##.bottom-banner
 kotobank.jp##.sp-word-ad
 kotobank.jp###ftInfo
 
-! 2021-06-20 times.abema.tv
-||cloudfront.net/files/user/images/design/logo_facebook.$domain=times.abema.tv
-||cloudfront.net/files/user/images/design/logo_twitter.$domain=times.abema.tv
-times.abema.tv##div.component-wrapper > iframe
-times.abema.tv##.c-article-share
-
-! 2021-07-21 japan.cnet.com
-||japan.cnet.com/parts/frame/$1p
-japan.cnet.com###tieup_control_sp
-
-! 2021-09-20 biz-journal.jp
-||biz-journal.jp/wp-content/themes/biz-journal/img/bj_bnr_$image
-biz-journal.jp##.adsenseArea
-biz-journal.jp##.entryBody > div
-
 ! 2021-10-15 9gag.com
 ||privacy-api.9gag.com^
 9gag.com##.salt-container
 9gag.com##.navbar
 9gag.com##.footer
-
-! 2021-10-25 news-postseven.com
-||news-postseven.com/uploads/*_bnr_$image,1p
-news-postseven.com##.w-SnsCount
 
 ! 2021-12-14 m.vk.com
 ||vk.com/css/mobile/unauthorized.$1p
