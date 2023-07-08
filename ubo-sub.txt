@@ -96,7 +96,8 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1623652043872411648/PDgREi8i_normal.png"])
 ! https://togetter.com/li/2105887
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1638338813641752577/_vDQYun2_normal.jpg"])
-
+! https://togetter.com/li/2162774
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1650761666420965377/OCkw4ag__normal.jpg"])
 
 
 ! 最古の記事
