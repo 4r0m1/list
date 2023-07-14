@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-07-04
+! Last modified: 2023-07-14
 
 ! [汎用]
 *##.adsbygoogle
@@ -38,8 +38,10 @@
 /plugins/wp-social-bookmarking-light/*
 /wp-content/plugins/amazonjs/*
 ||a8.net^
+||adtdp.com^
 ||fundingchoicesmessages.google.com^
 ||goo-access-analytics.appspot.com^
+||google.com/generate_204$~xhr
 ||gsspcln.jp^
 ||gumgum.com^
 ||impact-ad.jp^
@@ -47,6 +49,7 @@
 ||microad.jp^
 ||onelink.me^
 ||platform.twitter.com/js/button.$3p
+||presage.io^
 ||sentry.io^
 ||socdm.com^
 ||speee-ad.akamaized.net^
@@ -182,31 +185,7 @@ q.hatena.ne.jp###touch-permalink-keyword-rectangle
 www.hatena.ne.jp###smartphone-apps
 ! ====== SNS
 
-! 時事 ======
-! [GIGAZINE]
-||pw.gigazine.net^
-gigazine.net##.sbn
-gigazine.net###LB
-gigazine.net##div.e_ad
-
-! [メディアジーン]
-businessinsider.jp###in-rec0st
-lifehacker.jp,gizmodo.jp##.inner-buy-box
-gizmodo.jp##.p-post-ad
-gizmodo.jp##.p-recommend
-gizmodo.jp##.s-body-ad
-lifehacker.jp##.lh-amazonSec
-lifehacker.jp##.lh-banner
-lifehacker.jp##.lh-slide:has(.lh-summary-sponsored)
-
-lifehacker.com##.js_ad-dynamic
-lifehacker.com##.js_commerce-inset-permalink
-lifehacker.com##.js_modal_exit_intent
-lifehacker.com##.js_newsletter-form-inline
-lifehacker.com##.js_related-stories-inset
-lifehacker.com##.js_sticky-footer
-lifehacker.com##.js_subscribe
-
+! 時事ニュース ======
 ! [Impress Watch]
 ||beacon.watch.impress.co.jp^
 ||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf|
@@ -311,20 +290,6 @@ forum.xda-developers.com###xdadevelopers_leaderboard_atf
 forum.xda-developers.com###xdadevelopers_leaderboard_btf
 www.xda-developers.com##.honor-spon-banner
 
-! [Qiita]
-qiita.com##.ad-300x250
-qiita.com##.it-Ads_afterBodyContainer
-qiita.com##.p-home_ad
-qiita.com##.p-items_wrapper-white
-qiita.com##.st-Modal
-qiita.com##[id^=logly-lift]
-
-! [note]
-note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
-||assets.st-note.com/poc-image/$image
-||logcollector.note.com^
-||note.com/api/v*/trackings/
-
 ! [ライブドア]
 ||blog.livedoor.com/blog_portal/lite/img/v3/common/blogreader_banner.jpg
 ||blog.livedoor.jp/css/lite2/footer/common.css
@@ -348,27 +313,27 @@ news.mynavi.jp##.c-sidePickup
 news.mynavi.jp##.overLayBnr
 news.mynavi.jp###csw_block
 
-! [キナリノ]
-||k-img.com/assets/webpage/weather_forecasts/$image,domain=kinarino.jp
-||k-img.com/system/limited_banners/$image,domain=kinarino.jp
-||k-img.com/assets/webpage/app$image,domain=kinarino.jp
-kinarino.jp##.c-item__container--nw-ad
-kinarino.jp##.c-item__piece--target-app
-kinarino.jp##.c-item:has(.c-icon--pr)
-kinarino.jp##.l-header__banner
-kinarino.jp###js-appeal-top-banner
-kinarino.jp###js-view-in-app
-kinarino.jp###recommend-list
-
 ! [goo]
+||log000.goo.ne.jp^
+@@||log000.goo.ne.jp/js/vltracedmd.js$domain=news.goo.ne.jp
 ||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
+||xgoo.jp/top2018/public/r_js/push/
 blog.goo.ne.jp##.article__ad
 blog.goo.ne.jp###msg-box-app-recommend
 dictionary.goo.ne.jp##.app_promotion_button
+goo.ne.jp###gooad-spbadge300_1
+goo.ne.jp###gooad-spbadge300_2
+goo.ne.jp###gooad-spbadge300_3
+goo.ne.jp###gooad-spbadge300_4
+goo.ne.jp###gooad-spbadge300_5
+goo.ne.jp###gooad-spbadge300_6
+goo.ne.jp###gooad-spbadge320_1
 oshiete.goo.ne.jp##.Ad
 oshiete.goo.ne.jp##.ListPosts-item--PR-crown
 oshiete.goo.ne.jp##.readMore-btn
-www.goo.ne.jp##.socialbutton
+www.goo.ne.jp###gooad-spinfeed-topics1_1
+www.goo.ne.jp###gooad-spinfeed-topics1_2
+www.goo.ne.jp###mental
 
 ! [CNET Japan]
 ||japan.cnet.com/media/c/2012/images/responsive/icon_
@@ -428,7 +393,60 @@ www.nishinippon.co.jp##.c-ad-header
 www.sankei.com###sponsored
 www3.nhk.or.jp###appsbanner
 xtech.nikkei.com##.p-article_banner
-! ====== 時事
+! ====== 時事ニュース
+
+! 記事 =====
+! [GIGAZINE]
+||pw.gigazine.net^
+gigazine.net##.sbn
+gigazine.net###LB
+gigazine.net###LT
+gigazine.net##div.e_ad
+
+! [メディアジーン]
+businessinsider.jp###in-rec0st
+lifehacker.jp,gizmodo.jp##.inner-buy-box
+gizmodo.jp##.p-post-ad
+gizmodo.jp##.p-recommend
+gizmodo.jp##.s-body-ad
+lifehacker.jp##.lh-amazonSec
+lifehacker.jp##.lh-banner
+lifehacker.jp##.lh-slide:has(.lh-summary-sponsored)
+
+lifehacker.com##.js_ad-dynamic
+lifehacker.com##.js_commerce-inset-permalink
+lifehacker.com##.js_modal_exit_intent
+lifehacker.com##.js_newsletter-form-inline
+lifehacker.com##.js_related-stories-inset
+lifehacker.com##.js_sticky-footer
+lifehacker.com##.js_subscribe
+
+! [Qiita]
+qiita.com##.ad-300x250
+qiita.com##.it-Ads_afterBodyContainer
+qiita.com##.p-home_ad
+qiita.com##.p-items_wrapper-white
+qiita.com##.st-Modal
+qiita.com##[id^=logly-lift]
+
+! [note]
+note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
+||assets.st-note.com/poc-image/$image
+||logcollector.note.com^
+||note.com/api/v*/trackings/
+
+! [キナリノ]
+||k-img.com/assets/webpage/weather_forecasts/$image,domain=kinarino.jp
+||k-img.com/system/limited_banners/$image,domain=kinarino.jp
+||k-img.com/assets/webpage/app$image,domain=kinarino.jp
+kinarino.jp##.c-item__container--nw-ad
+kinarino.jp##.c-item__piece--target-app
+kinarino.jp##.c-item:has(.c-icon--pr)
+kinarino.jp##.l-header__banner
+kinarino.jp###js-appeal-top-banner
+kinarino.jp###js-view-in-app
+kinarino.jp###recommend-list
+! ===== 記事
 
 ! マンガ ======
 ! /public/link-slot-series/*$image,1p
@@ -476,6 +494,8 @@ yanmaga.jp##.-cv-pr
 
 ! ゲーム ======
 ! [GameWith]
+||cse.google.com/adsense/search/async-ads.js
+||cse.google.com/cse_v2/ads?
 ||gamewith.jp/ad/
 ||gamewith.jp/app/pr/
 ||gamewith.jp/article_tools/g123/$image
