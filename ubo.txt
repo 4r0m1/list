@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-07-14
+! Last modified: 2023-07-15
 
 ! [汎用]
 *##.adsbygoogle
@@ -312,28 +312,6 @@ news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.c-sidePickup
 news.mynavi.jp##.overLayBnr
 news.mynavi.jp###csw_block
-
-! [goo]
-||log000.goo.ne.jp^
-@@||log000.goo.ne.jp/js/vltracedmd.js$domain=news.goo.ne.jp
-||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
-||xgoo.jp/top2018/public/r_js/push/
-blog.goo.ne.jp##.article__ad
-blog.goo.ne.jp###msg-box-app-recommend
-dictionary.goo.ne.jp##.app_promotion_button
-goo.ne.jp###gooad-spbadge300_1
-goo.ne.jp###gooad-spbadge300_2
-goo.ne.jp###gooad-spbadge300_3
-goo.ne.jp###gooad-spbadge300_4
-goo.ne.jp###gooad-spbadge300_5
-goo.ne.jp###gooad-spbadge300_6
-goo.ne.jp###gooad-spbadge320_1
-oshiete.goo.ne.jp##.Ad
-oshiete.goo.ne.jp##.ListPosts-item--PR-crown
-oshiete.goo.ne.jp##.readMore-btn
-www.goo.ne.jp###gooad-spinfeed-topics1_1
-www.goo.ne.jp###gooad-spinfeed-topics1_2
-www.goo.ne.jp###mental
 
 ! [CNET Japan]
 ||japan.cnet.com/media/c/2012/images/responsive/icon_
@@ -775,6 +753,27 @@ m.mail.yahoo.co.jp###bnr_f3ex
 m.mail.yahoo.co.jp###bnr_top
 m.yahoo.co.jp###rsab
 news.yahoo.co.jp##.null
+
+! [goo]
+||dictionary.goo.ne.jp/img/app_promotion/
+||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
+||xgoo.jp/top2018/public/r_js/push/
+blog.goo.ne.jp##.article__ad
+blog.goo.ne.jp###msg-box-app-recommend
+dictionary.goo.ne.jp##.app_promotion_button
+goo.ne.jp###gooad-spbadge300_1
+goo.ne.jp###gooad-spbadge300_2
+goo.ne.jp###gooad-spbadge300_3
+goo.ne.jp###gooad-spbadge300_4
+goo.ne.jp###gooad-spbadge300_5
+goo.ne.jp###gooad-spbadge300_6
+goo.ne.jp###gooad-spbadge320_1
+oshiete.goo.ne.jp##.Ad
+oshiete.goo.ne.jp##.ListPosts-item--PR-crown
+oshiete.goo.ne.jp##.readMore-btn
+www.goo.ne.jp###gooad-spinfeed-topics1_1
+www.goo.ne.jp###gooad-spinfeed-topics1_2
+www.goo.ne.jp###mental
 
 ! [カクヨム]
 ||kakuyomu.jp/images/common/facebook.
