@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-07-15
+! Last modified: 2023-07-21
 
 ! [汎用]
 *##.adsbygoogle
@@ -324,6 +324,14 @@ japan.cnet.com###tieup_control_sp
 biz-journal.jp##.adsenseArea
 biz-journal.jp##.entryBody > div
 
+! [dメニューニュース]
+||addlv.smt.docomo.ne.jp^
+||img.topics.smt.news.goo.ne.jp^$script
+||rec1.smt.docomo.ne.jp^
+topics.smt.docomo.ne.jp##.ad_middle05
+topics.smt.docomo.ne.jp##.banner
+topics.smt.docomo.ne.jp###ad_middle
+
 ||smart-flash.jp/wp-content/themes/original/embed/sp_recommend_withthumb.html
 4gamer.net##.large_banner
 4gamer.net##.pr_box
@@ -429,6 +437,7 @@ kinarino.jp###recommend-list
 ! マンガ ======
 ! /public/link-slot-series/*$image,1p
 ! /public/media_link_slot/*$image,1p
+||cdn-img.comic-zenon.com/public/uploaded-content/link_slot_group/$image
 ||cdn-img.*/public/link-slot-series/$image,1p
 ||cdn-img.*/public/media_link_slot/$image,1p
 comic-days.com,viewer.heros-web.com,pocket.shonenmagazine.com,shonenjumpplus.com,tonarinoyj.jp##.inactive
@@ -525,11 +534,14 @@ altema.jp##.PRrank-icon2
 ! 通販 =====
 ! [Amazon]
 ||images-fe.ssl-images-amazon.com/images/S/apesafeframe/
-www.amazon.co.jp##.AdHolder
-www.amazon.co.jp##.amzn-safe-frame-container
-www.amazon.co.jp##.aw-campaigns
-www.amazon.co.jp##.sparkle-open
-www.amazon.co.jp##.template\=CARDS
+amazon.co.jp##.AdHolder
+amazon.co.jp##.amzn-safe-frame-container
+amazon.co.jp##.s-widget-spacing-small.s-widget
+amazon.co.jp###detailILMPercolate_feature_div
+amazon.co.jp###discovery-and-inspiration_feature_div
+amazon.co.jp###hero-quick-promo_feature_div
+amazon.co.jp###mobile-ads-bottom_feature_div.celwidget
+amazon.co.jp###mobile-ads-middle_feature_div.celwidget
 
 ! [ビックカメラ]
 ||biccamera.com/bc/disp/CSfBcGoodsPolicy_Sp_J.jsp
@@ -663,6 +675,7 @@ sp.okwave.jp##.adfunnel_special_box
 storiesig.app##.fr-a-block
 tarzanweb.jp##.takearest_block
 tenki.jp##.tenki-ad-lite-mid
+tenki.jp##.tenki-ad-lite-north
 tenki.jp##.tenki-ad-lite-pd
 trilltrill.jp##.articleDetail-GAM
 trilltrill.jp##.js-w2a-banner
@@ -843,7 +856,7 @@ tokubai.co.jp##.smart_app_banner
 ||wapi.kurashiru.com/wapi/videos/ranking?mask=true
 www.kurashiru.com##.SpAside-section--rankings
 
-! 2021-02-27 dlsite.com
+! [DLsite]
 ||media.dlsite.com/bcs/$image
 ||dlsite.com/js/adultcheck.js$script
 ||dlsite.com/modpub/images/banner/$image,1p
@@ -895,14 +908,6 @@ ddnavi.com##.buttonlink2
 ||hotpepper.jp/doc/mesitsu_rilo/sp/riloparts.html
 www.hotpepper.jp##.entry-header-html
 www.hotpepper.jp##.sns-follow-btn-box
-
-! 2022-04-10 topics.smt.docomo.ne.jp
-||addlv.smt.docomo.ne.jp^
-||img.topics.smt.news.goo.ne.jp^$script
-||rec1.smt.docomo.ne.jp^
-topics.smt.docomo.ne.jp##.ad_middle05
-topics.smt.docomo.ne.jp##.banner
-topics.smt.docomo.ne.jp###ad_middle
 
 ! 2022-04-18 monolog.r-n-i.jp
 ||monolog.r-n-i.jp/upload/monolog-banner.png$image
