@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-07-21
+! Last modified: 2023-08-09
 
 ! [汎用]
 *##.adsbygoogle
@@ -134,9 +134,14 @@ www.pixiv.net##div.premium-lead-new-t-info-home-top
 ! [ニジエ]
 ||nijie.info/js/ad.js
 ||nijie.info/members_picture/nijie_noimage.jpg$image,domain=nigie.info
+||pic.nijie.net/01/nijie/00/banner/$image,domain=nijie.info
+||pic.nijie.net/02/nijie/00/banner/$image,domain=nijie.info
+||pic.nijie.net/03/nijie/00/banner/$image,domain=nijie.info
 ||thumbs.nijie.net/dmm/$image,domain=nijie.info
+||thumbs.nijie.net/dlsite/$image,domain=nijie.info
 sp.nijie.info###header_ad
 sp.nijie.info###inter_background
+sp.nijie.info###tieup_column
 
 ! [Pinterest]
 ||pinterest.jp/resource/ContextLogResource/
@@ -155,6 +160,8 @@ togetter.com##.app_download_footer
 togetter.com##.app-dl
 ! 下部固定SNS共有
 togetter.com##.fixed_social_footer
+! Amazonリンク枠
+togetter.com##.list_box:has(.quote_box)
 ! 下部固定広告枠
 togetter.com###ad_overlay
 ! 上部固定公式アプリリンク
@@ -271,6 +278,7 @@ gendai.media##.event_banner
 ||president.ismcdn.jp/common/president/images/icon_$image,domain=president.jp
 president.jp##.ad-rectangle
 president.jp##.information
+president.jp##.js-sns-wrap
 president.jp##.recommend
 
 ||news-postseven.com/uploads/*_bnr_$image,1p
@@ -498,6 +506,7 @@ gamewith.jp##.ad-header-creative-wrapper
 gamewith.jp##.fs-s.c-box
 gamewith.jp##.is-pr
 gamewith.jp##.p-search-recommend
+gamewith.jp##.sub-col-wrap
 gamewith.jp##.to-btn--deep-link
 gamewith.jp##.to-btn-area
 gamewith.jp##.walkthrough-ad-ranking-game
@@ -646,6 +655,7 @@ icon-icons.com##.apu
 kajetblog.com##.p-adBox
 knowyourmeme.com##.ads
 kurashi-no.jp##.Ad_Rectangle_Widget
+macaro-ni.jp##.ad-articleInline
 magazine.cainz.com###sideShareArea
 magazine.cainz.com###visitBan
 marshmallow-qa.com##li.ad
@@ -655,6 +665,7 @@ mi-mollet.com###MM_SP_Billboard
 mi-mollet.com###MM_SP_readmore
 minitool.com##.promotions-banner-wrap
 mitok.info##.ads_item
+mitok.info##.entry_footer_ads
 mitok.info##section .custom-html-widget
 musicenc.com##.ins1
 natalie.mu##.NA_ad
@@ -664,6 +675,7 @@ nordot.app##div.page__ad
 phileweb.com###sp_article_undertitle_wrapper
 picnob.com##.wid
 picnob.com##.ah-box
+roomie.jp##.article1-ad
 roomie.jp##.araklet
 s.rbbtoday.com##.aside-box-pickup
 s.rbbtoday.com###ad1
@@ -676,6 +688,7 @@ storiesig.app##.fr-a-block
 tarzanweb.jp##.takearest_block
 tenki.jp##.tenki-ad-lite-mid
 tenki.jp##.tenki-ad-lite-north
+tenki.jp##.tenki-ad-lite-overlay
 tenki.jp##.tenki-ad-lite-pd
 trilltrill.jp##.articleDetail-GAM
 trilltrill.jp##.js-w2a-banner
@@ -765,6 +778,7 @@ m.mail.yahoo.co.jp###ad_container_top
 m.mail.yahoo.co.jp###bnr_f3ex
 m.mail.yahoo.co.jp###bnr_top
 m.yahoo.co.jp###rsab
+news.yahoo.co.jp##.adWrap
 news.yahoo.co.jp##.null
 
 ! [goo]
@@ -938,6 +952,7 @@ weathernews.jp###app_dl
 
 ! 2023-03-30 fantia.jp
 ||fantia.jp/uploads/display_campaign/banner_image/$image
+||spotlight.fantia.jp/wp-json/api/v1/ads?
 
 ! 2023-03-31 s.mognavi.jp
 ||cdn1.s.mognavi.jp^$image
@@ -955,3 +970,6 @@ s.cosme.net##.global-feed-timeline
 s.cosme.net##.pdt-purchase
 s.cosme.net##.pdt-review-sort-premium
 s.cosme.net##.purchase-wrap
+
+! 2023-07-24 tsumanne.net
+||cwn.tsumanne.net/ad.html
