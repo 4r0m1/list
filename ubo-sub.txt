@@ -39,6 +39,8 @@ togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_image
 
 ! https://togetter.com/li/51870
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1162262662798929920/GoC81Rw7_normal.jpg"])
+! https://togetter.com/li/218579
+togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/1647598654570758144/BhyZIT6H_normal.jpg"])
 ! https://togetter.com/li/231401
 togetter.com##.simple_list > li:has(img[src="https://pbs.twimg.com/profile_images/3658421432/7701a3bd22bf6f31d55ea7ec9e6a4569_normal.png"])
 ! https://togetter.com/li/234735
