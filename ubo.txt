@@ -2,11 +2,11 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-08-09
+! Last modified: 2023-08-30
 
 ! [汎用]
-*##.adsbygoogle
-*##[id^="div-gpt-ad"]
+##.adsbygoogle
+##[id^="div-gpt-ad"]
 *###gdpr-banner
 *###WIX_ADS
 /?sentry_key=
@@ -174,6 +174,18 @@ togetter.com###comments-summary-portal
 togetter.com##a[data-ga="action_moreapp"]
 togetter.com##li:has(.icon_pr)
 
+! [Twitter(X)関連]
+buhitter.com##aside.row
+twoucan.com##.twoucan-ad
+twoucan.com##.twoucan-footer-ad
+twoucan.com###app_advertise
+
+! [Instagram関連]
+instagrammernews.com##.footerBanner
+picnob.com##.wid
+picnob.com##.ah-box
+picnob.com##.ah-box-n-w
+
 ! [はてな]
 @@||b.hatena.ne.jp/entry/jsonlite/$script,domain=lab.syncer.jp
 ||b.hatena.ne.jp^$3p
@@ -267,19 +279,28 @@ bunshun.jp##.ad-banner
 bunshun.jp###sp_multiplex
 bunshun.jp##li:has(.pr)
 crea.bunshun.jp###wrapper > div
+number.bunshun.jp##[id^=logly-lift]
 number.bunshun.jp##.container-banner-02
 number.bunshun.jp##.social-buttons
+number.bunshun.jp##.recommend-4panel-wrap
 
 ||gendai-m.ismcdn.jp/common/images/v3/ad/$image
 ||gendai.media/common/bluebacks/$image
 ||gendai.media/common/images/v3/ad/$image
+gendai.media##.ad-in-article
 gendai.media##.event_banner
+gendai.media##.reduce-CLS
 
 ||president.ismcdn.jp/common/president/images/icon_$image,domain=president.jp
 president.jp##.ad-rectangle
 president.jp##.information
 president.jp##.js-sns-wrap
 president.jp##.recommend
+
+||toyokeizai.net/mwimgs/$image
+toyokeizai.net##ul > .block-pr
+toyokeizai.net###related .block-pr
+toyokeizai.net###wrapper > div.ad-bnr
 
 ||news-postseven.com/uploads/*_bnr_$image,1p
 news-postseven.com##.w-SnsCount
@@ -383,6 +404,8 @@ times.abema.tv##.article-tvbtn-under-ad
 times.abema.tv##.js-nowonair-fixed
 tokyo-sports.co.jp##.top-bnr-area
 withnews.jp##.sticky-share
+www.daily.co.jp##.add-button-dialog
+www.daily.co.jp##.adv
 www.nishinippon.co.jp##.c-ad-header
 www.sankei.com###sponsored
 www3.nhk.or.jp###appsbanner
@@ -440,6 +463,24 @@ kinarino.jp##.l-header__banner
 kinarino.jp###js-appeal-top-banner
 kinarino.jp###js-view-in-app
 kinarino.jp###recommend-list
+
+anime.eiga.com##.adBox
+anime.eiga.com###rect_ad
+appbank.net##.body-ad
+appbank.net##.fixed-height
+appbank.net##h2
+jp.ign.com##.billboard
+kurashi-no.jp##.Ad_Rectangle_Widget
+natalie.mu##.NA_ad
+nazology.net##.ads
+phileweb.com###sp_article_undertitle_wrapper
+roomie.jp##.article1-ad
+roomie.jp##.araklet
+smartasw.com##.has-border
+smhn.info##.top_ad
+smhn.info##.widget
+wired.jp##.ad-stickyhero
+wired.jp##.callout--has-top-border
 ! ===== 記事
 
 ! マンガ ======
@@ -538,6 +579,7 @@ altema.jp##.PRrank-icon2
 @@||rcm.shinobi.jp/r/$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/js/imp.js$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/css/webiconfont.css$domain=blog.asakusa64.tokyo
+blog.asakusa64.tokyo##.amazon-ad
 ! ====== ゲーム
 
 ! 通販 =====
@@ -617,13 +659,8 @@ add0n.com###adb
 ameblo.jp##.LazyLoad
 aminoapps.com##.ad-block-container-mobile
 android.gadgethacks.com##.rightbox
-anime.eiga.com##.adBox
-anime.eiga.com###rect_ad
 apkpure.com##.ad-box
 app.raindrop.io##.upgrade-1DKr
-appbank.net##.body-ad
-appbank.net##.fixed-height
-appbank.net##h2
 appllio.com##.ad-appllio-Title
 aucfan.com##.nativeAdRakuten1
 awesomeopensource.com##.adsense_uas
@@ -654,7 +691,6 @@ grapee.jp##aside
 icon-icons.com##.apu
 kajetblog.com##.p-adBox
 knowyourmeme.com##.ads
-kurashi-no.jp##.Ad_Rectangle_Widget
 macaro-ni.jp##.ad-articleInline
 magazine.cainz.com###sideShareArea
 magazine.cainz.com###visitBan
@@ -667,22 +703,11 @@ minitool.com##.promotions-banner-wrap
 mitok.info##.ads_item
 mitok.info##.entry_footer_ads
 mitok.info##section .custom-html-widget
-musicenc.com##.ins1
-natalie.mu##.NA_ad
-nazology.net##.ads
 nordot.app##.main__adWrapper
 nordot.app##div.page__ad
-phileweb.com###sp_article_undertitle_wrapper
-picnob.com##.wid
-picnob.com##.ah-box
-roomie.jp##.article1-ad
-roomie.jp##.araklet
 s.rbbtoday.com##.aside-box-pickup
 s.rbbtoday.com###ad1
 s.rbbtoday.com##div.aside-box-ad
-smartasw.com##.has-border
-smhn.info##.top_ad
-smhn.info##.widget
 sp.okwave.jp##.adfunnel_special_box
 storiesig.app##.fr-a-block
 tarzanweb.jp##.takearest_block
@@ -693,9 +718,6 @@ tenki.jp##.tenki-ad-lite-pd
 trilltrill.jp##.articleDetail-GAM
 trilltrill.jp##.js-w2a-banner
 twitcasting.tv##.alert
-twoucan.com##.twoucan-ad
-twoucan.com##.twoucan-footer-ad
-twoucan.com###app_advertise
 uptodown.com###header_ad
 uta-net.com##.ad-area-b:not(.pc-official-link)
 uta-net.com##.ad-area-c
@@ -711,10 +733,7 @@ weheartit.com##.sticky-ad
 wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
-wired.jp##.ad-stickyhero
-wired.jp##.callout--has-top-border
 workman.jp###cookieBox
-www.daily.co.jp##.adv
 www.oricon.co.jp##.block-recommend-list
 www.reddit.com##.xPromoChoiceBanner
 www.reddit.com##.XPromoPill
