@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-08-30
+! Last modified: 2023-09-16
 
 ! [汎用]
 ##.adsbygoogle
@@ -198,6 +198,7 @@ b.hatena.ne.jp##.entrylist-ad-sp-fluid
 b.hatena.ne.jp##.entrylist-ad-sp-rectangle
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.ad
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ad-in-entry
+hatenablog.com##.globalPage-ad
 q.hatena.ne.jp##.google_afc_blocklink_smartphone
 q.hatena.ne.jp##.touch-rectangle-wrapper
 q.hatena.ne.jp###touch-permalink-keyword-rectangle
@@ -276,6 +277,7 @@ maidonanews.jp##div.module-ad
 ||number.bunshun.jp/list/personal/authtype.json
 ||number.ismcdn.jp/common/numberweb/v4/images/sns/$image
 bunshun.jp##.ad-banner
+bunshun.jp##.recommend
 bunshun.jp###sp_multiplex
 bunshun.jp##li:has(.pr)
 crea.bunshun.jp###wrapper > div
@@ -469,6 +471,8 @@ anime.eiga.com###rect_ad
 appbank.net##.body-ad
 appbank.net##.fixed-height
 appbank.net##h2
+getnews.jp###resp_article_undertitle
+getnews.jp###resp_rectangle_1st
 jp.ign.com##.billboard
 kurashi-no.jp##.Ad_Rectangle_Widget
 natalie.mu##.NA_ad
@@ -554,10 +558,12 @@ gamewith.jp##.walkthrough-ad-ranking-game
 gamewith.jp##.walkthrough-ad-recommend-game
 
 ! [神ゲー攻略]
+||kamigame.jp/img/granbluefantasy/granbluefantasy_bg.png$image
 ||kamigame.jp/wp-content/themes/kamigame-gameliv/img/pre-registration/$image
 ||kamigame-gameliv-bm0gw8idontct.com^
 kamigame.jp##.ad
 kamigame.jp##.information_footer
+kamigame.jp##.pre-registration-widget
 kamigame.jp###ad_top
 
 ! [アルテマ]
@@ -827,7 +833,9 @@ www.goo.ne.jp###mental
 ||kakuyomu.jp/images/common/line.
 ||kakuyomu.jp/images/common/twitter.
 kakuyomu.jp##.widget-ad-touchRectangle
+kakuyomu.jp##.widget-dynamicLinksButton
 kakuyomu.jp###episodeFooter-inner
+kakuyomu.jp###readWithApp
 kakuyomu.jp###signUpBalloon
 
 ! [クックパッド]
