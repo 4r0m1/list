@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-09-16
+! Last modified: 2023-09-20
 
 ! [汎用]
 ##.adsbygoogle
@@ -474,6 +474,7 @@ appbank.net##h2
 getnews.jp###resp_article_undertitle
 getnews.jp###resp_rectangle_1st
 jp.ign.com##.billboard
+jp.ign.com##.mobileArticleAds
 kurashi-no.jp##.Ad_Rectangle_Widget
 natalie.mu##.NA_ad
 nazology.net##.ads
@@ -582,10 +583,12 @@ altema.jp##.PRrank-icon2
 ! [攻略ブログまとめマグナム]
 ||blog.asakusa64.tokyo/wp-content/uploads/$image
 ||blog.asakusa64.tokyo/image/guraburu/$image
+@@||cnobi.jp/v1/gazorss/recommend/$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/r/$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/js/imp.js$domain=blog.asakusa64.tokyo
 @@||rcm.shinobi.jp/css/webiconfont.css$domain=blog.asakusa64.tokyo
 blog.asakusa64.tokyo##.amazon-ad
+blog.asakusa64.tokyo##.dfad
 ! ====== ゲーム
 
 ! 通販 =====
