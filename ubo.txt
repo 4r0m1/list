@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-09-20
+! Last modified: 2023-09-27
 
 ! [汎用]
 ##.adsbygoogle
@@ -103,6 +103,11 @@ itest.bbspink.com##.js-ads-content-top_rectangle
 itest.bbspink.com##.js-cardview_ad-320x50 > div
 itest.bbspink.com###js-bottom-ad-300x250
 
+! [つまんね。]
+||cwn.tsumanne.net/ad.html
+tsumanne.net###cm
+tsumanne.net###dmm
+
 ! [Pixiv]
 ||ads-pixiv.net^
 ||imp.pixiv.net/premium_lp?
@@ -150,6 +155,7 @@ sp.nijie.info###tieup_column
 
 ! [Togetter]
 ||images-na.ssl-images-amazon.com^$domain=togetter.com
+||togetter.com/static/web/img/app/$image
 ||togetter.com/static/web/img/app_dl_$image
 ||togetter.com/static/web/img/sp_footer_app_banner.$image
 ! 広告枠
@@ -164,6 +170,8 @@ togetter.com##.fixed_social_footer
 togetter.com##.list_box:has(.quote_box)
 ! 下部固定広告枠
 togetter.com###ad_overlay
+! 記事下公式アプリリンク
+togetter.com###app_download_box
 ! 上部固定公式アプリリンク
 togetter.com###appdl_header
 ! 記事へのコメント
@@ -172,6 +180,7 @@ togetter.com###comment-box-portal
 togetter.com###comments-summary-portal
 ! [まとめをアプリでもっと快適に読む]
 togetter.com##a[data-ga="action_moreapp"]
+! PRのついた記事
 togetter.com##li:has(.icon_pr)
 
 ! [Twitter(X)関連]
@@ -208,7 +217,11 @@ www.hatena.ne.jp###smartphone-apps
 ! 時事ニュース ======
 ! [Impress Watch]
 ||beacon.watch.impress.co.jp^
+||m.media-amazon.com^$domain=watch.impress.co.jp
+||thumbnail.image.rakuten.co.jp^$domain=watch.impress.co.jp
 ||watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf|
+pc.watch.impress.co.jp###pc-amazon-ranking
+pc.watch.impress.co.jp###pc-rakuten-ranking
 watch.impress.co.jp##.ad
 watch.impress.co.jp##.contents-section-layer-1 > div:has(.ad-inline)
 watch.impress.co.jp##.social-bookmark
@@ -1000,6 +1013,3 @@ s.cosme.net##.global-feed-timeline
 s.cosme.net##.pdt-purchase
 s.cosme.net##.pdt-review-sort-premium
 s.cosme.net##.purchase-wrap
-
-! 2023-07-24 tsumanne.net
-||cwn.tsumanne.net/ad.html
