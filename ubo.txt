@@ -826,7 +826,13 @@ news.yahoo.co.jp##.adWrap
 news.yahoo.co.jp##.null
 
 ! [goo]
+||4dex.io^
+||adcdn.goo.ne.jp^
+||cdn.jsdelivr.net/gh/prebid/
+||creativecdn.com^
 ||dictionary.goo.ne.jp/img/app_promotion/
+||dictionary.goo.ne.jp/mix/js/app_sp.js
+||iponweb.net^
 ||log000.goo.ne.jp^
 ||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
 ||xgoo.jp/top2018/public/r_js/push/
