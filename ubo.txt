@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-09-27
+! Last modified: 2023-10-10
 
 ! [汎用]
 ##.adsbygoogle
@@ -45,6 +45,8 @@
 ||gsspcln.jp^
 ||gumgum.com^
 ||impact-ad.jp^
+||ladsp.com^$3p
+||logly.co.jp^
 ||mc.yandex.ru^
 ||microad.jp^
 ||onelink.me^
@@ -285,6 +287,7 @@ maidonanews.jp##.module-ad-center
 maidonanews.jp##div.module-ad
 
 ||bunshun.ismcdn.jp/common/images/bunshun/v1/article/socials/$image
+||bunshun.ismcdn.jp/common/js/bunshun/v1/share-this.js
 ||bunshun.jp/common/images/*/banner.$image
 ||bunshun.jp/common/images/bunshun/v1/recruit/$image
 ||number.bunshun.jp/list/personal/authtype.json
@@ -824,18 +827,20 @@ news.yahoo.co.jp##.null
 
 ! [goo]
 ||dictionary.goo.ne.jp/img/app_promotion/
+||log000.goo.ne.jp^
 ||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
 ||xgoo.jp/top2018/public/r_js/push/
 blog.goo.ne.jp##.article__ad
 blog.goo.ne.jp###msg-box-app-recommend
 dictionary.goo.ne.jp##.app_promotion_button
-goo.ne.jp###gooad-spbadge300_1
-goo.ne.jp###gooad-spbadge300_2
-goo.ne.jp###gooad-spbadge300_3
-goo.ne.jp###gooad-spbadge300_4
-goo.ne.jp###gooad-spbadge300_5
-goo.ne.jp###gooad-spbadge300_6
-goo.ne.jp###gooad-spbadge320_1
+!goo.ne.jp###gooad-spbadge300_1
+!goo.ne.jp###gooad-spbadge300_2
+!goo.ne.jp###gooad-spbadge300_3
+!goo.ne.jp###gooad-spbadge300_4
+!goo.ne.jp###gooad-spbadge300_5
+!goo.ne.jp###gooad-spbadge300_6
+!goo.ne.jp###gooad-spbadge320_1
+goo.ne.jp##div.NR-ad
 oshiete.goo.ne.jp##.Ad
 oshiete.goo.ne.jp##.ListPosts-item--PR-crown
 oshiete.goo.ne.jp##.readMore-btn
