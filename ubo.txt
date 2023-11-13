@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-10-10
+! Last modified: 2023-11-14
 
 ! [汎用]
 ##.adsbygoogle
@@ -244,6 +244,7 @@ itmedia.co.jp##.wrap_social
 itmedia.co.jp###AFFILIAT
 itmedia.co.jp###ATF
 itmedia.co.jp###RECTANGL
+itmedia.co.jp###SpvLink
 itmedia.co.jp##div[id^="RECTNGL"]
 
 ! [MoguraVR]
@@ -511,7 +512,7 @@ wired.jp##.callout--has-top-border
 ||cdn-img.*/public/link-slot-series/$image,1p
 ||cdn-img.*/public/media_link_slot/$image,1p
 comic-days.com,viewer.heros-web.com,pocket.shonenmagazine.com,shonenjumpplus.com,tonarinoyj.jp##.inactive
-comic-action.com,kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
+comic-action.com,comic-zenon.com,kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
 kuragebunch.com##.page-ad
 pocket.shonenmagazine.com##.pwa-mini-infobar
 
@@ -922,6 +923,7 @@ moguna.com##.SiteHeader-app
 tokubai.co.jp##div[id^=ad_]
 tokubai.co.jp##.dfp_tag
 tokubai.co.jp##.smart_app_banner
+tokubai.co.jp###popup_banner_image
 
 ! 2022-03-10 kurashiru.com
 ||assets.kurashiru.com/production/assets/chirashiru/w2a/
