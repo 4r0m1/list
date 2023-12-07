@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-11-14
+! Last modified: 2023-12-07
 
 ! [汎用]
 ##.adsbygoogle
@@ -187,6 +187,9 @@ togetter.com##li:has(.icon_pr)
 
 ! [Twitter(X)関連]
 buhitter.com##aside.row
+||nurumayu.net/twidouga/js/jquery.overlayad.js
+nurumayu.net###js-popup
+twiman.net##.my-3
 twoucan.com##.twoucan-ad
 twoucan.com##.twoucan-footer-ad
 twoucan.com###app_advertise
@@ -336,7 +339,8 @@ realsound.jp###gStickyAd
 ||consensu.org^
 forum.xda-developers.com###xdadevelopers_leaderboard_atf
 forum.xda-developers.com###xdadevelopers_leaderboard_btf
-www.xda-developers.com##.honor-spon-banner
+xda-developers.com##.honor-spon-banner
+xdaforums.com###xdaforums_leaderboard_atf
 
 ! [ライブドア]
 ||blog.livedoor.com/blog_portal/lite/img/v3/common/blogreader_banner.jpg
@@ -380,6 +384,7 @@ topics.smt.docomo.ne.jp##.ad_middle05
 topics.smt.docomo.ne.jp##.banner
 topics.smt.docomo.ne.jp###ad_middle
 
+||oricon.co.jp/api/oriconnews/recommend/
 ||smart-flash.jp/wp-content/themes/original/embed/sp_recommend_withthumb.html
 4gamer.net##.large_banner
 4gamer.net##.pr_box
@@ -393,6 +398,7 @@ bbc.com##.nw-c-leaderboard-ad
 buzzap.jp##.sp_inarticle
 ciatr.jp##.ad-frame
 ciatr.jp##.ArticleComponentButton
+fujinkoron.jp##.billboard
 gamespark.jp##.header-ad
 hochi.news##.ad
 j-town.net##.section_content:has(.pr-list)
@@ -408,12 +414,8 @@ nikkansports.com###MiddleAD
 nikkansports.com###TopAD
 nikkeibp.co.jp##.is_fix
 okinawatimes.co.jp##.ad_h250
+oricon.co.jp##.block-recommend-list
 prtimes.jp##.header-release-detail > .container-share
-s.famitsu.com##.banner-window-jack-wrapper
-s.famitsu.com##.l-banner
-s.famitsu.com##div.l-contents-block--tie-up .ad-native-campaign-leftout
-s.inside-games.jp##.header-ad
-s.inside-games.jp##.item--special
 saga-s.co.jp##.infeed
 saga-s.co.jp##.m-ad
 salon.mainichi-kotoba.jp###js-footer-bar
@@ -498,6 +500,11 @@ nazology.net##.ads
 phileweb.com###sp_article_undertitle_wrapper
 roomie.jp##.article1-ad
 roomie.jp##.araklet
+s.famitsu.com##.banner-window-jack-wrapper
+s.famitsu.com##.l-banner
+s.famitsu.com##div.l-contents-block--tie-up .ad-native-campaign-leftout
+s.inside-games.jp##.header-ad
+s.inside-games.jp##.item--special
 smartasw.com##.has-border
 smhn.info##.top_ad
 smhn.info##.widget
@@ -760,7 +767,6 @@ wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
 workman.jp###cookieBox
-www.oricon.co.jp##.block-recommend-list
 www.reddit.com##.xPromoChoiceBanner
 www.reddit.com##.XPromoPill
 yomitai.jp##.social-button-series
@@ -903,10 +909,6 @@ blog.tinect.jp###navi
 ||openweathermap.org/themes/openweathermap/assets/img/mobile_app/$image
 openweathermap.org##.banner_stripe
 openweathermap.org###stick-footer-panel
-
-! 2020-04-27 nurumayu.net
-||nurumayu.net/twidouga/js/jquery.overlayad.js
-nurumayu.net###js-popup
 
 ! 2020-12-19 moguna.com
 ||cdn.idcfcloud.net/assets/images/appdownload/$image,domain=moguna.com
