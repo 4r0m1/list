@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-12-07
+! Last modified: 2023-01-27
 
 ! [汎用]
 ##.adsbygoogle
@@ -189,6 +189,7 @@ togetter.com##li:has(.icon_pr)
 buhitter.com##aside.row
 ||nurumayu.net/twidouga/js/jquery.overlayad.js
 nurumayu.net###js-popup
+twiman.net##.my-2
 twiman.net##.my-3
 twoucan.com##.twoucan-ad
 twoucan.com##.twoucan-footer-ad
@@ -268,6 +269,8 @@ moguravr.com##.ads-only-mobile
 news.denfaminicogamer.jp##.amazon-ranking
 news.denfaminicogamer.jp##.rectangle-bn
 news.denfaminicogamer.jp###dfng-banner
+news.denfaminicogamer.jp###dfng-jack-mobile
+news.denfaminicogamer.jp###sp_jack_overlay_wrap
 
 ! [asahi.com]
 asahi.com,yorozoonews.jp##.module-ad
@@ -519,7 +522,7 @@ wired.jp##.callout--has-top-border
 ||cdn-img.*/public/link-slot-series/$image,1p
 ||cdn-img.*/public/media_link_slot/$image,1p
 comic-days.com,viewer.heros-web.com,pocket.shonenmagazine.com,shonenjumpplus.com,tonarinoyj.jp##.inactive
-comic-action.com,comic-zenon.com,kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
+comic-action.com,comic-days.com,comic-zenon.com,kuragebunch.com,pocket.shonenmagazine.com,shonenjumpplus.com##.link-page
 kuragebunch.com##.page-ad
 pocket.shonenmagazine.com##.pwa-mini-infobar
 
