@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-01-27
+! Last modified: 2023-03-13
 
 ! [汎用]
 ##.adsbygoogle
@@ -286,6 +286,13 @@ book.asahi.com##.module-top-ad
 dot.asahi.com##.p-article-aera__link--product
 www.asahi.com##li.TJcqi
 
+! [エキサイトニュース]
+||excite.co.jp/news/js/web-push.js
+www.excite.co.jp##.ad-aside-inarticle
+www.excite.co.jp##.ad-aside-infeed
+www.excite.co.jp##.ad-aside-white-infeed
+www.excite.co.jp###ec-ranking
+
 ! [まいどなニュース]
 maidonanews.jp,yorozoonews.jp##.module-ad-header
 maidonanews.jp,yorozoonews.jp##.module-list-articles__ad
@@ -302,6 +309,7 @@ maidonanews.jp##div.module-ad
 bunshun.jp##.ad-banner
 bunshun.jp##.recommend
 bunshun.jp###sp_multiplex
+bunshun.jp###twitter-share-btn
 bunshun.jp##li:has(.pr)
 crea.bunshun.jp###wrapper > div
 number.bunshun.jp##[id^=logly-lift]
@@ -671,6 +679,9 @@ s.kakaku.com##li.withIboxDb
 ||tag.rmp.rakuten.com^
 item.rakuten.co.jp##.exT_sdtext
 recipe.rakuten.co.jp##.brand_ad_area
+
+yodobashi.com##.productListCarouselSp
+
 ! ===== 通販
 
 
