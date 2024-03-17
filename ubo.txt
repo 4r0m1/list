@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-13
+! Last modified: 2023-03-17
 
 ! [汎用]
 ##.adsbygoogle
@@ -508,6 +508,7 @@ jp.ign.com##.mobileArticleAds
 kurashi-no.jp##.Ad_Rectangle_Widget
 natalie.mu##.NA_ad
 nazology.net##.ads
+nichireifoods.co.jp##.popup-recommend
 phileweb.com###sp_article_undertitle_wrapper
 roomie.jp##.article1-ad
 roomie.jp##.araklet
