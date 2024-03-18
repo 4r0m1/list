@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-17
+! Last modified: 2023-03-19
 
 ! [汎用]
 ##.adsbygoogle
@@ -288,6 +288,9 @@ www.asahi.com##li.TJcqi
 
 ! [エキサイトニュース]
 ||excite.co.jp/news/js/web-push.js
+||image.excite.co.jp/jp/erecipe/common/footer/*$image
+||image.excite.co.jp/jp/erecipe/sp/banner/*$image
+||image.excite.co.jp/jp/erecipe/webpush/*$image
 www.excite.co.jp##.ad-aside-inarticle
 www.excite.co.jp##.ad-aside-infeed
 www.excite.co.jp##.ad-aside-white-infeed
@@ -665,6 +668,7 @@ s.kakaku.com##li.withIboxDb
 ||count.upc.rakuten.co.jp^
 ||ias.rakuten.co.jp^$domain=~event.rakuten.co.jp|~ias.rakuten.co.jp|~search.rakuten.co.jp
 ||pasha.rakuten.co.jp^
+||portal.reward.rakuten.co.jp^
 ||pzd.rakuten.co.jp^
 ||r10s.jp/com/js/d/irp/event-page/1.1.0/smart-coupon.min.js
 ||rakuten-static.com/com/rat/
@@ -673,6 +677,7 @@ s.kakaku.com##li.withIboxDb
 ||rakuten.co.jp/gw.js
 ||rat.rakuten.co.jp^
 ||recipe.rakuten.co.jp/inc/recipe_all.html
+||recipe.rakuten.co.jp/webinfo/common/reward/pointMission.json
 ||recipe.rakuten.co.jp/webinfo/common/shareButtonDisplayFlag.json
 ||recipe.rakuten.co.jp/webinfo/sp/ads/
 ||recipe.rakuten.co.jp/webpub/recipe/detail/sameRecipeCampaign?
@@ -680,6 +685,7 @@ s.kakaku.com##li.withIboxDb
 ||tag.rmp.rakuten.com^
 item.rakuten.co.jp##.exT_sdtext
 recipe.rakuten.co.jp##.brand_ad_area
+recipe.rakuten.co.jp##.pointmission_header
 
 yodobashi.com##.productListCarouselSp
 
