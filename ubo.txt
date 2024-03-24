@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-19
+! Last modified: 2023-03-24
 
 ! [汎用]
 ##.adsbygoogle
@@ -603,6 +603,7 @@ gamewith.jp##.walkthrough-ad-recommend-game
 ||kamigame-gameliv-bm0gw8idontct.com^
 kamigame.jp##.ad
 kamigame.jp##.information_footer
+kamigame.jp##.inline-ad
 kamigame.jp##.pre-registration-widget
 kamigame.jp###ad_top
 
@@ -668,6 +669,7 @@ s.kakaku.com##li.withIboxDb
 ||count.upc.rakuten.co.jp^
 ||ias.rakuten.co.jp^$domain=~event.rakuten.co.jp|~ias.rakuten.co.jp|~search.rakuten.co.jp
 ||pasha.rakuten.co.jp^
+||point.rakuten.co.jp/_assets/img/sp/top/webtoapp-poc/$image
 ||portal.reward.rakuten.co.jp^
 ||pzd.rakuten.co.jp^
 ||r10s.jp/com/js/d/irp/event-page/1.1.0/smart-coupon.min.js
@@ -939,11 +941,18 @@ moguna.com##.SiteHeader-app
 ||analytics.cocolog-nifty.com^
 ||cocolog-nifty.com/.shared-cocolog/
 
-! 2021-02-02 tokubai.co.jp
+! [トクバイ]
+||commercial-videos.tokubai.co.jp^
+||tokubai.co.jp/ads/*
 ||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate
-||tokubai.co.jp/*app_banner$image
+||tokubai.co.jp/assets/device/themes/bargains/smart_app_banner_$image
+||tokubai.co.jp/assets/device/themes/bargains/web2app_banner-$image
+||tokubai.co.jp/images/banner/biz-lp-banner-sp.png$image
+||tokubai.co.jp/trackings
 ||tokubai.co.jp/*pr_shop_ids$1p
 tokubai.co.jp##div[id^=ad_]
+tokubai.co.jp##.app_banner_wrapper
+tokubai.co.jp##.commercial_video
 tokubai.co.jp##.dfp_tag
 tokubai.co.jp##.smart_app_banner
 tokubai.co.jp###popup_banner_image
