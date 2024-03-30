@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-24
+! Last modified: 2023-03-31
 
 ! [汎用]
 ##.adsbygoogle
@@ -200,6 +200,7 @@ instagrammernews.com##.footerBanner
 picnob.com##.wid
 picnob.com##.ah-box
 picnob.com##.ah-box-n-w
+pixwox.com##.ah-box
 
 ! [はてな]
 @@||b.hatena.ne.jp/entry/jsonlite/$script,domain=lab.syncer.jp
@@ -291,6 +292,8 @@ www.asahi.com##li.TJcqi
 ||image.excite.co.jp/jp/erecipe/common/footer/*$image
 ||image.excite.co.jp/jp/erecipe/sp/banner/*$image
 ||image.excite.co.jp/jp/erecipe/webpush/*$image
+erecipe.woman.excite.co.jp##a.dispbl
+excite.co.jp##.ad-aside-rectangle
 www.excite.co.jp##.ad-aside-inarticle
 www.excite.co.jp##.ad-aside-infeed
 www.excite.co.jp##.ad-aside-white-infeed
@@ -499,25 +502,39 @@ kinarino.jp###js-appeal-top-banner
 kinarino.jp###js-view-in-app
 kinarino.jp###recommend-list
 
+! [macaroni]
+macaro-ni.jp##.ad-articleInline
+macaro-ni.jp##.ad-recommendTop
+macaro-ni.jp##.ad-recommend
+macaro-ni.jp##.recommendArticle
+macaro-ni.jp##.ad-middle
+
+||my-best.com/advertisements/$image
+
 anime.eiga.com##.adBox
 anime.eiga.com###rect_ad
 appbank.net##.body-ad
 appbank.net##.fixed-height
 appbank.net##h2
+delishkitchen.tv##.delish-present-campaign-banners
+gamespark.jp##.af_box
 getnews.jp###resp_article_undertitle
 getnews.jp###resp_rectangle_1st
 jp.ign.com##.billboard
 jp.ign.com##.mobileArticleAds
 kurashi-no.jp##.Ad_Rectangle_Widget
+manetatsu.com##.aside-box-ad
 natalie.mu##.NA_ad
 nazology.net##.ads
 nichireifoods.co.jp##.popup-recommend
 phileweb.com###sp_article_undertitle_wrapper
 roomie.jp##.article1-ad
 roomie.jp##.araklet
+s.animeanime.jp##.af_box
 s.famitsu.com##.banner-window-jack-wrapper
 s.famitsu.com##.l-banner
 s.famitsu.com##div.l-contents-block--tie-up .ad-native-campaign-leftout
+s.inside-games.jp##.af_box
 s.inside-games.jp##.header-ad
 s.inside-games.jp##.item--special
 smartasw.com##.has-border
