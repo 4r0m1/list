@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-03-31
+! Last modified: 2023-04-02
 
 ! [汎用]
 ##.adsbygoogle
@@ -524,6 +524,7 @@ jp.ign.com##.billboard
 jp.ign.com##.mobileArticleAds
 kurashi-no.jp##.Ad_Rectangle_Widget
 manetatsu.com##.aside-box-ad
+mitok.info##.p-adBox
 natalie.mu##.NA_ad
 nazology.net##.ads
 nichireifoods.co.jp##.popup-recommend
@@ -773,9 +774,6 @@ mexa.sh##td > div
 mi-mollet.com###MM_SP_Billboard
 mi-mollet.com###MM_SP_readmore
 minitool.com##.promotions-banner-wrap
-mitok.info##.ads_item
-mitok.info##.entry_footer_ads
-mitok.info##section .custom-html-widget
 nordot.app##.main__adWrapper
 nordot.app##div.page__ad
 s.rbbtoday.com##.aside-box-pickup
@@ -950,10 +948,6 @@ blog.tinect.jp###navi
 openweathermap.org##.banner_stripe
 openweathermap.org###stick-footer-panel
 
-! 2020-12-19 moguna.com
-||cdn.idcfcloud.net/assets/images/appdownload/$image,domain=moguna.com
-moguna.com##.SiteHeader-app
-
 ! 2020-12-20 cocolog-nifty.com
 ||analytics.cocolog-nifty.com^
 ||cocolog-nifty.com/.shared-cocolog/
@@ -974,7 +968,7 @@ tokubai.co.jp##.dfp_tag
 tokubai.co.jp##.smart_app_banner
 tokubai.co.jp###popup_banner_image
 
-! 2022-03-10 kurashiru.com
+! [クラシル]
 ||assets.kurashiru.com/production/assets/chirashiru/w2a/
 ||assets.kurashiru.com/production/assets/web_to_app/$image
 ||wapi.kurashiru.com/wapi/videos/ranking?mask=true
