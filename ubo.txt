@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-04-02
+! Last modified: 2023-04-07
 
 ! [汎用]
 ##.adsbygoogle
@@ -508,6 +508,18 @@ macaro-ni.jp##.ad-recommendTop
 macaro-ni.jp##.ad-recommend
 macaro-ni.jp##.recommendArticle
 macaro-ni.jp##.ad-middle
+
+! [Nadia]
+||asset.oceans-nadia.com/upload/nadia-cm/$media
+oceans-nadia.com##.thmbListMask-inner
+oceans-nadia.com###recipeQuestions
+oceans-nadia.com##div[class^=AdSlot_rectangle__]
+oceans-nadia.com##div[class^=AppPopup_popUpWrap]
+oceans-nadia.com##div[class^=ArtistProf_boxClose]
+oceans-nadia.com##div[class^=GetAppBanner_wrap]
+oceans-nadia.com##div[class^=LpSlider_wrap]
+oceans-nadia.com##div[class^=OpenCampaigns_wrapper]
+oceans-nadia.com##div[class^=VideoBanner_videoBannerWrap]
 
 ||my-best.com/advertisements/$image
 
