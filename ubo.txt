@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-04-07
+! Last modified: 2023-04-11
 
 ! [汎用]
 ##.adsbygoogle
@@ -863,10 +863,7 @@ live.fc2.com##.noticeArea
 ||dsb.yahoo.co.jp^
 ||logql.yahoo.co.jp^
 ||mfn.yahoo.co.jp/v1/experiment
-! ||s.yimg.jp/images/approach/jslib/deeplink-$domain=yahoo.co.jp
 ||s.yimg.jp/images/ds/cl/ds-custom-logger-
-||s.yimg.jp/images/ds/yas/ya-$domain=yahoo.co.jp
-@@||s.yimg.jp/images/ds/yas/ya-1.4.2.min.js$script,domain=m.mail.yahoo.co.jp
 ||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
 ||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
 ||s.yimg.jp/images/mail/promo/$image
