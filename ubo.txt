@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-04-16
+! Last modified: 2023-04-28
 
 ! [汎用]
 ##.adsbygoogle
@@ -902,6 +902,7 @@ news.yahoo.co.jp##.null
 blog.goo.ne.jp##.article__ad
 blog.goo.ne.jp###msg-box-app-recommend
 dictionary.goo.ne.jp##.app_promotion_button
+!goo.ne.jp##div[id^="gooad"]
 !goo.ne.jp###gooad-spbadge300_1
 !goo.ne.jp###gooad-spbadge300_2
 !goo.ne.jp###gooad-spbadge300_3
@@ -909,7 +910,7 @@ dictionary.goo.ne.jp##.app_promotion_button
 !goo.ne.jp###gooad-spbadge300_5
 !goo.ne.jp###gooad-spbadge300_6
 !goo.ne.jp###gooad-spbadge320_1
-goo.ne.jp##div.NR-ad
+goo.ne.jp##.NR-ad
 oshiete.goo.ne.jp##.Ad
 oshiete.goo.ne.jp##.ListPosts-item--PR-crown
 oshiete.goo.ne.jp##.readMore-btn
