@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-04-28
+! Last modified: 2023-05-08
 
 ! [汎用]
 ##.adsbygoogle
@@ -39,6 +39,7 @@
 /wp-content/plugins/amazonjs/*
 ||a8.net^
 ||adtdp.com^
+||cookielaw.org^$3p
 ||fundingchoicesmessages.google.com^
 ||goo-access-analytics.appspot.com^
 ||google.com/generate_204$~xhr
@@ -340,10 +341,16 @@ president.jp##.recommend
 ||contents-search-windows.com^
 ||cdn.asagei.com/syokuraku/uploads/sp/$image
 
+! [東洋経済]
+||toyokeizai.net/list/lazy/member-features.js?
+||toyokeizai.net/list/lazy/member-paid-articles.js?
 ||toyokeizai.net/mwimgs/$image
 toyokeizai.net##ul > .block-pr
+toyokeizai.net##.g-a-bnr-top
+toyokeizai.net##.member-paid-articles
 toyokeizai.net###related .block-pr
-toyokeizai.net###wrapper > div.ad-bnr
+toyokeizai.net###tpModal
+toyokeizai.net###wrapper > div.g-a-bnr
 
 ||news-postseven.com/uploads/*_bnr_$image,1p
 news-postseven.com##.w-SnsCount
@@ -378,13 +385,19 @@ news.livedoor.com##.ads-google300
 
 ! [マイナビニュース]
 ||ad.woman.mynavi.jp^
+||cdn-kosodate.woman.mynavi.jp/kosodate/uploads/feature_planning/$image
 ||news.mynavi.jp/assets/adomik-$1p
+||woman.mynavi.jp/kosodate/assets/icon_post_$image
+||woman.mynavi.jp/kosodate/uploads/image_manager/$image
 news.mynavi.jp##.articleList-along
 news.mynavi.jp##.articleList-attention
 news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.c-sidePickup
 news.mynavi.jp##.overLayBnr
 news.mynavi.jp###csw_block
+woman.mynavi.jp##.featureList
+woman.mynavi.jp###footer-overlay-wrap
+woman.mynavi.jp###sp-ad-above-pagenation
 
 ! [CNET Japan]
 ||japan.cnet.com/media/c/2012/images/responsive/icon_
@@ -480,6 +493,13 @@ lifehacker.com##.js_related-stories-inset
 lifehacker.com##.js_sticky-footer
 lifehacker.com##.js_subscribe
 
+! [WIRED]
+||cnevids.com/interlude/wired-jp.js^$script,domain=wired.jp
+wired.jp##.ad--mid-content
+wired.jp##.ad-stickyhero
+wired.jp##.callout--has-top-border
+wired.jp##.full-bleed-ad
+
 ! [Qiita]
 qiita.com##.ad-300x250
 qiita.com##.it-Ads_afterBodyContainer
@@ -557,8 +577,6 @@ s.inside-games.jp##.item--special
 smartasw.com##.has-border
 smhn.info##.top_ad
 smhn.info##.widget
-wired.jp##.ad-stickyhero
-wired.jp##.callout--has-top-border
 ! ===== 記事
 
 ! マンガ ======
