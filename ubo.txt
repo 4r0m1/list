@@ -347,7 +347,6 @@ president.jp##.recommend
 ||toyokeizai.net/mwimgs/$image
 toyokeizai.net##ul > .block-pr
 toyokeizai.net##.g-a-bnr-top
-toyokeizai.net##.member-paid-articles
 toyokeizai.net###related .block-pr
 toyokeizai.net###tpModal
 toyokeizai.net###wrapper > div.g-a-bnr
