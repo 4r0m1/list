@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-05-08
+! Last modified: 2023-05-09
 
 ! [汎用]
 ##.adsbygoogle
@@ -514,15 +514,19 @@ note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||note.com/api/v*/trackings/
 
 ! [キナリノ]
-||k-img.com/assets/webpage/weather_forecasts/$image,domain=kinarino.jp
+||k-img.com/assets/webpage/app-features-band/$image,domain=kinarino.jp
+||k-img.com/assets/webpage/icons/icon_app-$image,domain=kinarino.jp
 ||k-img.com/system/limited_banners/$image,domain=kinarino.jp
-||k-img.com/assets/webpage/app$image,domain=kinarino.jp
 kinarino.jp##.c-item__container--nw-ad
 kinarino.jp##.c-item__piece--target-app
 kinarino.jp##.c-item:has(.c-icon--pr)
+kinarino.jp##.js-related-items
 kinarino.jp##.l-header__banner
+kinarino.jp##.l-sub__bookmark-band
+kinarino.jp##.p-carousel-premium
+kinarino.jp##.p-press-banner-app
+kinarino.jp###app-standard-list
 kinarino.jp###js-appeal-top-banner
-kinarino.jp###js-view-in-app
 kinarino.jp###recommend-list
 
 ! [macaroni]
