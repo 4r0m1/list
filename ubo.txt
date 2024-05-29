@@ -551,7 +551,6 @@ oceans-nadia.com##div[class^=LpSlider_wrap]
 oceans-nadia.com##div[class^=OpenCampaigns_wrapper]
 oceans-nadia.com##div[class^=VideoBanner_videoBannerWrap]
 
-courrier.jp##.fixed_sns_area
 ||my-best.com/advertisements/$image
 
 anime.eiga.com##.adBox
@@ -559,6 +558,7 @@ anime.eiga.com###rect_ad
 appbank.net##.body-ad
 appbank.net##.fixed-height
 appbank.net##h2
+courrier.jp##.is-flex
 delishkitchen.tv##.delish-present-campaign-banners
 gamespark.jp##.af_box
 getnews.jp###resp_article_undertitle
