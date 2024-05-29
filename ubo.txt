@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-05-09
+! Last modified: 2023-05-30
 
 ! [汎用]
 ##.adsbygoogle
@@ -30,9 +30,9 @@
 /lib/get_socialcount.
 /log_event?
 /onesignal.js
-/oo/*/l.js|$1p
-/oo/*/lsync.js$1p
-/oo/cl*.js?rd=$1p
+/oo/*/l.js
+/oo/*/lsync.js
+/oo/cl*.js?rd=
 /optimizely-$script
 /plugins/gianism/*
 /plugins/wp-social-bookmarking-light/*
@@ -337,6 +337,9 @@ president.jp##.information
 president.jp##.js-sns-wrap
 president.jp##.recommend
 
+||ismcdn.jp/zai/common/images/v1/article/share/$domain=diamond.jp
+||ismcdn.jp/zai/mwimgs/0/0/$domain=diamond.jp
+
 ! 2024-04-15 syokuraku-web.com
 ||contents-search-windows.com^
 ||cdn.asagei.com/syokuraku/uploads/sp/$image
@@ -548,6 +551,7 @@ oceans-nadia.com##div[class^=LpSlider_wrap]
 oceans-nadia.com##div[class^=OpenCampaigns_wrapper]
 oceans-nadia.com##div[class^=VideoBanner_videoBannerWrap]
 
+courrier.jp##.fixed_sns_area
 ||my-best.com/advertisements/$image
 
 anime.eiga.com##.adBox
