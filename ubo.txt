@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-05-30
+! Last modified: 2023-06-02
 
 ! [汎用]
 ##.adsbygoogle
@@ -337,8 +337,10 @@ president.jp##.information
 president.jp##.js-sns-wrap
 president.jp##.recommend
 
+||ismcdn.jp/common/images/zai/v1/common/inner-bg.gif$domain=diamond.jp
 ||ismcdn.jp/zai/common/images/v1/article/share/$domain=diamond.jp
 ||ismcdn.jp/zai/mwimgs/0/0/$domain=diamond.jp
+diamond.jp##.list-box > div
 
 ! 2024-04-15 syokuraku-web.com
 ||contents-search-windows.com^
