@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-06-02
+! Last modified: 2023-06-09
 
 ! [汎用]
 ##.adsbygoogle
@@ -643,7 +643,7 @@ yanmaga.jp##.-cv-pr
 ||gamewith.jp/gamedb/games/icons/$image
 ||gamewith.jp/js/dist/jp/gamewith/walkthrough/creativead.js
 ||gamewith.jp/js/dist/jp/gamewith/walkthrough/floatingmenu.js
-||gamewith.jp/service/hd/images/b2577199c5a51e531b3e74fb26089c7f.png$image
+||gamewith.jp/service/hd/images/$image
 ||gamewith.jp/walkthrough/discord/banner.png$image
 ||gamewith.jp/walkthrough/recruit/$image
 ||gamewith.jp^*/walkthrough/adjack.js
@@ -892,6 +892,7 @@ live.fc2.com##.noticeArea
 
 ! [Yahoo! JAPAN]
 ||dsb.yahoo.co.jp^
+@@||dsb.yahoo.co.jp/api/v1/stream$ping,domain=accounts.yahoo.co.jp|news.yahoo.co.jp
 ||logql.yahoo.co.jp^
 ||mfn.yahoo.co.jp/v1/experiment
 ||s.yimg.jp/images/ds/cl/ds-custom-logger-
@@ -903,10 +904,9 @@ live.fc2.com##.noticeArea
 ||yjtag.jp^
 detail.chiebukuro.yahoo.co.jp###post_ans
 loco.yahoo.co.jp##.promotion
-m.mail.yahoo.co.jp###ad_container_top
-m.mail.yahoo.co.jp###bnr_f3ex
-m.mail.yahoo.co.jp###bnr_top
+m.mail.yahoo.co.jp###tagListTopAd
 m.yahoo.co.jp###rsab
+map.yahoo.co.jp###sticky_banner
 news.yahoo.co.jp##.adWrap
 news.yahoo.co.jp##.null
 
@@ -1062,10 +1062,12 @@ cocoronext.com##p:has-text(スポンサーリンク)
 ddnavi.com##.article-ad
 ddnavi.com##.buttonlink2
 
-! 2022-04-09 www.hotpepper.jp
+! [ホットペッパーグルメ]
 ||hotpepper.jp/DEV/DEV_OPEN/CSP/log/
+@@||hotpepper.jp/DEV/DEV_OPEN/CSP/log/js/logTeam.js$script,domain=hotpepper.jp
 ||hotpepper.jp/doc/mesitsu_rilo/sp/riloparts.html
 www.hotpepper.jp##.entry-header-html
+www.hotpepper.jp##.pr-cassette
 www.hotpepper.jp##.sns-follow-btn-box
 
 ! 2022-04-18 monolog.r-n-i.jp
