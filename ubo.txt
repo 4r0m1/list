@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2023-06-09
+! Last modified: 2023-06-15
 
 ! [汎用]
 ##.adsbygoogle
@@ -1013,7 +1013,8 @@ tokubai.co.jp###popup_banner_image
 ||assets.kurashiru.com/production/assets/chirashiru/w2a/
 ||assets.kurashiru.com/production/assets/web_to_app/$image
 ||wapi.kurashiru.com/wapi/videos/ranking?mask=true
-www.kurashiru.com##.SpAside-section--rankings
+kurashiru.com##.AdsWrapper
+kurashiru.com##.SpAside-section--rankings
 
 ! [DLsite]
 ||media.dlsite.com/bcs/$image
