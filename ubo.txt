@@ -53,6 +53,7 @@
 ||onelink.me^
 ||platform.twitter.com/js/button.$3p
 ||presage.io^
+||privacymanager.io^
 ||sentry.io^
 ||socdm.com^
 ||speee-ad.akamaized.net^
@@ -157,7 +158,8 @@ sp.nijie.info###tieup_column
 ||pinterest.jp/resource/UserRegisterTrackActionResource/
 
 ! [Togetter]
-||images-na.ssl-images-amazon.com^$domain=togetter.com
+||images-na.ssl-images-amazon.com^$domain=togetter.com,posfie.com
+||s.tgstc.com/static/web/img/banner/$image
 ||togetter.com/static/web/img/app/$image
 ||togetter.com/static/web/img/app_dl_$image
 ||togetter.com/static/web/img/sp_footer_app_banner.$image
@@ -185,6 +187,12 @@ togetter.com###comments-summary-portal
 togetter.com##a[data-ga="action_moreapp"]
 ! PRのついた記事
 togetter.com##li:has(.icon_pr)
+
+! 2025-01-30 [posfie.com]
+posfie.com##.ad_rectangle
+posfie.com##.use_api_box
+posfie.com###ad_overlay
+posfie.com###fixed_social_footer
 
 ! [Twitter(X)関連]
 buhitter.com##aside.row
@@ -313,6 +321,7 @@ maidonanews.jp##div.module-ad
 ||bunshun.jp/common/images/bunshun/v1/recruit/$image
 ||number.bunshun.jp/list/personal/authtype.json
 ||number.ismcdn.jp/common/numberweb/v4/images/sns/$image
+||number.ismcdn.jp/common/numberweb/v4/images/sp/content_bg.png$image,domain=bunshun.jp
 bunshun.jp##.ad-banner
 bunshun.jp##.recommend
 bunshun.jp###sp_multiplex
@@ -323,6 +332,7 @@ number.bunshun.jp##[id^=logly-lift]
 number.bunshun.jp##.container-banner-02
 number.bunshun.jp##.social-buttons
 number.bunshun.jp##.recommend-4panel-wrap
+number.bunshun.jp###taboola-below-article-thumbnails
 
 ||gendai-m.ismcdn.jp/common/images/v3/ad/$image
 ||gendai.media/common/bluebacks/$image
@@ -963,6 +973,10 @@ kakuyomu.jp###signUpBalloon
 ||cpcdn.com/next-cookpad/_next/static/images/app_sample_$image,domain=cookpad.com
 cookpad.com##.css-plnuqa
 cookpad.com##.standard_ad_slot
+
+! [デリッシュキッチン]
+||media.delishkitchen.tv/image/*$image
+||delishkitchen.tv/s/images/footer/*$image
 
 ! [アットウィキ]
 ||atwiki.jp/common/dist/js/amazon_flux.
