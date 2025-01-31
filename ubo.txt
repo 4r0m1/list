@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-01-30
+! Last modified: 2025-01-31
 
 ! [汎用]
 ##.adsbygoogle
@@ -157,42 +157,41 @@ sp.nijie.info###tieup_column
 ||pinterest.jp/resource/StatsLogResource/
 ||pinterest.jp/resource/UserRegisterTrackActionResource/
 
-! [Togetter]
+! [Togetter,posfie]
 ||images-na.ssl-images-amazon.com^$domain=togetter.com,posfie.com
 ||s.tgstc.com/static/web/img/banner/$image
 ||togetter.com/static/web/img/app/$image
 ||togetter.com/static/web/img/app_dl_$image
 ||togetter.com/static/web/img/sp_footer_app_banner.$image
 ! 広告枠
-togetter.com##.ad_rectangle
+togetter.com,posfie.com##.ad_rectangle
 ! 最下部公式アプリリンク
 togetter.com##.app_download_footer
 ! ランキング下部公式アプリリンク
 togetter.com##.app-dl
+! 表示エラー
+togetter.com##.error
 ! 下部固定SNS共有
-togetter.com##.fixed_social_footer
+togetter.com,posfie.com###fixed_social_footer
 ! Amazonリンク枠
 togetter.com##.list_box:has(.quote_box)
 ! 下部固定広告枠
-togetter.com###ad_overlay
+togetter.com,posfie.com###ad_overlay
 ! 記事下公式アプリリンク
 togetter.com###app_download_box
 ! 上部固定公式アプリリンク
 togetter.com###appdl_header
+! 掲載ポストについて
+togetter.com,posfie.com##.use_api_box
 ! 記事へのコメント
 togetter.com###comment-box-portal
 ! みんなのコメント
 togetter.com###comments-summary-portal
 ! [まとめをアプリでもっと快適に読む]
 togetter.com##a[data-ga="action_moreapp"]
+posfie.com##.more_tweet_box > [href]
 ! PRのついた記事
 togetter.com##li:has(.icon_pr)
-
-! 2025-01-30 [posfie.com]
-posfie.com##.ad_rectangle
-posfie.com##.use_api_box
-posfie.com###ad_overlay
-posfie.com###fixed_social_footer
 
 ! [Twitter(X)関連]
 buhitter.com##aside.row
