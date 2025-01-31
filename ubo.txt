@@ -158,7 +158,7 @@ sp.nijie.info###tieup_column
 ||pinterest.jp/resource/UserRegisterTrackActionResource/
 
 ! [Togetter,posfie]
-||images-na.ssl-images-amazon.com^$domain=togetter.com,posfie.com
+||images-na.ssl-images-amazon.com^$domain=togetter.com|posfie.com
 ||s.tgstc.com/static/web/img/banner/$image
 ||togetter.com/static/web/img/app/$image
 ||togetter.com/static/web/img/app_dl_$image
