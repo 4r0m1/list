@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-01-31
+! Last modified: 2025-02-05
 
 ! [汎用]
 ##.adsbygoogle
@@ -174,7 +174,7 @@ togetter.com##.error
 ! 下部固定SNS共有
 togetter.com,posfie.com###fixed_social_footer
 ! Amazonリンク枠
-togetter.com##.list_box:has(.quote_box)
+togetter.com,posfie.com##.list_box:has(.quote_box)
 ! 下部固定広告枠
 togetter.com,posfie.com###ad_overlay
 ! 記事下公式アプリリンク
