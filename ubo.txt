@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-02-05
+! Last modified: 2025-04-14
 
 ! [汎用]
 ##.adsbygoogle
@@ -820,6 +820,7 @@ knowyourmeme.com##.ads
 macaro-ni.jp##.ad-articleInline
 magazine.cainz.com###sideShareArea
 magazine.cainz.com###visitBan
+mail.proton.me##.bg-promotion
 marshmallow-qa.com##li.ad
 marshmallow-qa.com##.overlay
 mexa.sh##td > div
