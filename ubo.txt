@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-04-14
+! Last modified: 2025-04-24
 
 ! [汎用]
 ##.adsbygoogle
@@ -691,14 +691,15 @@ altema.jp##.PRrank-icon2
 ||cdn-connect.mobage.jp/jssdk/mobage-jssdk-client.3.7.9.min.js
 
 ! [攻略ブログまとめマグナム]
-||blog.asakusa64.tokyo/wp-content/uploads/$image
-||blog.asakusa64.tokyo/image/guraburu/$image
-@@||cnobi.jp/v1/gazorss/recommend/$domain=blog.asakusa64.tokyo
-@@||rcm.shinobi.jp/r/$domain=blog.asakusa64.tokyo
-@@||rcm.shinobi.jp/js/imp.js$domain=blog.asakusa64.tokyo
-@@||rcm.shinobi.jp/css/webiconfont.css$domain=blog.asakusa64.tokyo
-blog.asakusa64.tokyo##.amazon-ad
-blog.asakusa64.tokyo##.dfad
+||etc64.com/ad.jpg$image
+||etc64.com/image/guraburu/$image
+||etc64.com/wp-content/uploads/$image
+@@||cnobi.jp/v1/gazorss/recommend/$script,domain=etc64.com
+@@||rcm.shinobi.jp/r/$script,domain=etc64.com
+@@||rcm.shinobi.jp/js/imp.js$script,domain=etc64.com
+@@||rcm.shinobi.jp/css/webiconfont.css$stylesheet,domain=etc64.com
+etc64.com##.google_ad
+etc64.com##.news-area
 ! ====== ゲーム
 
 ! 通販 =====
@@ -712,6 +713,12 @@ amazon.co.jp###discovery-and-inspiration_feature_div
 amazon.co.jp###hero-quick-promo_feature_div
 amazon.co.jp###mobile-ads-bottom_feature_div.celwidget
 amazon.co.jp###mobile-ads-middle_feature_div.celwidget
+
+! こんな商品も
+www.amazon.co.jp#@#div[data-ad-id]
+www.amazon.co.jp#@##sponsoredProducts_feature_div
+! おすすめ商品
+www.amazon.co.jp#@#div[id^="sponsoredProducts"]
 
 ! [ビックカメラ]
 ||biccamera.com/bc/disp/CSfBcGoodsPolicy_Sp_J.jsp
