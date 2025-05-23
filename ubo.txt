@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-04-24
+! Last modified: 2025-05-23
 
 ! [汎用]
 ##.adsbygoogle
@@ -40,7 +40,6 @@
 ||a8.net^
 ||adtdp.com^
 ||cookielaw.org^$3p
-||fundingchoicesmessages.google.com^
 ||goo-access-analytics.appspot.com^
 ||google.com/generate_204$~xhr
 ||gsspcln.jp^
