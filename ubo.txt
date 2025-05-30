@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-05-23
+! Last modified: 2025-05-30
 
 ! [汎用]
 ##.adsbygoogle
@@ -562,6 +562,7 @@ oceans-nadia.com##div[class^=OpenCampaigns_wrapper]
 oceans-nadia.com##div[class^=VideoBanner_videoBannerWrap]
 
 ||my-best.com/advertisements/$image
+||static.forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js$script,1p
 
 anime.eiga.com##.adBox
 anime.eiga.com###rect_ad
@@ -657,6 +658,7 @@ yanmaga.jp##.-cv-pr
 ||gamewith.jp^*/walkthrough/adjack.js
 gamewith.jp##._native_ad_item
 gamewith.jp##.ad-header-creative-wrapper
+gamewith.jp##.browsi-atf
 gamewith.jp##.fs-s.c-box
 gamewith.jp##.is-pr
 gamewith.jp##.p-search-recommend
@@ -706,6 +708,7 @@ etc64.com##.news-area
 ||images-fe.ssl-images-amazon.com/images/S/apesafeframe/
 amazon.co.jp##.AdHolder
 amazon.co.jp##.amzn-safe-frame-container
+amazon.co.jp##.nav-app-banner-elements
 amazon.co.jp##.s-widget-spacing-small.s-widget
 amazon.co.jp###detailILMPercolate_feature_div
 amazon.co.jp###discovery-and-inspiration_feature_div
@@ -781,6 +784,7 @@ yodobashi.com##.productListCarouselSp
 ||smart-flash.jp^$doc,removeparam=|rf
 
 
+||asset01.suumo.jp/sp/js/beacon.js$script,redirect-rule=noopjs
 ||counter.wikiwiki.jp^
 ||tabelog.com/tbsp/tpoint_appli_times_modals/
 ||zawazawa.jp/a/pv/
@@ -835,16 +839,15 @@ mi-mollet.com###MM_SP_readmore
 minitool.com##.promotions-banner-wrap
 nordot.app##.main__adWrapper
 nordot.app##div.page__ad
+onedrive.live.com##.od-QuotaBannerWrapper
+pc.moppy.jp##.js-external-banner
+pc.moppy.jp##.m-external-banner
 s.rbbtoday.com##.aside-box-pickup
 s.rbbtoday.com###ad1
 s.rbbtoday.com##div.aside-box-ad
 sp.okwave.jp##.adfunnel_special_box
 storiesig.app##.fr-a-block
 tarzanweb.jp##.takearest_block
-tenki.jp##.tenki-ad-lite-mid
-tenki.jp##.tenki-ad-lite-north
-tenki.jp##.tenki-ad-lite-overlay
-tenki.jp##.tenki-ad-lite-pd
 trilltrill.jp##.articleDetail-GAM
 trilltrill.jp##.js-w2a-banner
 twitcasting.tv##.alert
@@ -870,8 +873,9 @@ yomitai.jp##.social-button-series
 yomitai.jp###sinkansyokai
 
 @@||csf.rakuten-bank.co.jp/rb/ams/img/ad/$image,1p
+@@||famipay.onelink.me^$1p
 @@||jinrou.tsukuyo-oka.jp/analyzer.js$script,1p
-@@||matomo.jp/wp-content/*$1p
+@@||matomo.jp/wp-content/$1p
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=sonixgvn.net
 @@||webtoolss.com/js/rss.js$1p
 
@@ -912,10 +916,13 @@ live.fc2.com##.noticeArea
 ||logql.yahoo.co.jp^
 ||mfn.yahoo.co.jp/v1/experiment
 ||s.yimg.jp/images/ds/cl/ds-custom-logger-
+@@||s.yimg.jp/images/ds/cl/ds-custom-logger-1.0.0.min.js$script,domain=accounts.yahoo.co.jp
 ||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
 ||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
 ||s.yimg.jp/images/mail/promo/$image
 ||s.yimg.jp/images/yjtop-app/promo/banner
+||storage-yahoo.jp/shp-search-fe-dist/*/_next/static/chunks/pages/_error.js$domain=shopping.yahoo.co.jp
+||storage-yahoo.jp/shp-search-fe-dist/*/_next/static/css/pages/_error.css$domain=shopping.yahoo.co.jp
 ||yads.c.yimg.jp^
 ||yjtag.jp^
 detail.chiebukuro.yahoo.co.jp###post_ans
@@ -1003,6 +1010,14 @@ w.atwiki.jp###atwiki-ads-overlay
 ||blog.tinect.jp/wp-content/themes/books-apps-sp/images/icon-
 blog.tinect.jp##.g
 blog.tinect.jp###navi
+
+! [日本気象協会 tenki.jp]
+||static.tenki.jp/images/icon/sns/$image
+tenki.jp##.app-promote-wrapper
+tenki.jp##.tenki-ad-lite-mid
+tenki.jp##.tenki-ad-lite-north
+tenki.jp##.tenki-ad-lite-overlay
+tenki.jp##.tenki-ad-lite-pd
 
 ! [OpenWeatherMap]
 ||openweathermap.org/themes/openweathermap/assets/img/mobile_app/$image
