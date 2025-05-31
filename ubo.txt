@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-05-30
+! Last modified: 2025-05-31
 
 ! [汎用]
 ##.adsbygoogle
@@ -393,6 +393,7 @@ xdaforums.com###xdaforums_leaderboard_atf
 ||parts.blog.livedoor.jp/img/lite2/item/social_buttons/
 blog.livedoor.jp##.blog-footer
 blog.livedoor.jp###gdpr-banner
+blog.livedoor.jp###ld-floating-menu
 news.livedoor.com##.ads-google300
 
 ! [マイナビニュース]
@@ -701,11 +702,19 @@ altema.jp##.PRrank-icon2
 @@||rcm.shinobi.jp/css/webiconfont.css$stylesheet,domain=etc64.com
 etc64.com##.google_ad
 etc64.com##.news-area
+
+! [ポケマピ]
+pokemongo-get.com##.top_app_link_bg
+pokemongo-get.com##.maintenance-announcement
 ! ====== ゲーム
 
 ! 通販 =====
 ! [Amazon]
-||images-fe.ssl-images-amazon.com/images/S/apesafeframe/
+||amazon.co.jp^$removeparam=ref
+||amazon.co.jp^$removeparam=me
+||amazon.co.jp^$removeparam=smid
+||images-fe.ssl-images-amazon.com/images/S/apesafeframe/$domain=amazon.co.jp
+||m.media-amazon.com/images/G/09/pets/$image
 amazon.co.jp##.AdHolder
 amazon.co.jp##.amzn-safe-frame-container
 amazon.co.jp##.nav-app-banner-elements
@@ -867,6 +876,7 @@ wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
 workman.jp###cookieBox
+www.reddit.com##.absolute
 www.reddit.com##.xPromoChoiceBanner
 www.reddit.com##.XPromoPill
 yomitai.jp##.social-button-series
