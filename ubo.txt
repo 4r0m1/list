@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-05-31
+! Last modified: 2025-06-02
 
 ! [汎用]
 ##.adsbygoogle
@@ -66,13 +66,13 @@
 ||zucks.net^
 
 ! Mobile notifications
-/app-banner/*$xmlhttprequest
-/jquery.androidbanner.js
-/js-mobile-*/header_$script
-/js/jquery.smartbanner.js|
-/js/jquery.smartbanner.min.js|
-/mobile-welcome-overlay/*$script
-/smart-app-banner.js
+! /app-banner/*$xmlhttprequest
+! /jquery.androidbanner.js
+! /js-mobile-*/header_$script
+! /js/jquery.smartbanner.js|
+! /js/jquery.smartbanner.min.js|
+! /mobile-welcome-overlay/*$script
+! /smart-app-banner.js
 
 ! SNS ======
 ||instagram.com/ajax/bz
@@ -296,9 +296,9 @@ www.asahi.com##li.TJcqi
 
 ! [エキサイトニュース]
 ||excite.co.jp/news/js/web-push.js
-||image.excite.co.jp/jp/erecipe/common/footer/*$image
-||image.excite.co.jp/jp/erecipe/sp/banner/*$image
-||image.excite.co.jp/jp/erecipe/webpush/*$image
+||image.excite.co.jp/jp/erecipe/common/footer/$image
+||image.excite.co.jp/jp/erecipe/sp/banner/$image
+||image.excite.co.jp/jp/erecipe/webpush/$image
 erecipe.woman.excite.co.jp##a.dispbl
 excite.co.jp##.ad-aside-rectangle
 www.excite.co.jp##.ad-aside-inarticle
@@ -668,6 +668,7 @@ gamewith.jp##.to-btn--deep-link
 gamewith.jp##.to-btn-area
 gamewith.jp##.walkthrough-ad-ranking-game
 gamewith.jp##.walkthrough-ad-recommend-game
+gamewith.jp##table:has([href^="https://hrmos.co/pages/gamewith/jobs/"])
 
 ! [神ゲー攻略]
 ||kamigame.jp/img/granbluefantasy/granbluefantasy_bg.png$image
@@ -799,7 +800,6 @@ yodobashi.com##.productListCarouselSp
 ||zawazawa.jp/a/pv/
 
 4travel.jp##.u_adplanBox
-aconvert.com##.bluebg
 add0n.com###adb
 ameblo.jp##.LazyLoad
 aminoapps.com##.ad-block-container-mobile
@@ -998,8 +998,8 @@ cookpad.com##.css-plnuqa
 cookpad.com##.standard_ad_slot
 
 ! [デリッシュキッチン]
-||media.delishkitchen.tv/image/*$image
-||delishkitchen.tv/s/images/footer/*$image
+||media.delishkitchen.tv/image/$image
+||delishkitchen.tv/s/images/footer/$image
 
 ! [アットウィキ]
 ||atwiki.jp/common/dist/js/amazon_flux.
@@ -1040,7 +1040,7 @@ openweathermap.org###stick-footer-panel
 
 ! [トクバイ]
 ||commercial-videos.tokubai.co.jp^
-||tokubai.co.jp/ads/*
+||tokubai.co.jp/ads/
 ||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate
 ||tokubai.co.jp/assets/device/themes/bargains/smart_app_banner_$image
 ||tokubai.co.jp/assets/device/themes/bargains/web2app_banner-$image
@@ -1131,9 +1131,6 @@ monolog.r-n-i.jp###graphArea
 
 ! 2022-05-29 mzh.moegirl.org.cn
 ||app.moegirl.org.cn^$image
-
-! 2022-06-18 srad.jp
-||srad.jp/static/sprite-syndication.png$image
 
 ! 2023-02-23 nagoyatv.com
 ||nagoyatv.com/themes/nagoyatv_sp/news/images/bn_$image
