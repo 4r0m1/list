@@ -2,7 +2,12 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-06-14
+! Last modified: 2025-06-25
+
+! [urlskip]
+||kakaku.com^$urlskip=?u
+||kakaku.com^$urlskip=?url
+||afl.rakuten.co.jp^$urlskip=?pc
 
 ! [汎用]
 ##.adsbygoogle
@@ -36,6 +41,7 @@
 /optimizely-$script
 /plugins/gianism/*
 /plugins/wp-social-bookmarking-light/*
+/sp/common/common/js/jquery.dwImageProtector.js$script
 /wp-content/plugins/amazonjs/*
 ||a8.net^
 ||adtdp.com^
@@ -158,7 +164,8 @@ sp.nijie.info###tieup_column
 
 ! [Togetter,posfie]
 ||images-na.ssl-images-amazon.com^$domain=togetter.com|posfie.com
-||s.tgstc.com/static/web/img/banner/$image
+||s.tgstc.com/static/web/img/banner/$image,domain=togetter.com
+||s.tgstc.com/static/web/img/twilog/subscription_$image,domain=togetter.com
 ||togetter.com/static/web/img/app/$image
 ||togetter.com/static/web/img/app_dl_$image
 ||togetter.com/static/web/img/sp_footer_app_banner.$image
@@ -183,7 +190,7 @@ togetter.com###appdl_header
 ! 掲載ポストについて
 togetter.com,posfie.com##.use_api_box
 ! 記事へのコメント
-togetter.com###comment-box-portal
+togetter.com,posfie.com###comment-box-portal
 ! みんなのコメント
 togetter.com###comments-summary-portal
 ! [まとめをアプリでもっと快適に読む]
@@ -191,6 +198,8 @@ togetter.com##a[data-ga="action_moreapp"]
 posfie.com##.more_tweet_box > [href]
 ! PRのついた記事
 togetter.com##li:has(.icon_pr)
+! posfieサポーター
+posfie.com##.side_supporter_box
 
 ! [Twitter(X)関連]
 buhitter.com##aside.row
@@ -682,6 +691,8 @@ kamigame.jp##.inline-ad
 kamigame.jp##.pre-registration-widget
 kamigame.jp###ad_top
 
+game8.jp##.ad-wrapper
+
 ! [アルテマ]
 ||altema.jp/include/altema/add_banner.js
 altema.jp###osusume-game-ranking-area
@@ -928,10 +939,11 @@ live.fc2.com##.noticeArea
 ||logql.yahoo.co.jp^
 ||mfn.yahoo.co.jp/v1/experiment
 ||s.yimg.jp/images/ds/cl/ds-custom-logger-1.0.0.min.js$script,domain=~accounts.yahoo.co.jp|~store.shopping.yahoo.co.jp
+||s.yimg.jp/images/ks/clap/image/banner/counselor/abtest/test1.png$image,domain=yahoo.co.jp
 ||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
-||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
 ||s.yimg.jp/images/mail/promo/$image
 ||s.yimg.jp/images/yjtop-app/promo/banner
+||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
 ||yads.c.yimg.jp^
 ||yjtag.jp^
 detail.chiebukuro.yahoo.co.jp###post_ans
@@ -941,6 +953,8 @@ m.yahoo.co.jp###rsab
 map.yahoo.co.jp###sticky_banner
 news.yahoo.co.jp##.adWrap
 news.yahoo.co.jp##.null
+shopping.yahoo.co.jp##.banner-link
+store.shopping.yahoo.co.jp##.Button--orangeFilledSecondary
 
 ! [goo]
 ||4dex.io^
@@ -1027,6 +1041,7 @@ tenki.jp##.tenki-ad-lite-mid
 tenki.jp##.tenki-ad-lite-north
 tenki.jp##.tenki-ad-lite-overlay
 tenki.jp##.tenki-ad-lite-pd
+tenki.jp###weather-check-banner-wrap
 
 ! [OpenWeatherMap]
 ||openweathermap.org/themes/openweathermap/assets/img/mobile_app/$image
