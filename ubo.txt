@@ -2,12 +2,14 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2025-06-25
+! Last modified: 2026-06-11
 
 ! [urlskip]
+||afl.rakuten.co.jp^$urlskip=?pc
 ||kakaku.com^$urlskip=?u
 ||kakaku.com^$urlskip=?url
-||afl.rakuten.co.jp^$urlskip=?pc
+||linksynergy.jrs5.com^$urlskip=?murl
+||my-best.com^$urlskip=?url
 
 ! [汎用]
 ##.adsbygoogle
@@ -218,6 +220,24 @@ picnob.com##.ah-box
 picnob.com##.ah-box-n-w
 pixwox.com##.ah-box
 
+! [reddit]
+||redditstatic.com/shreddit/br/1/en-US/app-selector-client-js-$script,redirect-rule=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/pdp-ad-client-js-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/comment-tree-ads-client-js-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/protected-community-modal-trigger-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/scroll-blocker-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/click-location-tracker-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/xpromo-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/shreddit-dynamic-ad-link-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/with-ad-observer-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/ad-event-tracker-$script,redirect=noopjs,domain=reddit.com
+||redditstatic.com/shreddit/br/1/en-US/chat-mobile-xpromo-client-js-$script,redirect=noopjs,domain=reddit.com
+reddit.com##body > div
+reddit.com##.absolute
+reddit.com##.xPromoChoiceBanner
+reddit.com##.XPromoPill
+reddit.com###blocking-modal
+
 ! [はてな]
 @@||b.hatena.ne.jp/entry/jsonlite/$script,domain=lab.syncer.jp
 ||b.hatena.ne.jp^$3p
@@ -259,6 +279,7 @@ watch.impress.co.jp##.social-bookmark
 ||itmedia.co.jp/js/spv/nl_related_logly.js
 ||itmedia.co.jp^*/insert_articles_ad.
 itmedia.co.jp##._popIn_recommend:empty
+itmedia.co.jp##.cmsAmazonWrap
 itmedia.co.jp##.colBoxIndexAD
 itmedia.co.jp##.gad
 itmedia.co.jp##.wrap_social
@@ -448,6 +469,7 @@ topics.smt.docomo.ne.jp###ad_middle
 4gamer.net##.top_ad
 animatetimes.com##.c-share
 automaton-media.com,fate-twitter-matome.com,hentaidude.xxx,hentaihaven.xxx,sorae.info,thotbook.tv##.ai_widget
+automaton-media.com##.author-box
 automaton-media.com##.code-block
 automaton-media.com##.td-a-rec
 bbc.com##.nw-c-leaderboard-ad
@@ -583,6 +605,7 @@ appbank.net##.fixed-height
 appbank.net##h2
 courrier.jp##.is-flex
 delishkitchen.tv##.delish-present-campaign-banners
+famitsu.com##div[class^=FooterBannerForSp_container_]
 gamespark.jp##.af_box
 getnews.jp###resp_article_undertitle
 getnews.jp###resp_rectangle_1st
@@ -598,9 +621,6 @@ phileweb.com###sp_article_undertitle_wrapper
 roomie.jp##.article1-ad
 roomie.jp##.araklet
 s.animeanime.jp##.af_box
-s.famitsu.com##.banner-window-jack-wrapper
-s.famitsu.com##.l-banner
-s.famitsu.com##div.l-contents-block--tie-up .ad-native-campaign-leftout
 s.inside-games.jp##.af_box
 s.inside-games.jp##.header-ad
 s.inside-games.jp##.item--special
@@ -889,9 +909,6 @@ wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
 workman.jp###cookieBox
-www.reddit.com##.absolute
-www.reddit.com##.xPromoChoiceBanner
-www.reddit.com##.XPromoPill
 yomitai.jp##.social-button-series
 yomitai.jp###sinkansyokai
 
