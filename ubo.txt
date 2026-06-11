@@ -11,6 +11,17 @@
 ||linksynergy.jrs5.com^$urlskip=?murl
 ||my-best.com^$urlskip=?url
 
+! [$removeparam=]
+||ch.dlsite.com^$doc,removeparam=|dls
+||ch.dlsite.com^$doc,removeparam=|from
+||ch.dlsite.com^$doc,removeparam=|k_matome_maniax_sp
+||j-cast.com^$doc,removeparam=|in
+||jisin.jp^$doc,removeparam=|rf
+||my-best.com^$doc,removeparam=sc_i
+||president.jp^$doc,removeparam=|cx_referrertype
+||president.jp^$doc,removeparam=|yhref
+||smart-flash.jp^$doc,removeparam=|rf
+
 ! [汎用]
 ##.adsbygoogle
 ##[id^="div-gpt-ad"]
@@ -594,7 +605,6 @@ oceans-nadia.com##div[class^=OpenCampaigns_wrapper]
 oceans-nadia.com##div[class^=VideoBanner_videoBannerWrap]
 
 ||my-best.com/advertisements/$image
-||my-best.com^$urlskip=?url
 
 ||static.forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js$script,1p
 
@@ -611,6 +621,8 @@ getnews.jp###resp_article_undertitle
 getnews.jp###resp_rectangle_1st
 jp.ign.com##.billboard
 jp.ign.com##.mobileArticleAds
+karapaia.com##.ad
+karapaia.com##.ad-box
 kurashi-no.jp##.Ad_Rectangle_Widget
 manetatsu.com##.aside-box-ad
 mitok.info##.p-adBox
@@ -728,6 +740,7 @@ altema.jp##.PRrank-icon2
 
 ! [攻略ブログまとめマグナム]
 ||etc64.com/ad.jpg$image
+||etc64.com/ad.png$image
 ||etc64.com/image/guraburu/$image
 ||etc64.com/wp-content/uploads/$image
 @@||cnobi.jp/v1/gazorss/recommend/$script,domain=etc64.com
@@ -814,17 +827,6 @@ recipe.rakuten.co.jp##.pointmission_header
 yodobashi.com##.productListCarouselSp
 
 ! ===== 通販
-
-
-! [$removeparam=]
-||ch.dlsite.com^$doc,removeparam=|dls
-||ch.dlsite.com^$doc,removeparam=|from
-||ch.dlsite.com^$doc,removeparam=|k_matome_maniax_sp
-||j-cast.com^$doc,removeparam=|in
-||jisin.jp^$doc,removeparam=|rf
-||president.jp^$doc,removeparam=|cx_referrertype
-||president.jp^$doc,removeparam=|yhref
-||smart-flash.jp^$doc,removeparam=|rf
 
 
 ||asset01.suumo.jp/sp/js/beacon.js$script,redirect-rule=noopjs
