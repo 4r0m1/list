@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2026-06-11
+! Last modified: 2026-06-12
 
 ! [urlskip]
 ||afl.rakuten.co.jp^$urlskip=?pc
@@ -232,6 +232,7 @@ picnob.com##.ah-box-n-w
 pixwox.com##.ah-box
 
 ! [reddit]
+||accounts.google.com^$domain=reddit.com
 ||redditstatic.com/shreddit/br/1/en-US/app-selector-client-js-$script,redirect-rule=noopjs,domain=reddit.com
 ||redditstatic.com/shreddit/br/1/en-US/pdp-ad-client-js-$script,redirect=noopjs,domain=reddit.com
 ||redditstatic.com/shreddit/br/1/en-US/comment-tree-ads-client-js-$script,redirect=noopjs,domain=reddit.com
@@ -604,6 +605,8 @@ oceans-nadia.com##div[class^=LpSlider_wrap]
 oceans-nadia.com##div[class^=OpenCampaigns_wrapper]
 oceans-nadia.com##div[class^=VideoBanner_videoBannerWrap]
 
+||mequrimequru.jp/kimg/bi/books/$image,1p
+
 ||my-best.com/advertisements/$image
 
 ||static.forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js$script,1p
@@ -751,8 +754,9 @@ etc64.com##.google_ad
 etc64.com##.news-area
 
 ! [ポケマピ]
-pokemongo-get.com##.top_app_link_bg
+pokemongo-get.com##.border-frame
 pokemongo-get.com##.maintenance-announcement
+pokemongo-get.com##.top_app_link_bg
 ! ====== ゲーム
 
 ! 通販 =====
