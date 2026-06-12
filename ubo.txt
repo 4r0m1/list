@@ -918,6 +918,8 @@ workman.jp###cookieBox
 yomitai.jp##.social-button-series
 yomitai.jp###sinkansyokai
 
+@@||googletagmanager.com$domain=dcard.docomo.ne.jp
+@@||browser-intake-datadoghq.com^$domain=dcard.docomo.ne.jp
 @@||csf.rakuten-bank.co.jp/rb/ams/img/ad/$image,1p
 @@||famipay.onelink.me^$1p
 @@||jinrou.tsukuyo-oka.jp/analyzer.js$script,1p
