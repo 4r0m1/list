@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2026-06-12
+! Last modified: 2026-06-14
 
 ! [urlskip]
 ||afl.rakuten.co.jp^$urlskip=?pc
@@ -911,6 +911,7 @@ weblio.jp##.adBkOverlayClr
 weheartit.com##.mobile-top-banner
 weheartit.com##.sponsored-content
 weheartit.com##.sticky-ad
+wikihow.jp##.wh_ad_active
 wikiwiki.jp##.ads-footer
 wikiwiki.jp###inbound-ad-container
 wikiwiki.jp###pc-bottom-parent-ad-container
@@ -960,7 +961,7 @@ live.fc2.com##.noticeArea
 
 ! [Yahoo! JAPAN]
 ||dsb.yahoo.co.jp^
-@@||dsb.yahoo.co.jp/api/v1/stream$ping,domain=accounts.yahoo.co.jp|news.yahoo.co.jp
+@@||dsb.yahoo.co.jp/api/v1/stream$ping,domain=accounts.yahoo.co.jp|news.yahoo.co.jp|store.shopping.yahoo.co.jp
 ||logql.yahoo.co.jp^
 ||mfn.yahoo.co.jp/v1/experiment
 ||s.yimg.jp/images/ds/cl/ds-custom-logger-1.0.0.min.js$script,domain=~accounts.yahoo.co.jp|~store.shopping.yahoo.co.jp
@@ -980,41 +981,6 @@ news.yahoo.co.jp##.adWrap
 news.yahoo.co.jp##.null
 shopping.yahoo.co.jp##.banner-link
 store.shopping.yahoo.co.jp##.Button--orangeFilledSecondary
-
-! [goo]
-||4dex.io^
-||cdn.jsdelivr.net/gh/prebid/
-||creativecdn.com^
-||criteo.net^
-||geoedge.be^
-||iponweb.net^
-||pubmatic.com^
-||xlisting.jp^
-
-||adcdn.goo.ne.jp^
-||dictionary.goo.ne.jp/img/app_promotion/
-||dictionary.goo.ne.jp/mix/js/app_sp.js
-||log000.goo.ne.jp^
-||xgoo.jp/images/common/banner_$image,domain=goo.ne.jp
-||xgoo.jp/top2018/public/r_js/push/
-blog.goo.ne.jp##.article__ad
-blog.goo.ne.jp###msg-box-app-recommend
-dictionary.goo.ne.jp##.app_promotion_button
-!goo.ne.jp##div[id^="gooad"]
-!goo.ne.jp###gooad-spbadge300_1
-!goo.ne.jp###gooad-spbadge300_2
-!goo.ne.jp###gooad-spbadge300_3
-!goo.ne.jp###gooad-spbadge300_4
-!goo.ne.jp###gooad-spbadge300_5
-!goo.ne.jp###gooad-spbadge300_6
-!goo.ne.jp###gooad-spbadge320_1
-goo.ne.jp##.NR-ad
-oshiete.goo.ne.jp##.Ad
-oshiete.goo.ne.jp##.ListPosts-item--PR-crown
-oshiete.goo.ne.jp##.readMore-btn
-www.goo.ne.jp###gooad-spinfeed-topics1_1
-www.goo.ne.jp###gooad-spinfeed-topics1_2
-www.goo.ne.jp###mental
 
 ! [カクヨム]
 ||kakuyomu.jp/images/common/facebook.
@@ -1060,6 +1026,7 @@ blog.tinect.jp##.g
 blog.tinect.jp###navi
 
 ! [日本気象協会 tenki.jp]
+||static.tenki.jp/images/banner/$image
 ||static.tenki.jp/images/icon/sns/$image
 tenki.jp##.app-promote-wrapper
 tenki.jp##.tenki-ad-lite-mid
@@ -1117,6 +1084,7 @@ wattpad.com##.bottom-banner
 ! 2021-05-03 kotobank.jp
 ||kotobank.jp/image/bn_app.jpg$image
 kotobank.jp##.sp-word-ad
+kotobank.jp###fixed_footer
 kotobank.jp###ftInfo
 
 ! 2021-10-15 9gag.com
