@@ -177,8 +177,8 @@ sp.nijie.info###tieup_column
 
 ! [Togetter,posfie]
 ||images-na.ssl-images-amazon.com^$domain=togetter.com|posfie.com
-||s.tgstc.com/static/web/img/banner/$image,domain=togetter.com
-||s.tgstc.com/static/web/img/twilog/subscription_$image,domain=togetter.com
+||tgstc.com/static/web/img/banner/$image,domain=togetter.com
+||tgstc.com/static/web/img/twilog/subscription_$image,domain=togetter.com
 ||togetter.com/static/web/img/app/$image
 ||togetter.com/static/web/img/app_dl_$image
 ||togetter.com/static/web/img/sp_footer_app_banner.$image
@@ -215,11 +215,9 @@ togetter.com##li:has(.icon_pr)
 posfie.com##.side_supporter_box
 
 ! [Twitter(X)関連]
-buhitter.com##aside.row
-||nurumayu.net/twidouga/js/jquery.overlayad.js
-nurumayu.net###js-popup
 twiman.net##.my-2
 twiman.net##.my-3
+twiman.net##.w-full.fixed
 
 ! [Instagram関連]
 instagrammernews.com##.footerBanner
@@ -343,10 +341,10 @@ www.asahi.com##li.TJcqi
 ||image.excite.co.jp/jp/erecipe/webpush/$image
 erecipe.woman.excite.co.jp##a.dispbl
 excite.co.jp##.ad-aside-rectangle
-www.excite.co.jp##.ad-aside-inarticle
-www.excite.co.jp##.ad-aside-infeed
-www.excite.co.jp##.ad-aside-white-infeed
-www.excite.co.jp###ec-ranking
+excite.co.jp##.ad-aside-inarticle
+excite.co.jp##.ad-aside-infeed
+excite.co.jp##.ad-aside-white-infeed
+excite.co.jp###ec-ranking
 
 ! [まいどなニュース]
 maidonanews.jp,yorozoonews.jp##.module-ad-header
