@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2026-06-14
+! Last modified: 2026-09-13
 
 ! [urlskip]
 ||afl.rakuten.co.jp^$urlskip=?pc
@@ -220,9 +220,6 @@ buhitter.com##aside.row
 nurumayu.net###js-popup
 twiman.net##.my-2
 twiman.net##.my-3
-twoucan.com##.twoucan-ad
-twoucan.com##.twoucan-footer-ad
-twoucan.com###app_advertise
 
 ! [Instagram関連]
 instagrammernews.com##.footerBanner
@@ -263,6 +260,7 @@ b.hatena.ne.jp##.entrylist-ad-sp-rectangle
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.ad
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ad-in-entry
 hatenablog.com##.globalPage-ad
+hatenablog.com###quote-base
 q.hatena.ne.jp##.google_afc_blocklink_smartphone
 q.hatena.ne.jp##.touch-rectangle-wrapper
 q.hatena.ne.jp###touch-permalink-keyword-rectangle
@@ -316,7 +314,9 @@ moguravr.com##.ads-only-mobile
 ||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/discord_bn_top.png$image
 ||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/hatena_btn.png$image
 ||news.denfaminicogamer.jp/wp-content/themes/dfng_news_org/img/line_btn.png$image
+||news.denfaminicogamer.jp/wp-content/uploads/pa-banners/$image
 news.denfaminicogamer.jp##.amazon-ranking
+news.denfaminicogamer.jp##.banner
 news.denfaminicogamer.jp##.rectangle-bn
 news.denfaminicogamer.jp###dfng-banner
 news.denfaminicogamer.jp###dfng-jack-mobile
@@ -768,13 +768,8 @@ pokemongo-get.com##.top_app_link_bg
 ||m.media-amazon.com/images/G/09/pets/$image
 amazon.co.jp##.AdHolder
 amazon.co.jp##.amzn-safe-frame-container
-amazon.co.jp##.nav-app-banner-elements
-amazon.co.jp##.s-widget-spacing-small.s-widget
-amazon.co.jp###detailILMPercolate_feature_div
-amazon.co.jp###discovery-and-inspiration_feature_div
+amazon.co.jp##.ape-wrapper
 amazon.co.jp###hero-quick-promo_feature_div
-amazon.co.jp###mobile-ads-bottom_feature_div.celwidget
-amazon.co.jp###mobile-ads-middle_feature_div.celwidget
 
 ! こんな商品も
 www.amazon.co.jp#@#div[data-ad-id]
@@ -832,8 +827,8 @@ yodobashi.com##.productListCarouselSp
 
 ! ===== 通販
 
-
 ||asset01.suumo.jp/sp/js/beacon.js$script,redirect-rule=noopjs
+||colleee.net/images/banner_app.png$image
 ||counter.wikiwiki.jp^
 ||tabelog.com/tbsp/tpoint_appli_times_modals/
 ||zawazawa.jp/a/pv/
@@ -843,6 +838,7 @@ add0n.com###adb
 ameblo.jp##.LazyLoad
 aminoapps.com##.ad-block-container-mobile
 android.gadgethacks.com##.rightbox
+apkmirror.com##.apk-detail-table
 apkpure.com##.ad-box
 app.raindrop.io##.upgrade-1DKr
 appllio.com##.ad-appllio-Title
