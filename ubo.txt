@@ -242,6 +242,7 @@ pixwox.com##.ah-box
 ||redditstatic.com/shreddit/br/1/en-US/chat-mobile-xpromo-client-js-$script,redirect=noopjs,domain=reddit.com
 reddit.com##body > div
 reddit.com##.absolute
+reddit.com##.configured-xpromo-modal
 reddit.com##.xPromoChoiceBanner
 reddit.com##.XPromoPill
 reddit.com###blocking-modal
@@ -287,6 +288,7 @@ watch.impress.co.jp##.social-bookmark
 ||fc.itmedia.co.jp^
 ||itmedia.co.jp/js/spv/nl_related_logly.js
 ||itmedia.co.jp^*/insert_articles_ad.
+@@||www.google.com/cse/static/element/$script,domain=itmedia.co.jp
 itmedia.co.jp##._popIn_recommend:empty
 itmedia.co.jp##.cmsAmazonWrap
 itmedia.co.jp##.colBoxIndexAD
@@ -564,7 +566,7 @@ qiita.com##.st-Modal
 qiita.com##[id^=logly-lift]
 
 ! [note]
-note.com,www.hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
+note.com,hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
 ||assets.st-note.com/poc-image/$image
 ||logcollector.note.com^
 ||note.com/api/v*/trackings/
@@ -604,23 +606,25 @@ oceans-nadia.com##div[class^=LpSlider_wrap]
 oceans-nadia.com##div[class^=OpenCampaigns_wrapper]
 oceans-nadia.com##div[class^=VideoBanner_videoBannerWrap]
 
-||mequrimequru.jp/kimg/bi/books/$image,1p
+||mequrimequru.jp/kimg/bi/books/$image
 
 ||my-best.com/advertisements/$image
 
-||static.forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js$script,1p
+||static.forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js$script
 
 anime.eiga.com##.adBox
 anime.eiga.com###rect_ad
 appbank.net##.body-ad
 appbank.net##.fixed-height
 appbank.net##h2
+automaton-media.com##.ct-popup
 courrier.jp##.is-flex
 delishkitchen.tv##.delish-present-campaign-banners
 famitsu.com##div[class^=FooterBannerForSp_container_]
 gamespark.jp##.af_box
 getnews.jp###resp_article_undertitle
 getnews.jp###resp_rectangle_1st
+japan.zdnet.com###ad_large
 jp.ign.com##.billboard
 jp.ign.com##.mobileArticleAds
 karapaia.com##.ad
@@ -631,6 +635,7 @@ mitok.info##.p-adBox
 natalie.mu##.NA_ad
 nazology.net##.ads
 nichireifoods.co.jp##.popup-recommend
+omocoro.jp##.social
 phileweb.com###sp_article_undertitle_wrapper
 roomie.jp##.article1-ad
 roomie.jp##.araklet
@@ -682,6 +687,7 @@ mangacross.jp##div > [href^="https://www.amazon.co.jp"]
 sukima.me##.gmoam_end_outer_wrapper
 sukima.me##.gmoam_outer_wrapper
 sukima.me##.my-2.pa-0
+to-ti.in##nav
 tonarinoyj.jp##.link-page-half
 tonarinoyj.jp##.page-ad
 twicomi.com##.interrupt
@@ -726,6 +732,7 @@ kamigame.jp##.pre-registration-widget
 kamigame.jp###ad_top
 
 game8.jp##.ad-wrapper
+gamerch.com###StickyAd
 
 ! [アルテマ]
 ||altema.jp/include/altema/add_banner.js
@@ -756,6 +763,15 @@ etc64.com##.news-area
 pokemongo-get.com##.border-frame
 pokemongo-get.com##.maintenance-announcement
 pokemongo-get.com##.top_app_link_bg
+
+! 2026/08/31 9db.jp
+9db.jp##.ta_c.s
+9db.jp###gam-overlay
+
+! 2026/08/07 https://puretomo.hange.jp
+puretomo.hange.jp##div[class^=mission_missionTopArea_]
+puretomo.hange.jp##div[class^=mission_dailyMissionCharacterComment_]
+puretomo.hange.jp##div[class^=AvatarViewWebp_]
 ! ====== ゲーム
 
 ! 通販 =====
@@ -1123,17 +1139,17 @@ ddnavi.com##.buttonlink2
 ||hotpepper.jp/DEV/DEV_OPEN/CSP/log/
 @@||hotpepper.jp/DEV/DEV_OPEN/CSP/log/js/logTeam.js$script,domain=hotpepper.jp
 ||hotpepper.jp/doc/mesitsu_rilo/sp/riloparts.html
-www.hotpepper.jp##.entry-header-html
-www.hotpepper.jp##.pr-cassette
-www.hotpepper.jp##.sns-follow-btn-box
+hotpepper.jp##.entry-header-html
+hotpepper.jp##.pr-cassette
+hotpepper.jp##.sns-follow-btn-box
 
 ! 2022-04-18 monolog.r-n-i.jp
 ||monolog.r-n-i.jp/upload/monolog-banner.png$image
 monolog.r-n-i.jp###graphArea
 
 ! 2022-05-04 4chan.org
-||s.4cdn.org/image/fp/fade.png$image
-||s.4cdn.org/image/fade-blue.png$image
+||4cdn.org/image/fp/fade.png$image
+||4cdn.org/image/fade-blue.png$image
 4chan.org###abc-cnt
 
 ! 2022-05-20 msn.com
@@ -1153,12 +1169,13 @@ weathernews.jp###app_dl
 
 ! 2023-03-30 fantia.jp
 ||fantia.jp/uploads/display_campaign/banner_image/$image
+||media.games.dmm.co.jp^$image,3p
 ||spotlight.fantia.jp/wp-json/api/v1/ads?$1p
 
 ! 2023-03-31 s.mognavi.jp
 ||cdn1.s.mognavi.jp^$image
-s.mognavi.jp##div.adArea
-s.mognavi.jp###system-bottom-action
+mognavi.jp##div.adArea
+mognavi.jp###system-bottom-action
 
 ! 2023-04-29 intaa.net
 ||intaa.net^$inline-script
@@ -1167,7 +1184,10 @@ s.mognavi.jp###system-bottom-action
 ||cloudfront.net/images/spn/common/icons/facebook_logo_wht.png$image,domain=cosme.net
 ||cloudfront.net/images/spn/common/icons/ico_sns.png$image,domain=cosme.net
 ||cosme.net/brand/gadget/pr-area/
-s.cosme.net##.global-feed-timeline
-s.cosme.net##.pdt-purchase
-s.cosme.net##.pdt-review-sort-premium
-s.cosme.net##.purchase-wrap
+cosme.net##.global-feed-timeline
+cosme.net##.pdt-purchase
+cosme.net##.pdt-review-sort-premium
+cosme.net##.purchase-wrap
+
+! 2026/09/15 www.buffalo.jp
+buffalo.jp##.el-float-btn--list
