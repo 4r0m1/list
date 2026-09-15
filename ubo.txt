@@ -2,10 +2,11 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2026-09-13
+! Last modified: 2026-09-15
 
 ! [urlskip]
 ||afl.rakuten.co.jp^$urlskip=?pc
+||kakaku.com^$urlskip=Url
 ||kakaku.com^$urlskip=?u
 ||kakaku.com^$urlskip=?url
 ||linksynergy.jrs5.com^$urlskip=?murl
@@ -945,6 +946,7 @@ sp.seiga.nicovideo.jp##.launch_app_container
 sp.seiga.nicovideo.jp##.manga_app_header
 
 ! [FC2]
+||contents.fc2.com/embed/rb/sevices?id=videofc2_overlay_banner$subdocument$1p
 ||fc2.com/image/clap/
 ||live.fc2.com/img/mobile/bnr/$image
 ||media.fc2.com^
@@ -958,16 +960,21 @@ live.fc2.com##.noticeArea
 @@||dsb.yahoo.co.jp/api/v1/stream$ping,domain=accounts.yahoo.co.jp|news.yahoo.co.jp|store.shopping.yahoo.co.jp
 ||logql.yahoo.co.jp^
 ||mfn.yahoo.co.jp/v1/experiment
-||s.yimg.jp/images/ds/cl/ds-custom-logger-1.0.0.min.js$script,domain=~accounts.yahoo.co.jp|~store.shopping.yahoo.co.jp
-||s.yimg.jp/images/ks/clap/image/banner/counselor/abtest/test1.png$image,domain=yahoo.co.jp
-||s.yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
-||s.yimg.jp/images/mail/promo/$image
-||s.yimg.jp/images/yjtop-app/promo/banner
-||s.yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
+||paypayfleamarket.c.yimg.jp/*/banner_download.$image,domain=yahoo.co.jp
 ||yads.c.yimg.jp^
+||yimg.jp/images/ds/cl/ds-custom-logger-1.0.0.min.js$script,domain=~accounts.yahoo.co.jp|~store.shopping.yahoo.co.jp
+||yimg.jp/images/ks/clap/image/banner/counselor/abtest/test1.png$image,domain=yahoo.co.jp
+||yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
+||yimg.jp/images/mail/promo/$image,domain=yahoo.co.jp
+||yimg.jp/images/mail/temp/spc_dish/$image,domain=yahoo.co.jp
+||yimg.jp/images/marcom_pr/paypay-point/banner/$image,domain=yahoo.co.jp
+||yimg.jp/images/yjtop-app/promo/banner$image,domain=yahoo.co.jp
+||yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
 ||yjtag.jp^
 detail.chiebukuro.yahoo.co.jp###post_ans
 loco.yahoo.co.jp##.promotion
+m.mail.yahoo.co.jp###overlay_ad
+m.mail.yahoo.co.jp###tagListBottomAd
 m.mail.yahoo.co.jp###tagListTopAd
 m.yahoo.co.jp###rsab
 map.yahoo.co.jp###sticky_banner
@@ -977,10 +984,10 @@ shopping.yahoo.co.jp##.banner-link
 store.shopping.yahoo.co.jp##.Button--orangeFilledSecondary
 
 ! [カクヨム]
-||kakuyomu.jp/images/common/facebook.
-||kakuyomu.jp/images/common/hatena-bookmark.
-||kakuyomu.jp/images/common/line.
-||kakuyomu.jp/images/common/twitter.
+||kakuyomu.jp/images/common/facebook.$image
+||kakuyomu.jp/images/common/hatena-bookmark.$image
+||kakuyomu.jp/images/common/line.$image
+||kakuyomu.jp/images/common/twitter.$image
 kakuyomu.jp##.widget-ad-touchRectangle
 kakuyomu.jp##.widget-dynamicLinksButton
 kakuyomu.jp###episodeFooter-inner
@@ -1000,22 +1007,23 @@ cookpad.com##.standard_ad_slot
 ||delishkitchen.tv/s/images/footer/$image
 
 ! [アットウィキ]
-||atwiki.jp/common/dist/js/amazon_flux.
-||atwiki.jp/common/dist/js/atwiki_autoads.
-||atwiki.jp/common/dist/js/moveads.
-||atwiki.jp/common/dist/js/social_button.
-||w.atwiki.jp/common/_js/preconnect.
+||atwiki.jp/common/dist/js/amazon_flux.$1p
+||atwiki.jp/common/dist/js/atwiki_autoads.$1p
+||atwiki.jp/common/dist/js/moveads.$1p
+||atwiki.jp/common/dist/js/social_button.$1p
+||w.atwiki.jp/common/_js/preconnect.$1p
 w.atwiki.jp##.atwiki-ads-margin
 w.atwiki.jp##.atwiki-sp-only
 w.atwiki.jp##.atwiki-tanuki-recommend
 w.atwiki.jp###atwiki-ads-overlay
 
 ! [Books&Apps]
-||blog.tinect.jp/wp-content/themes/books-apps-pc/images/btn-
-||blog.tinect.jp/wp-content/themes/books-apps-pc/images/right-mailmagazine-reg.png
-||blog.tinect.jp/wp-content/themes/books-apps-pc/js/social-count.js
-||blog.tinect.jp/wp-content/themes/books-apps-sp/images/btn-
-||blog.tinect.jp/wp-content/themes/books-apps-sp/images/icon-
+||blog.tinect.jp/wp-content/themes/books-apps-pc/images/btn-$image
+||blog.tinect.jp/wp-content/themes/books-apps-sp/images/btn-$image
+||blog.tinect.jp/wp-content/themes/books-apps-sp/images/icon-$image
+||blog.tinect.jp/wp-content/themes/books-apps-pc/images/right-mailmagazine-reg.png$image
+||blog.tinect.jp/wp-content/themes/books-apps-pc/js/social-count.js$script,domain=blog.tinect.jp
+||blog.tinect.jp/wp-content/themes/books-apps-sp/js/social-count.js$script,domain=blog.tinect.jp
 blog.tinect.jp##.g
 blog.tinect.jp###navi
 
@@ -1036,16 +1044,16 @@ openweathermap.org###stick-footer-panel
 
 ! 2020-12-20 cocolog-nifty.com
 ||analytics.cocolog-nifty.com^
-||cocolog-nifty.com/.shared-cocolog/
+||cocolog-nifty.com/.shared-cocolog/$1p
 
 ! [トクバイ]
 ||commercial-videos.tokubai.co.jp^
-||tokubai.co.jp/ads/
-||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate
+||tokubai.co.jp/ads/$1p
+||tokubai.co.jp/assets/device/themes/bargain/temporary_affiliate$1p
 ||tokubai.co.jp/assets/device/themes/bargains/smart_app_banner_$image
 ||tokubai.co.jp/assets/device/themes/bargains/web2app_banner-$image
 ||tokubai.co.jp/images/banner/biz-lp-banner-sp.png$image
-||tokubai.co.jp/trackings
+||tokubai.co.jp/trackings$1p
 ||tokubai.co.jp/*pr_shop_ids$1p
 tokubai.co.jp##div[id^=ad_]
 tokubai.co.jp##.app_banner_wrapper
@@ -1055,9 +1063,9 @@ tokubai.co.jp##.smart_app_banner
 tokubai.co.jp###popup_banner_image
 
 ! [クラシル]
-||assets.kurashiru.com/production/assets/chirashiru/w2a/
+||assets.kurashiru.com/production/assets/chirashiru/w2a/$1p
 ||assets.kurashiru.com/production/assets/web_to_app/$image
-||wapi.kurashiru.com/wapi/videos/ranking?mask=true
+||wapi.kurashiru.com/wapi/videos/ranking?mask=true$1p
 kurashiru.com##.AdsWrapper
 kurashiru.com##.SpAside-section--rankings
 
@@ -1066,9 +1074,11 @@ kurashiru.com##.SpAside-section--rankings
 ||dlsite.com/js/adultcheck.js$script
 ||dlsite.com/modpub/images/banner/$image,1p
 ||dlsite.com/modpub/images/campaign/$image
+||dlsite.com/modpub/images/web/home/not_found_img_main.png$image
 ! ||dlsite.jp/modpub/images2/$domain=~dlsite.com
 ch.dlsite.com##.float-actions
 www.dlsite.com###header_banner
+||img.dlsite.jp/modpub/images2/work/doujin/rj0*_img_main.jpg$badfilter
 
 ! 2021-04-27 wattpad.com
 ||static.wattpad.com/js/tracker/
@@ -1143,7 +1153,7 @@ weathernews.jp###app_dl
 
 ! 2023-03-30 fantia.jp
 ||fantia.jp/uploads/display_campaign/banner_image/$image
-||spotlight.fantia.jp/wp-json/api/v1/ads?
+||spotlight.fantia.jp/wp-json/api/v1/ads?$1p
 
 ! 2023-03-31 s.mognavi.jp
 ||cdn1.s.mognavi.jp^$image
