@@ -103,25 +103,25 @@
 ||tumblr.com/safe-mode$script,domain=tumbex.com
 
 ! [itest.5ch.net]
-||itest.5ch.io/assets/img/ronin_premium_640x100.
-itest.5ch.io##.ad
-itest.5ch.io##.ad-native-comment
-itest.5ch.io##.res_ad
-itest.5ch.io##.roninform_wrap
-itest.5ch.io###float-bnr
-itest.5ch.io###instant_ad
-itest.5ch.io###js-imageview-ad
-itest.5ch.io###res_1002
-itest.5ch.io##.ad_320x50
-itest.5ch.io##.js-cardview_ad-320x50
-itest.5ch.io##.js-cardview_ad-320x180 > div
-itest.5ch.io##.js-popup-res-ad
-itest.5ch.io###js-adstir-300x250
-itest.5ch.io###js-adstir-320x50
-itest.5ch.io###js-cardview_ad
-itest.5ch.io###js-history-top-300x250
-itest.5ch.io###js-thread-subback-top-ad
+! ||itest.5ch.io/assets/img/ronin_premium_640x100.
+! itest.5ch.io##.ad
+! itest.5ch.io##.ad-native-comment
+! itest.5ch.io##.res_ad
+! itest.5ch.io###float-bnr
+! itest.5ch.io###instant_ad
+! itest.5ch.io###js-imageview-ad
+! itest.5ch.io##.ad_320x50
+! itest.5ch.io##.js-cardview_ad-320x50
+! itest.5ch.io##.js-cardview_ad-320x180 > div
+! itest.5ch.io##.js-popup-res-ad
+! itest.5ch.io###js-adstir-300x250
+! itest.5ch.io###js-adstir-320x50
+! itest.5ch.io###js-cardview_ad
+! itest.5ch.io###js-history-top-300x250
+! itest.5ch.io###js-thread-subback-top-ad
 
+itest.5ch.io###res_1002
+itest.5ch.io##.roninform_wrap
 itest.5ch.io##.float-nav_wrapper
 
 ! [つまんね。]
@@ -135,7 +135,7 @@ tsumanne.net###dmm
 ||pixiv.net/touch/ajax/premium/
 ||pixiv.org^
 ||pximg.net/touch/touch/img/cmn/ad-placeholder.png$image,domain=pixiv.net
-! ||pximg.net/touch/touch/js/bundle/451a3635971462ec43c80bf1e18e5db7.svg$image,domain=pixiv.net
+! ||pximg.net/touch/touch/js/bundle/*.svg$image,domain=pixiv.net
 ||pximg.net/touch/touch/js/bundle/*.jpeg$image,domain=pixiv.net
 comic.pixiv.net##.ad
 comic.pixiv.net##.ad-content
