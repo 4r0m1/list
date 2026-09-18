@@ -103,28 +103,26 @@
 ||tumblr.com/safe-mode$script,domain=tumbex.com
 
 ! [itest.5ch.net]
-||itest.5ch.net/assets/img/ronin_premium_640x100.
-||itest.bbspink.com/assets/img/ronin_premium_640x100.
-itest.5ch.net,itest.bbspink.com##.ad
-itest.5ch.net,itest.bbspink.com##.ad-native-comment
-itest.5ch.net,itest.bbspink.com##.res_ad
-itest.5ch.net,itest.bbspink.com##.roninform_wrap
-itest.5ch.net,itest.bbspink.com###float-bnr
-itest.5ch.net,itest.bbspink.com###instant_ad
-itest.5ch.net,itest.bbspink.com###js-imageview-ad
-itest.5ch.net,itest.bbspink.com###res_1002
-itest.5ch.net##.ad_320x50
-itest.5ch.net##.js-cardview_ad-320x50
-itest.5ch.net##.js-cardview_ad-320x180 > div
-itest.5ch.net##.js-popup-res-ad
-itest.5ch.net###js-adstir-300x250
-itest.5ch.net###js-adstir-320x50
-itest.5ch.net###js-cardview_ad
-itest.5ch.net###js-history-top-300x250
-itest.5ch.net###js-thread-subback-top-ad
-itest.bbspink.com##.js-ads-content-top_rectangle
-itest.bbspink.com##.js-cardview_ad-320x50 > div
-itest.bbspink.com###js-bottom-ad-300x250
+||itest.5ch.io/assets/img/ronin_premium_640x100.
+itest.5ch.io##.ad
+itest.5ch.io##.ad-native-comment
+itest.5ch.io##.res_ad
+itest.5ch.io##.roninform_wrap
+itest.5ch.io###float-bnr
+itest.5ch.io###instant_ad
+itest.5ch.io###js-imageview-ad
+itest.5ch.io###res_1002
+itest.5ch.io##.ad_320x50
+itest.5ch.io##.js-cardview_ad-320x50
+itest.5ch.io##.js-cardview_ad-320x180 > div
+itest.5ch.io##.js-popup-res-ad
+itest.5ch.io###js-adstir-300x250
+itest.5ch.io###js-adstir-320x50
+itest.5ch.io###js-cardview_ad
+itest.5ch.io###js-history-top-300x250
+itest.5ch.io###js-thread-subback-top-ad
+
+itest.5ch.io##.float-nav_wrapper
 
 ! [つまんね。]
 ||cwn.tsumanne.net/ad.html
