@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2026-09-15
+! Last modified: 2026-10-03
 
 ! [urlskip]
 ||afl.rakuten.co.jp^$urlskip=?pc
@@ -57,7 +57,7 @@
 /plugins/wp-social-bookmarking-light/*
 /sp/common/common/js/jquery.dwImageProtector.js$script
 /wp-content/plugins/amazonjs/*
-||a8.net^
+||a8.net^$3p
 ||adtdp.com^
 ||cookielaw.org^$3p
 ||goo-access-analytics.appspot.com^
