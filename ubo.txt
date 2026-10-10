@@ -2,7 +2,7 @@
 ! Description: Myフィルターを同期
 ! Homepage: https://github.com/4r0m1/list
 ! Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/ubo.txt
-! Last modified: 2026-10-03
+! Last modified: 2026-10-011
 
 ! [urlskip]
 ||afl.rakuten.co.jp^$urlskip=?pc
@@ -13,6 +13,7 @@
 ||my-best.com^$urlskip=?url
 
 ! [$removeparam=]
+||amazon.co.jp^$doc,removeparam=|psc
 ||ch.dlsite.com^$doc,removeparam=|dls
 ||ch.dlsite.com^$doc,removeparam=|from
 ||ch.dlsite.com^$doc,removeparam=|k_matome_maniax_sp
@@ -22,6 +23,8 @@
 ||president.jp^$doc,removeparam=|cx_referrertype
 ||president.jp^$doc,removeparam=|yhref
 ||smart-flash.jp^$doc,removeparam=|rf
+||yodobashi.com^$doc,removeparam=|kad1
+||yodobashi.com^$doc,removeparam=|xfr
 
 ! [汎用]
 ##.adsbygoogle
@@ -297,6 +300,9 @@ itmedia.co.jp###ATF
 itmedia.co.jp###RECTANGL
 itmedia.co.jp###SpvLink
 itmedia.co.jp##div[id^="RECTNGL"]
+nlab.itmedia.co.jp##.wp-block-list
+nlab.itmedia.co.jp##.wp-block-tk-nlabogp-block
+nlab.itmedia.co.jp##h3.wp-block-heading
 
 ! [MoguraVR]
 ||moguravr.com/wp-content/themes/moguravr3/*_button.$image,1p
@@ -565,6 +571,7 @@ qiita.com##[id^=logly-lift]
 
 ! [note]
 note.com,hayakawabooks.com,comemo.nikkei.com,monokaki.ink##.p-article__share
+note.com##.transform
 ||assets.st-note.com/poc-image/$image
 ||logcollector.note.com^
 ||note.com/api/v*/trackings/
@@ -620,6 +627,7 @@ courrier.jp##.is-flex
 delishkitchen.tv##.delish-present-campaign-banners
 famitsu.com##div[class^=FooterBannerForSp_container_]
 gamespark.jp##.af_box
+gamespark.jp##.toolbar
 getnews.jp###resp_article_undertitle
 getnews.jp###resp_rectangle_1st
 japan.zdnet.com###ad_large
@@ -762,11 +770,11 @@ pokemongo-get.com##.border-frame
 pokemongo-get.com##.maintenance-announcement
 pokemongo-get.com##.top_app_link_bg
 
-! 2026/08/31 9db.jp
+! 9db.jp
 9db.jp##.ta_c.s
 9db.jp###gam-overlay
 
-! 2026/08/07 https://puretomo.hange.jp
+! puretomo.hange.jp
 puretomo.hange.jp##div[class^=mission_missionTopArea_]
 puretomo.hange.jp##div[class^=mission_dailyMissionCharacterComment_]
 puretomo.hange.jp##div[class^=AvatarViewWebp_]
@@ -836,7 +844,12 @@ item.rakuten.co.jp##.exT_sdtext
 recipe.rakuten.co.jp##.brand_ad_area
 recipe.rakuten.co.jp##.pointmission_header
 
+@@||s-cdn.rmp.rakuten.co.jp/js/aa.js$script,domain=edy.rakuten.co.jp
+@@||s-ad.rmp.rakuten.co.jp/ad^$xhr,domain=edy.rakuten.co.jp
+
 yodobashi.com##.productListCarouselSp
+
+fritoku.com##.MuiGrid2-grid-xs-auto
 
 ! ===== 通販
 
@@ -978,10 +991,12 @@ live.fc2.com##.noticeArea
 ||yads.c.yimg.jp^
 ||yimg.jp/images/ds/cl/ds-custom-logger-1.0.0.min.js$script,domain=~accounts.yahoo.co.jp|~store.shopping.yahoo.co.jp
 ||yimg.jp/images/ks/clap/image/banner/counselor/abtest/test1.png$image,domain=yahoo.co.jp
-||yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
 ||yimg.jp/images/mail/promo/$image,domain=yahoo.co.jp
 ||yimg.jp/images/mail/temp/spc_dish/$image,domain=yahoo.co.jp
 ||yimg.jp/images/marcom_pr/paypay-point/banner/$image,domain=yahoo.co.jp
+||yimg.jp/images/paypaygourmet/promotion/$image,domain=yahoo.co.jp
+||yimg.jp/images/points/toku/banner/agent_i/$image,domain=toku.yahoo.co.jp
+||s.yimg.jp/images/shp_front/designAssets/components/itemDetail/forNewCustomers/$image,domain=shopping.yahoo.co.jp
 ||yimg.jp/images/yjtop-app/promo/banner$image,domain=yahoo.co.jp
 ||yimg.jp/yui/jp/smh/sp/*/img/yjsmhPromoImg.$image,domain=yahoo.co.jp
 ||yjtag.jp^
@@ -996,6 +1011,10 @@ news.yahoo.co.jp##.adWrap
 news.yahoo.co.jp##.null
 shopping.yahoo.co.jp##.banner-link
 store.shopping.yahoo.co.jp##.Button--orangeFilledSecondary
+
+||mail.yahoo.co.jp/api/announce/v1/download/announce/$domain=mail.yahoo.co.jp
+||mempf.yahoo.co.jp/v2/offer$domain=mail.yahoo.co.jp
+yahoo.co.jp##.mhdSpNotificationArticle__appButton
 
 ! [カクヨム]
 ||kakuyomu.jp/images/common/facebook.$image
@@ -1165,7 +1184,7 @@ nagoyatv.com##.sns-btn
 ||weathernews.jp/s/topics/img/b_white01.png$image
 weathernews.jp###app_dl
 
-! 2023-03-30 fantia.jp
+! fantia.jp
 ||fantia.jp/uploads/display_campaign/banner_image/$image
 ||media.games.dmm.co.jp^$image,3p
 ||spotlight.fantia.jp/wp-json/api/v1/ads?$1p
