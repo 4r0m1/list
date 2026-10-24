@@ -2,7 +2,8 @@
 # Description: 自分用DNSフィルタ
 # Homepage: https://github.com/4r0m1/list
 # Subscription URL: https://raw.githubusercontent.com/4r0m1/list/main/domain.txt
-# Last modified: 2023-05-14
+# Last modified: 2026-10-25
+
 # LIST
 a8.net
 accesstrade.net
@@ -74,7 +75,6 @@ evidon.com
 facebook.net
 fancrew.jp
 fc.itmedia.co.jp
-firebaseinstallations.googleapis.com
 firebaseremoteconfig.googleapis.com
 fundingchoicesmessages.google.com
 getpocket.com
